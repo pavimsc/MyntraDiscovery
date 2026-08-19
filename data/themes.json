@@ -1,0 +1,3365 @@
+{
+  "0": {
+    "index": 0,
+    "friction_points": [
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "relationship": "hesitation",
+        "quote": "Forcefully telling me to keep product which is not my size"
+      }
+    ],
+    "primary_issue": "Fit & Sizing Uncertainty",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "1": {
+    "index": 1,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Customer care defending with wrong contact info"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "2": {
+    "index": 2,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Takes money but doesn't deliver on time"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "3": {
+    "index": 3,
+    "friction_points": [
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "relationship": "hesitation",
+        "quote": "Kurta set size issue"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return failed doorstep quality check"
+      }
+    ],
+    "primary_issue": "Fit & Sizing Uncertainty",
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "4": {
+    "index": 4,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "False return policy"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "5": {
+    "index": 5,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "6": {
+    "index": 6,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "7": {
+    "index": 7,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Escalating issues until return window closes"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "8": {
+    "index": 8,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Customer care only says wait 24 hours"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "9": {
+    "index": 9,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "10": {
+    "index": 10,
+    "friction_points": [
+      {
+        "friction": "External Research Needed",
+        "relationship": "hesitation",
+        "quote": "Logistics depend on flipkart"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Sometimes don't deliver"
+      }
+    ],
+    "primary_issue": "External Research Needed",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "11": {
+    "index": 11,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "12": {
+    "index": 12,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Requesting return rejected multiple times."
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "13": {
+    "index": 13,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Not accepting return and refund"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "14": {
+    "index": 14,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Asked for return, boy refuses, contacted customer care 10 times"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Asked for return, boy refuses, contacted customer care 10 times"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "15": {
+    "index": 15,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "16": {
+    "index": 16,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Would give -5 rating."
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Says 30 days return but on 30th day says beyond 72 hours can't help"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "17": {
+    "index": 17,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "18": {
+    "index": 18,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "19": {
+    "index": 19,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Filing exchange, customer care asks to cancel promising resolution, then harass again"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Deliver different products, then harass"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "20": {
+    "index": 20,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "21": {
+    "index": 21,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "22": {
+    "index": 22,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "23": {
+    "index": 23,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Price bit high due to taxes"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "24": {
+    "index": 24,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "25": {
+    "index": 25,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Price went higher"
+      },
+      {
+        "friction": "External Research Needed",
+        "relationship": "hesitation",
+        "quote": "Rather pay double on Amazon."
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "26": {
+    "index": 26,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Easy to order and return"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "quality_conscious",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "27": {
+    "index": 27,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Trustworthy online shopping site."
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "28": {
+    "index": 28,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Best price with 60% discounts"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "29": {
+    "index": 29,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "neutral",
+    "likely_to_convert": true
+  },
+  "30": {
+    "index": 30,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Latest fashion clothing, footwear, accessories at good price"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "repeat_buyer",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "31": {
+    "index": 31,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "32": {
+    "index": 32,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "33": {
+    "index": 33,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "No resolution from customer care"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Didn't deliver correct, asking convenience charges"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "34": {
+    "index": 34,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "35": {
+    "index": 35,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "36": {
+    "index": 36,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Others complain delayed deliveries, inaccurate descriptions, quality issues."
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "quality_conscious",
+    "sentiment": "neutral",
+    "likely_to_convert": false
+  },
+  "37": {
+    "index": 37,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "38": {
+    "index": 38,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "39": {
+    "index": 39,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "40": {
+    "index": 40,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "41": {
+    "index": 41,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "42": {
+    "index": 42,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Myntra sales mostly near expiry personal care products"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "43": {
+    "index": 43,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "44": {
+    "index": 44,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "45": {
+    "index": 45,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "46": {
+    "index": 46,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "47": {
+    "index": 47,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "48": {
+    "index": 48,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "49": {
+    "index": 49,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "50": {
+    "index": 50,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "51": {
+    "index": 51,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "52": {
+    "index": 52,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "53": {
+    "index": 53,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "54": {
+    "index": 54,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "55": {
+    "index": 55,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Best shopping app for branded material"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "56": {
+    "index": 56,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "57": {
+    "index": 57,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "58": {
+    "index": 58,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Received broken product and used fabric"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "quality_conscious",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "59": {
+    "index": 59,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "60": {
+    "index": 60,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "61": {
+    "index": 61,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "62": {
+    "index": 62,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "63": {
+    "index": 63,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "64": {
+    "index": 64,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "65": {
+    "index": 65,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "66": {
+    "index": 66,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "67": {
+    "index": 67,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "68": {
+    "index": 68,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "69": {
+    "index": 69,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "70": {
+    "index": 70,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "71": {
+    "index": 71,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Low quality product, exchange received used product"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "quality_conscious",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "72": {
+    "index": 72,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "73": {
+    "index": 73,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Very trusted app love it"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "74": {
+    "index": 74,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "75": {
+    "index": 75,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Poor customer care"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "76": {
+    "index": 76,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "77": {
+    "index": 77,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "78": {
+    "index": 78,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "79": {
+    "index": 79,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "80": {
+    "index": 80,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return not allowed"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "81": {
+    "index": 81,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Customer care is waste"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "82": {
+    "index": 82,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "They don't deliver order in time and don't give delivery date"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "83": {
+    "index": 83,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "84": {
+    "index": 84,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "85": {
+    "index": 85,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Very poor customer care service"
+      },
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Exchange and refund service very worst"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "86": {
+    "index": 86,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "87": {
+    "index": 87,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "88": {
+    "index": 88,
+    "friction_points": [
+      {
+        "friction": "Comparison Paralysis",
+        "relationship": "hesitation",
+        "quote": "Better app to compare any fashion apps"
+      }
+    ],
+    "primary_issue": "Comparison Paralysis",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "89": {
+    "index": 89,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "90": {
+    "index": 90,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "91": {
+    "index": 91,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "92": {
+    "index": 92,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "93": {
+    "index": 93,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "94": {
+    "index": 94,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "95": {
+    "index": 95,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "96": {
+    "index": 96,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "97": {
+    "index": 97,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "98": {
+    "index": 98,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "99": {
+    "index": 99,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "100": {
+    "index": 100,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return pickup experience terrible"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "101": {
+    "index": 101,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "102": {
+    "index": 102,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "103": {
+    "index": 103,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Very beautiful material"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "104": {
+    "index": 104,
+    "friction_points": [
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "relationship": "hesitation",
+        "quote": "Excellent quality, perfect fit, on time delivery"
+      }
+    ],
+    "primary_issue": "Fit & Sizing Uncertainty",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "105": {
+    "index": 105,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "106": {
+    "index": 106,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "107": {
+    "index": 107,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "108": {
+    "index": 108,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Didn't deliver order and placed delivered"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "109": {
+    "index": 109,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "110": {
+    "index": 110,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "111": {
+    "index": 111,
+    "friction_points": [
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "relationship": "hesitation",
+        "quote": "Quality excellent, fitting perfect, material premium"
+      }
+    ],
+    "primary_issue": "Fit & Sizing Uncertainty",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "112": {
+    "index": 112,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "113": {
+    "index": 113,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "114": {
+    "index": 114,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "115": {
+    "index": 115,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "116": {
+    "index": 116,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "117": {
+    "index": 117,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "118": {
+    "index": 118,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "119": {
+    "index": 119,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "120": {
+    "index": 120,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "121": {
+    "index": 121,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "122": {
+    "index": 122,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "123": {
+    "index": 123,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "124": {
+    "index": 124,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "125": {
+    "index": 125,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "126": {
+    "index": 126,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "127": {
+    "index": 127,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "128": {
+    "index": 128,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "129": {
+    "index": 129,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "130": {
+    "index": 130,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "131": {
+    "index": 131,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "132": {
+    "index": 132,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "133": {
+    "index": 133,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "134": {
+    "index": 134,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "135": {
+    "index": 135,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "136": {
+    "index": 136,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "137": {
+    "index": 137,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "138": {
+    "index": 138,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "139": {
+    "index": 139,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "140": {
+    "index": 140,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "141": {
+    "index": 141,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "142": {
+    "index": 142,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "143": {
+    "index": 143,
+    "friction_points": [
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "relationship": "hesitation",
+        "quote": "Excellent quality and fit"
+      }
+    ],
+    "primary_issue": "Fit & Sizing Uncertainty",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "144": {
+    "index": 144,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "145": {
+    "index": 145,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "146": {
+    "index": 146,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "147": {
+    "index": 147,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "148": {
+    "index": 148,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "149": {
+    "index": 149,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "150": {
+    "index": 150,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "151": {
+    "index": 151,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "price_sensitive",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "152": {
+    "index": 152,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "153": {
+    "index": 153,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "154": {
+    "index": 154,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Ekart doesn't deliver to my area"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "155": {
+    "index": 155,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "156": {
+    "index": 156,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "157": {
+    "index": 157,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "158": {
+    "index": 158,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "159": {
+    "index": 159,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "160": {
+    "index": 160,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Refund not sent after return"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "161": {
+    "index": 161,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "162": {
+    "index": 162,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "163": {
+    "index": 163,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "164": {
+    "index": 164,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "165": {
+    "index": 165,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "166": {
+    "index": 166,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "167": {
+    "index": 167,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "168": {
+    "index": 168,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "169": {
+    "index": 169,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "No material compromise"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "170": {
+    "index": 170,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "171": {
+    "index": 171,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "172": {
+    "index": 172,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "173": {
+    "index": 173,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "174": {
+    "index": 174,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "175": {
+    "index": 175,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "176": {
+    "index": 176,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "177": {
+    "index": 177,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "178": {
+    "index": 178,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "179": {
+    "index": 179,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "180": {
+    "index": 180,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "181": {
+    "index": 181,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "182": {
+    "index": 182,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Top notch quality, unlimited offers, best price"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "183": {
+    "index": 183,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Excellent service very trustworthy app"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "184": {
+    "index": 184,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "185": {
+    "index": 185,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "186": {
+    "index": 186,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "187": {
+    "index": 187,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "188": {
+    "index": 188,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "189": {
+    "index": 189,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "190": {
+    "index": 190,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "191": {
+    "index": 191,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "192": {
+    "index": 192,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Very good shopping app and sell trusted brand"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "193": {
+    "index": 193,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "194": {
+    "index": 194,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "195": {
+    "index": 195,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "196": {
+    "index": 196,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "197": {
+    "index": 197,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "198": {
+    "index": 198,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "199": {
+    "index": 199,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "200": {
+    "index": 200,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "201": {
+    "index": 201,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "202": {
+    "index": 202,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "203": {
+    "index": 203,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Affordable prices"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "price_sensitive",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "204": {
+    "index": 204,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "205": {
+    "index": 205,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "206": {
+    "index": 206,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Our trust myntra is the best"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "207": {
+    "index": 207,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "208": {
+    "index": 208,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "209": {
+    "index": 209,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Very good app and affordable"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "price_sensitive",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "210": {
+    "index": 210,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "211": {
+    "index": 211,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "212": {
+    "index": 212,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "213": {
+    "index": 213,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "214": {
+    "index": 214,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "215": {
+    "index": 215,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "216": {
+    "index": 216,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "217": {
+    "index": 217,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "218": {
+    "index": 218,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "219": {
+    "index": 219,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Bad customer care"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "220": {
+    "index": 220,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "221": {
+    "index": 221,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "222": {
+    "index": 222,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "223": {
+    "index": 223,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "224": {
+    "index": 224,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "225": {
+    "index": 225,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "226": {
+    "index": 226,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Only genuine products and a lot of discount"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "price_sensitive",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "227": {
+    "index": 227,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "228": {
+    "index": 228,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "229": {
+    "index": 229,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "230": {
+    "index": 230,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "231": {
+    "index": 231,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "232": {
+    "index": 232,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "233": {
+    "index": 233,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "234": {
+    "index": 234,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "235": {
+    "index": 235,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "236": {
+    "index": 236,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "237": {
+    "index": 237,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "238": {
+    "index": 238,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "239": {
+    "index": 239,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "240": {
+    "index": 240,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Refund process wrong"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "241": {
+    "index": 241,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "242": {
+    "index": 242,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "243": {
+    "index": 243,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "244": {
+    "index": 244,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "245": {
+    "index": 245,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "246": {
+    "index": 246,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "247": {
+    "index": 247,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "248": {
+    "index": 248,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "249": {
+    "index": 249,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "250": {
+    "index": 250,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "251": {
+    "index": 251,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "252": {
+    "index": 252,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "253": {
+    "index": 253,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Credit limit issue on myntra credit payment option"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "254": {
+    "index": 254,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "255": {
+    "index": 255,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "256": {
+    "index": 256,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "257": {
+    "index": 257,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "258": {
+    "index": 258,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "259": {
+    "index": 259,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "260": {
+    "index": 260,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "261": {
+    "index": 261,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "262": {
+    "index": 262,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "263": {
+    "index": 263,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "264": {
+    "index": 264,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "265": {
+    "index": 265,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "266": {
+    "index": 266,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "267": {
+    "index": 267,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "268": {
+    "index": 268,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "269": {
+    "index": 269,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Cerave face wash is amazing"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "270": {
+    "index": 270,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "271": {
+    "index": 271,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "272": {
+    "index": 272,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "273": {
+    "index": 273,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "274": {
+    "index": 274,
+    "friction_points": [
+      {
+        "friction": "Social Validation Gap",
+        "relationship": "hesitation",
+        "quote": "Not trusted app"
+      }
+    ],
+    "primary_issue": "Social Validation Gap",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "275": {
+    "index": 275,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "276": {
+    "index": 276,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "277": {
+    "index": 277,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "278": {
+    "index": 278,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "279": {
+    "index": 279,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "280": {
+    "index": 280,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "281": {
+    "index": 281,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "282": {
+    "index": 282,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "283": {
+    "index": 283,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "284": {
+    "index": 284,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "285": {
+    "index": 285,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "neutral",
+    "likely_to_convert": true
+  },
+  "286": {
+    "index": 286,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "287": {
+    "index": 287,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "288": {
+    "index": 288,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Order of luxury bag failed to deliver"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "289": {
+    "index": 289,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "290": {
+    "index": 290,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "291": {
+    "index": 291,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "292": {
+    "index": 292,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "293": {
+    "index": 293,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "294": {
+    "index": 294,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "295": {
+    "index": 295,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "296": {
+    "index": 296,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return declined"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "297": {
+    "index": 297,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Nice product nice price"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "298": {
+    "index": 298,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "neutral",
+    "likely_to_convert": true
+  },
+  "299": {
+    "index": 299,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "300": {
+    "index": 300,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "301": {
+    "index": 301,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "302": {
+    "index": 302,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "303": {
+    "index": 303,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "304": {
+    "index": 304,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "305": {
+    "index": 305,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Good quality and best offers discount by myntra"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "price_sensitive",
+    "sentiment": "positive",
+    "likely_to_convert": false
+  },
+  "306": {
+    "index": 306,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "307": {
+    "index": 307,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "308": {
+    "index": 308,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "309": {
+    "index": 309,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "310": {
+    "index": 310,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "311": {
+    "index": 311,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "312": {
+    "index": 312,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "313": {
+    "index": 313,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "314": {
+    "index": 314,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "315": {
+    "index": 315,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "316": {
+    "index": 316,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "317": {
+    "index": 317,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Exchange took 50 min and not processed"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "318": {
+    "index": 318,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "319": {
+    "index": 319,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "320": {
+    "index": 320,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "321": {
+    "index": 321,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "322": {
+    "index": 322,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "323": {
+    "index": 323,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "324": {
+    "index": 324,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "325": {
+    "index": 325,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "326": {
+    "index": 326,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "327": {
+    "index": 327,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "328": {
+    "index": 328,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "329": {
+    "index": 329,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "neutral",
+    "likely_to_convert": true
+  },
+  "330": {
+    "index": 330,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "331": {
+    "index": 331,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "332": {
+    "index": 332,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "333": {
+    "index": 333,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "334": {
+    "index": 334,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "335": {
+    "index": 335,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "336": {
+    "index": 336,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "337": {
+    "index": 337,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "338": {
+    "index": 338,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "339": {
+    "index": 339,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Sent wrong product but refuse to exchange/return even after photo proof"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "340": {
+    "index": 340,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "341": {
+    "index": 341,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "342": {
+    "index": 342,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "343": {
+    "index": 343,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "344": {
+    "index": 344,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return request cancelled"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "345": {
+    "index": 345,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "346": {
+    "index": 346,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "347": {
+    "index": 347,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Now cannot return"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "348": {
+    "index": 348,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "349": {
+    "index": 349,
+    "friction_points": [
+      {
+        "friction": "Missing Product Information",
+        "relationship": "hesitation",
+        "quote": "Customer care unprofessional"
+      }
+    ],
+    "primary_issue": "Missing Product Information",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "350": {
+    "index": 350,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Puma shoes return not picked up after 2 months"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "351": {
+    "index": 351,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "quality_conscious",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "352": {
+    "index": 352,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "353": {
+    "index": 353,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Return stuck on hold"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "354": {
+    "index": 354,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "No refund"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "355": {
+    "index": 355,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "356": {
+    "index": 356,
+    "friction_points": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "relationship": "hesitation",
+        "quote": "Kindly deliver my order"
+      }
+    ],
+    "primary_issue": "Payment/Delivery Friction",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "357": {
+    "index": 357,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "358": {
+    "index": 358,
+    "friction_points": [
+      {
+        "friction": "Comparison Paralysis",
+        "relationship": "hesitation",
+        "quote": "Myntra 1000 product wishlist limit is stupid"
+      }
+    ],
+    "primary_issue": "Comparison Paralysis",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "359": {
+    "index": 359,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": true
+  },
+  "360": {
+    "index": 360,
+    "friction_points": [],
+    "primary_issue": null,
+    "user_segment": "repeat_buyer",
+    "sentiment": "positive",
+    "likely_to_convert": true
+  },
+  "361": {
+    "index": 361,
+    "friction_points": [
+      {
+        "friction": "Price Hesitation",
+        "relationship": "hesitation",
+        "quote": "Reduced price then cancelled order 1 hour later"
+      },
+      {
+        "friction": "Postponement Pattern",
+        "relationship": "hesitation",
+        "quote": "Reduced price then cancelled order 1 hour later"
+      }
+    ],
+    "primary_issue": "Price Hesitation",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  },
+  "362": {
+    "index": 362,
+    "friction_points": [
+      {
+        "friction": "Comparison Paralysis",
+        "relationship": "hesitation",
+        "quote": "App doesn't show cart or wishlist"
+      }
+    ],
+    "primary_issue": "Comparison Paralysis",
+    "user_segment": "unclear",
+    "sentiment": "negative",
+    "likely_to_convert": false
+  }
+}

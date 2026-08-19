@@ -1,0 +1,191 @@
+{
+  "analysis_date": "2026-08-19T23:53:27.373324",
+  "total_reviews": 363,
+  "research_questions": {
+    "q1_why_add_wishlist": {
+      "question": "Why do users add fashion products to their wishlist?",
+      "count": 3,
+      "quotes": [
+        "Myntra 1000 product wishlist limit is stupid",
+        "Reduced price then cancelled order 1 hour later",
+        "App doesn't show cart or wishlist"
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 3,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 3
+      },
+      "percentage": 0.8
+    },
+    "q2_prevents_purchase": {
+      "question": "What prevents wishlisted products from eventually being purchased?",
+      "count": 1,
+      "quotes": [
+        "Listing Bata products as not covered under Bata 90 day warranty without disclosure"
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 1
+      },
+      "percentage": 0.3
+    },
+    "q3_uncertainties": {
+      "question": "What uncertainties remain after identifying a product they like?",
+      "count": 1,
+      "quotes": [
+        "Listing Bata products as not covered under Bata 90 day warranty without disclosure"
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 1
+      },
+      "percentage": 0.3
+    },
+    "q4_postponement": {
+      "question": "What causes users to postpone a purchase?",
+      "count": 11,
+      "quotes": [
+        "Customer care only says wait 24 hours",
+        "Still waiting.",
+        "Others complain delayed deliveries, inaccurate descriptions, quality issues."
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 10,
+        "neutral": 1
+      },
+      "affected_segments": {
+        "general": 8,
+        "price_sensitive": 1,
+        "quality_conscious": 1,
+        "repeat_customer": 1
+      },
+      "percentage": 3.0
+    },
+    "q5_comparison": {
+      "question": "How do users compare multiple shortlisted products?",
+      "count": 6,
+      "quotes": [
+        "Not refunded after multiple calls",
+        "Multiple followups with supervisors",
+        "Requesting return rejected multiple times."
+      ],
+      "sentiment_breakdown": {
+        "positive": 1,
+        "negative": 5,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 6
+      },
+      "percentage": 1.7
+    },
+    "q6_external_research": {
+      "question": "What information do users seek outside Myntra before purchasing?",
+      "count": 2,
+      "quotes": [
+        "Logistics depend on flipkart",
+        "Rather pay double on Amazon."
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 2,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 2
+      },
+      "percentage": 0.6
+    },
+    "q7_factors_role": {
+      "question": "What role do fit, size, styling, price, reviews, occasion, social validation play?",
+      "count": 22,
+      "quotes": [
+        "Forcefully telling me to keep product which is not my size",
+        "Kurta set size issue",
+        "Would give -5 rating."
+      ],
+      "sentiment_breakdown": {
+        "positive": 14,
+        "negative": 7,
+        "neutral": 1
+      },
+      "affected_segments": {
+        "general": 9,
+        "repeat_customer": 3,
+        "quality_conscious": 7,
+        "price_sensitive": 3
+      },
+      "percentage": 6.1
+    },
+    "q8_intent_vs_bookmark": {
+      "question": "When do users use wishlist as genuine intent vs bookmarking?",
+      "count": 1,
+      "quotes": [
+        "Do you want me to buy or no?"
+      ],
+      "sentiment_breakdown": {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 1
+      },
+      "percentage": 0.3
+    },
+    "q9_segment_differences": {
+      "question": "How do these behaviors differ across user segments?",
+      "count": 19,
+      "quotes": [
+        "Regular customer but won't order again",
+        "Online chat says within week but that week never comes.",
+        "Never will order again"
+      ],
+      "sentiment_breakdown": {
+        "positive": 8,
+        "negative": 11,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "repeat_customer": 8,
+        "general": 6,
+        "price_sensitive": 1,
+        "quality_conscious": 3,
+        "new_customer": 1
+      },
+      "percentage": 5.2
+    },
+    "q10_unmet_needs": {
+      "question": "What unmet needs emerge consistently?",
+      "count": 11,
+      "quotes": [
+        "Registered mobile blacklisted.",
+        "Product missing from package",
+        "Blacklist account if return too many times."
+      ],
+      "sentiment_breakdown": {
+        "positive": 1,
+        "negative": 10,
+        "neutral": 0
+      },
+      "affected_segments": {
+        "general": 8,
+        "quality_conscious": 2,
+        "repeat_customer": 1
+      },
+      "percentage": 3.0
+    }
+  }
+}

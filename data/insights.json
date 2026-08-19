@@ -1,0 +1,211 @@
+{
+  "analysis_date": "2026-08-19T23:50:02.616334",
+  "total_reviews": 363,
+  "friction_distribution": [
+    {
+      "friction": "Payment/Delivery Friction",
+      "count": 32,
+      "percentage": 8.8,
+      "affected_segments": {
+        "unclear": 27,
+        "repeat_buyer": 3,
+        "quality_conscious": 2
+      },
+      "example_quotes": [
+        "Takes money but doesn't deliver on time",
+        "Return failed doorstep quality check",
+        "False return policy",
+        "Escalating issues until return window closes",
+        "Sometimes don't deliver"
+      ]
+    },
+    {
+      "friction": "Missing Product Information",
+      "count": 17,
+      "percentage": 4.7,
+      "affected_segments": {
+        "unclear": 10,
+        "repeat_buyer": 3,
+        "quality_conscious": 4
+      },
+      "example_quotes": [
+        "Customer care defending with wrong contact info",
+        "Customer care only says wait 24 hours",
+        "Asked for return, boy refuses, contacted customer care 10 times",
+        "Filing exchange, customer care asks to cancel promising resolution, then harass again",
+        "No resolution from customer care"
+      ]
+    },
+    {
+      "friction": "Price Hesitation",
+      "count": 11,
+      "percentage": 3.0,
+      "affected_segments": {
+        "quality_conscious": 3,
+        "unclear": 3,
+        "repeat_buyer": 1,
+        "price_sensitive": 4
+      },
+      "example_quotes": [
+        "Price bit high due to taxes",
+        "Price went higher",
+        "Best price with 60% discounts",
+        "Latest fashion clothing, footwear, accessories at good price",
+        "Top notch quality, unlimited offers, best price"
+      ]
+    },
+    {
+      "friction": "Social Validation Gap",
+      "count": 7,
+      "percentage": 1.9,
+      "affected_segments": {
+        "unclear": 5,
+        "quality_conscious": 2
+      },
+      "example_quotes": [
+        "Would give -5 rating.",
+        "Trustworthy online shopping site.",
+        "Very trusted app love it",
+        "Excellent service very trustworthy app",
+        "Very good shopping app and sell trusted brand"
+      ]
+    },
+    {
+      "friction": "Fit & Sizing Uncertainty",
+      "count": 5,
+      "percentage": 1.4,
+      "affected_segments": {
+        "unclear": 1,
+        "repeat_buyer": 1,
+        "quality_conscious": 3
+      },
+      "example_quotes": [
+        "Forcefully telling me to keep product which is not my size",
+        "Kurta set size issue",
+        "Excellent quality, perfect fit, on time delivery",
+        "Quality excellent, fitting perfect, material premium",
+        "Excellent quality and fit"
+      ]
+    },
+    {
+      "friction": "Comparison Paralysis",
+      "count": 3,
+      "percentage": 0.8,
+      "affected_segments": {
+        "unclear": 3
+      },
+      "example_quotes": [
+        "Better app to compare any fashion apps",
+        "Myntra 1000 product wishlist limit is stupid",
+        "App doesn't show cart or wishlist"
+      ]
+    },
+    {
+      "friction": "External Research Needed",
+      "count": 2,
+      "percentage": 0.6,
+      "affected_segments": {
+        "unclear": 2
+      },
+      "example_quotes": [
+        "Logistics depend on flipkart",
+        "Rather pay double on Amazon."
+      ]
+    },
+    {
+      "friction": "Postponement Pattern",
+      "count": 1,
+      "percentage": 0.3,
+      "affected_segments": {
+        "unclear": 1
+      },
+      "example_quotes": [
+        "Reduced price then cancelled order 1 hour later"
+      ]
+    }
+  ],
+  "customer_cohorts": [
+    {
+      "name": "Unclear",
+      "segment": "unclear",
+      "size_percentage": 77.7,
+      "size_count": 282
+    },
+    {
+      "name": "Quality Conscious",
+      "segment": "quality_conscious",
+      "size_percentage": 16.8,
+      "size_count": 61
+    }
+  ],
+  "synthesis": {
+    "friction_insights": [
+      {
+        "friction": "Payment/Delivery Friction",
+        "count": 32,
+        "percentage": 8.8,
+        "key_segments": [
+          "unclear",
+          "repeat_buyer",
+          "quality_conscious"
+        ]
+      },
+      {
+        "friction": "Missing Product Information",
+        "count": 17,
+        "percentage": 4.7,
+        "key_segments": [
+          "unclear",
+          "repeat_buyer",
+          "quality_conscious"
+        ]
+      },
+      {
+        "friction": "Price Hesitation",
+        "count": 11,
+        "percentage": 3.0,
+        "key_segments": [
+          "quality_conscious",
+          "unclear",
+          "repeat_buyer",
+          "price_sensitive"
+        ]
+      },
+      {
+        "friction": "Social Validation Gap",
+        "count": 7,
+        "percentage": 1.9,
+        "key_segments": [
+          "unclear",
+          "quality_conscious"
+        ]
+      },
+      {
+        "friction": "Fit & Sizing Uncertainty",
+        "count": 5,
+        "percentage": 1.4,
+        "key_segments": [
+          "unclear",
+          "repeat_buyer",
+          "quality_conscious"
+        ]
+      }
+    ],
+    "customer_cohorts": [
+      {
+        "name": "Unclear",
+        "segment": "unclear",
+        "size_percentage": 77.7,
+        "size_count": 282
+      },
+      {
+        "name": "Quality Conscious",
+        "segment": "quality_conscious",
+        "size_percentage": 16.8,
+        "size_count": 61
+      }
+    ],
+    "top_recommendation": "Address 'Payment/Delivery Friction' by implementing targeted interventions based on user feedback.",
+    "methodology": "Analysis of 363 Myntra reviews using AI-powered friction tagging. Each review categorized against 9 friction points. Customer segments identified from behavior patterns. Results ranked by prevalence."
+  }
+}
