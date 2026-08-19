@@ -19,6 +19,21 @@ This analysis examined **363 Myntra reviews** to identify barriers preventing us
 
 ---
 
+## 📊 Interactive Dashboard
+
+**View the complete analysis with interactive visualizations:**
+
+👉 **[Myntra Wishlist Discovery Dashboard](https://github.com/pavimsc/MyntraDiscovery/blob/main/wishlist_research_dashboard.html)**
+
+The dashboard includes:
+- All 10 research questions answered
+- Friction points ranked by impact
+- Customer segment analysis
+- Top 5 unmet needs & solutions
+- Expected business impact projections
+
+---
+
 ## Detailed Friction Analysis
 
 ### 1. **Payment/Delivery Friction** (8.8%, 32 reviews)
