@@ -4,6 +4,19 @@
 
 This analysis examined **363 Myntra reviews** to identify barriers preventing users from converting wishlist items to purchases. Through systematic friction point detection and customer segmentation, we identified key pain points and opportunities for intervention.
 
+---
+
+## 🚀 Quick Start
+
+**Want to explore the analysis?**
+1. 👉 Open the **[Interactive Dashboard](https://pavimsc.github.io/MyntraDiscovery/wishlist_research_dashboard.html)** (hosted on GitHub Pages)
+2. Or read **[WISHLIST_RESEARCH_COMPLETE.md](WISHLIST_RESEARCH_COMPLETE.md)** for detailed findings
+
+**Want the implementation roadmap?**
+- See **[Next Steps for Product Team](#next-steps-for-product-team)** section below
+
+---
+
 ### Key Findings
 
 | Friction Point | Reviews | % Affected | Top Impact Segment |
@@ -19,18 +32,23 @@ This analysis examined **363 Myntra reviews** to identify barriers preventing us
 
 ---
 
-## 📊 Interactive Dashboard
+## 📊 Interactive Dashboards
 
 **View the complete analysis with interactive visualizations:**
 
-👉 **[Myntra Wishlist Discovery Dashboard](https://github.com/pavimsc/MyntraDiscovery/blob/main/wishlist_research_dashboard.html)**
+### Live Dashboards (GitHub Pages)
+- 🔗 **[Main Dashboard - 10 Research Questions](https://pavimsc.github.io/MyntraDiscovery/wishlist_research_dashboard.html)**
+- 🔗 **[Friction Analysis Dashboard](https://pavimsc.github.io/MyntraDiscovery/dashboard.html)**
 
-The dashboard includes:
-- All 10 research questions answered
-- Friction points ranked by impact
-- Customer segment analysis
-- Top 5 unmet needs & solutions
-- Expected business impact projections
+### Dashboard Features:
+- ✅ All 10 research questions answered with evidence
+- ✅ Friction points ranked by impact (8.8% - 0.3%)
+- ✅ Customer segment analysis (4 cohorts)
+- ✅ Top 5 unmet needs & recommended solutions
+- ✅ Expected business impact projections (+12-20% conversion lift)
+- ✅ Interactive tabs and filters
+
+**Note:** Dashboards hosted on GitHub Pages. Enable Pages in repository settings if not yet active.
 
 ---
 
