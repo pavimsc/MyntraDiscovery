@@ -5,50 +5,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Myntra Wishlist Research Findings</title>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: #f5f5f5;
             min-height: 100vh;
-            padding: 40px 20px;
             color: #333;
         }
 
-        .container { max-width: 1200px; margin: 0 auto; }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
         header {
-            text-align: center;
-            color: white;
-            margin-bottom: 40px;
-        }
-
-        header h1 { font-size: 2.5em; margin-bottom: 10px; }
-        header p { font-size: 1.1em; opacity: 0.95; }
-
-        .tabs {
-            display: flex;
-            gap: 10px;
-            margin-bottom: 20px;
-            flex-wrap: wrap;
-            border-bottom: 2px solid #e0e7ff;
-            padding-bottom: 10px;
-        }
-
-        .tab-button {
             background: white;
-            border: 2px solid #2a5298;
-            color: #2a5298;
-            padding: 10px 20px;
-            border-radius: 6px;
-            cursor: pointer;
-            font-weight: 600;
-            transition: all 0.3s ease;
+            padding: 30px 20px;
+            border-bottom: 1px solid #e0e0e0;
         }
 
-        .tab-button:hover, .tab-button.active {
-            background: #2a5298;
-            color: white;
+        header h1 {
+            font-size: 1.8em;
+            margin-bottom: 8px;
+            color: #222;
+            font-weight: 600;
+        }
+
+        header p {
+            font-size: 0.95em;
+            color: #666;
+        }
+
+        nav {
+            background: white;
+            padding: 0 20px;
+            border-bottom: 1px solid #e0e0e0;
+            display: flex;
+            gap: 0;
+            overflow-x: auto;
+        }
+
+        .nav-tab {
+            padding: 16px 20px;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 0.95em;
+            color: #666;
+            border-bottom: 3px solid transparent;
+            transition: all 0.2s ease;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .nav-tab:hover {
+            color: #333;
+        }
+
+        .nav-tab.active {
+            color: #2c3e50;
+            border-bottom-color: #667eea;
+        }
+
+        .content {
+            background: white;
+            margin: 20px;
+            border-radius: 8px;
+            padding: 30px;
+            min-height: 600px;
         }
 
         .tab-content {
@@ -59,138 +88,257 @@
             display: block;
         }
 
+        .metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 16px;
+            margin-bottom: 30px;
+        }
+
+        .metric-card {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 6px;
+            border: 1px solid #e8e8e8;
+            text-align: center;
+        }
+
+        .metric-card .value {
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #667eea;
+            margin-bottom: 8px;
+        }
+
+        .metric-card .label {
+            font-size: 0.85em;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            font-size: 1.3em;
+            color: #222;
+            margin-bottom: 16px;
+            font-weight: 600;
+        }
+
         .research-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 15px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 16px;
             margin-top: 20px;
         }
 
         .research-card {
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.15);
-            padding: 30px;
-            border-left: 5px solid #2a5298;
-            transition: all 0.3s ease;
+            background: #fafafa;
+            border: 1px solid #e8e8e8;
+            border-radius: 6px;
+            padding: 20px;
+            transition: all 0.2s ease;
         }
 
         .research-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 32px rgba(0,0,0,0.2);
+            border-color: #ccc;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
         }
 
         .research-number {
             display: inline-block;
-            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            background: #667eea;
             color: white;
-            width: 40px;
-            height: 40px;
+            width: 32px;
+            height: 32px;
             border-radius: 50%;
             text-align: center;
-            line-height: 40px;
-            font-weight: bold;
-            margin-bottom: 10px;
+            line-height: 32px;
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-size: 0.85em;
         }
 
         .research-question {
-            font-size: 1.2em;
+            font-size: 1.05em;
             font-weight: 600;
-            color: #1e3c72;
-            margin-bottom: 15px;
+            color: #222;
+            margin-bottom: 12px;
             line-height: 1.4;
         }
 
         .finding {
-            background: #f0f4ff;
-            padding: 12px;
-            margin: 8px 0;
-            border-left: 3px solid #2a5298;
-            border-radius: 4px;
-            font-size: 0.95em;
+            background: white;
+            padding: 8px 10px;
+            margin: 6px 0;
+            border-left: 2px solid #ddd;
+            border-radius: 2px;
+            font-size: 0.9em;
             line-height: 1.5;
+            color: #555;
         }
 
-        .finding strong { color: #1e3c72; }
-
         .quote {
-            background: #fff9e6;
-            border-left: 3px solid #ffc107;
-            padding: 12px;
-            margin: 10px 0;
+            background: #fffbf0;
+            border-left: 2px solid #ffa500;
+            padding: 10px 12px;
+            margin: 8px 0;
             font-style: italic;
-            font-size: 0.9em;
-            color: #555;
+            font-size: 0.85em;
+            color: #666;
+            border-radius: 2px;
         }
 
         .stat-badge {
             display: inline-block;
-            background: #e3f2fd;
-            color: #1e3c72;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
+            background: #e8f0ff;
+            color: #667eea;
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.8em;
             font-weight: 600;
-            margin: 5px 5px 5px 0;
-        }
-
-        .section {
-            background: white;
-            border-radius: 12px;
-            padding: 40px;
-            margin: 30px 0;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-        }
-
-        .section h2 {
-            font-size: 2em;
-            color: #1e3c72;
-            margin-bottom: 25px;
-            border-bottom: 3px solid #2a5298;
-            padding-bottom: 15px;
+            margin: 4px 4px 4px 0;
         }
 
         .segment-box {
-            background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%);
-            border-left: 5px solid #2a5298;
+            background: #f9f9f9;
+            border: 1px solid #e8e8e8;
+            border-left: 4px solid #667eea;
             padding: 20px;
             margin: 15px 0;
-            border-radius: 8px;
+            border-radius: 6px;
         }
 
         .segment-box h3 {
-            color: #1e3c72;
-            margin-bottom: 10px;
+            color: #222;
+            margin-bottom: 12px;
+            font-weight: 600;
         }
 
         .segment-box p {
-            color: #555;
+            color: #666;
             line-height: 1.6;
-            margin: 5px 0;
+            margin: 8px 0;
+            font-size: 0.95em;
         }
 
         .recommendation {
-            background: linear-gradient(135deg, #4caf50 0%, #2e7d32 100%);
-            color: white;
-            padding: 25px;
-            border-radius: 8px;
+            background: #f0f4ff;
+            border: 1px solid #d0d9ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
             margin: 15px 0;
-            line-height: 1.8;
+            border-radius: 6px;
         }
 
-        .recommendation h3 { margin-bottom: 10px; }
+        .recommendation h3 {
+            color: #222;
+            margin-bottom: 12px;
+            font-weight: 600;
+            font-size: 1.05em;
+        }
+
+        .recommendation strong {
+            color: #333;
+        }
+
+        .recommendation ul {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .recommendation li {
+            margin: 6px 0;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table thead tr {
+            background: #f9f9f9;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        table th {
+            padding: 12px;
+            text-align: left;
+            color: #333;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        table td {
+            padding: 12px;
+            border-bottom: 1px solid #e8e8e8;
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        table tbody tr:hover {
+            background: #fafafa;
+        }
+
+        table tbody tr.total {
+            background: #e8f5e9;
+            font-weight: 600;
+            border-top: 2px solid #667eea;
+        }
+
+        table tbody tr.total td {
+            border-bottom: none;
+            color: #2e7d32;
+        }
+
+        .impact-value {
+            font-weight: 600;
+            color: #d32f2f;
+            text-align: center;
+        }
 
         .footer {
             text-align: center;
-            color: white;
-            margin-top: 50px;
-            padding: 20px;
+            color: #666;
+            margin-top: 30px;
+            padding: 30px 20px;
+            border-top: 1px solid #e0e0e0;
+            font-size: 0.9em;
         }
 
         @media (max-width: 768px) {
-            header h1 { font-size: 1.8em; }
-            .research-grid { grid-template-columns: 1fr; }
-            .section { padding: 20px; }
+            header h1 {
+                font-size: 1.4em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            nav {
+                overflow-x: auto;
+            }
+
+            .nav-tab {
+                padding: 14px 16px;
+                font-size: 0.9em;
+            }
+
+            .research-grid {
+                grid-template-columns: 1fr;
+            }
+
+            table {
+                font-size: 0.8em;
+            }
+
+            table th, table td {
+                padding: 8px;
+            }
         }
     </style>
 </head>
@@ -201,223 +349,85 @@
             <p>Data-Driven Analysis of Wishlist-to-Purchase Conversion Friction</p>
         </header>
 
-        <!-- Quick Summary -->
-        <div class="section" style="background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%); border-left: 5px solid #1e3c72;">
-            <h2 style="color: #1e3c72; border: none; padding: 0; margin-bottom: 15px;">📊 Analysis Summary</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px;">
-                <div><strong style="color: #1e3c72;">Reviews Analyzed:</strong> 363</div>
-                <div><strong style="color: #1e3c72;">Questions Answered:</strong> 10</div>
-                <div><strong style="color: #1e3c72;">Top Friction:</strong> Delivery (8.8%)</div>
-                <div><strong style="color: #1e3c72;">Potential Lift:</strong> +12-20%</div>
+        <!-- Summary Metrics -->
+        <div style="background: white; margin: 20px; padding: 20px; border-radius: 8px; border: 1px solid #e0e0e0;">
+            <div class="metrics">
+                <div class="metric-card">
+                    <div class="value">363</div>
+                    <div class="label">Reviews Analyzed</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">10</div>
+                    <div class="label">Research Questions</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">8.8%</div>
+                    <div class="label">Top Friction (Delivery)</div>
+                </div>
+                <div class="metric-card">
+                    <div class="value">+12-20%</div>
+                    <div class="label">Potential Conversion Lift</div>
+                </div>
             </div>
         </div>
 
         <!-- Navigation Tabs -->
-        <div class="section">
-            <div class="tabs">
-                <button class="tab-button active" onclick="switchTab('questions')">🔍 10 Research Questions</button>
-                <button class="tab-button" onclick="switchTab('segments')">👥 Customer Segments</button>
-                <button class="tab-button" onclick="switchTab('solutions')">🎯 Top Solutions</button>
-                <button class="tab-button" onclick="switchTab('impact')">📈 Expected Impact</button>
+        <nav>
+            <button class="nav-tab active" onclick="switchTab('research')">🔍 Research Questions</button>
+            <button class="nav-tab" onclick="switchTab('segments')">👥 Customer Segments</button>
+            <button class="nav-tab" onclick="switchTab('solutions')">🎯 Top Solutions</button>
+            <button class="nav-tab" onclick="switchTab('impact')">📈 Expected Impact</button>
+        </nav>
+
+        <div class="content">
+            <!-- TAB 1: Research Questions -->
+            <div id="research" class="tab-content active">
+                <div class="section">
+                    <h2>10 Key Research Questions Answered</h2>
+                    <div class="research-grid" id="questionsGrid"></div>
+                </div>
             </div>
 
-            <!-- Tab 1: Questions -->
-            <div id="questions" class="tab-content active">
-                <div class="research-grid" id="questionsGrid"></div>
-            </div>
-
-            <!-- Tab 2: Segments -->
+            <!-- TAB 2: Customer Segments -->
             <div id="segments" class="tab-content">
-                <div id="segmentSection"></div>
+                <div class="section">
+                    <h2>Customer Segment Analysis</h2>
+                    <div id="segmentSection"></div>
+                </div>
             </div>
 
-            <!-- Tab 3: Solutions -->
+            <!-- TAB 3: Solutions -->
             <div id="solutions" class="tab-content">
-                <div id="solutionsSection"></div>
+                <div class="section">
+                    <h2>Top 5 Unmet Needs & Recommended Solutions</h2>
+                    <div id="solutionsSection"></div>
+                </div>
             </div>
 
-            <!-- Tab 4: Impact -->
+            <!-- TAB 4: Impact -->
             <div id="impact" class="tab-content">
-                <div id="impactSection"></div>
+                <div class="section">
+                    <h2>Expected Business Impact</h2>
+                    <div id="impactSection"></div>
+                </div>
             </div>
-        </div>
-            <h2>👥 Customer Segment Analysis</h2>
-
-            <div class="segment-box">
-                <h3>🔵 New Customers (77.7%, 282 users)</h3>
-                <p><strong>Wishlist Behavior:</strong> Use as research & comparison tool before first purchase</p>
-                <p><strong>Friction Points:</strong> Sizing uncertainty, brand trust, delivery reliability</p>
-                <p><strong>Purchase Drivers:</strong> Social proof, detailed product info, confidence-building</p>
-                <p><strong>Recommendation:</strong> <em>Invest in onboarding features - fit guides, expert recommendations, delivery guarantees</em></p>
-            </div>
-
-            <div class="segment-box">
-                <h3>⭐ Quality-Conscious (16.8%, 61 users)</h3>
-                <p><strong>Wishlist Behavior:</strong> Extensive research phase - comparing specs, reviews, materials</p>
-                <p><strong>Friction Points:</strong> Missing product details, insufficient reviews, delivery concerns</p>
-                <p><strong>Purchase Drivers:</strong> Detailed specifications, expert validation, reliability</p>
-                <p><strong>Recommendation:</strong> <em>Provide premium content - style guides, material details, expert badges, VIP support</em></p>
-            </div>
-
-            <div class="segment-box">
-                <h3>💰 Price-Sensitive (1.4%, 5 users)</h3>
-                <p><strong>Wishlist Behavior:</strong> Price monitoring tool - waiting for discounts</p>
-                <p><strong>Friction Points:</strong> Price barriers, waiting for sales</p>
-                <p><strong>Purchase Drivers:</strong> Discounts, sales alerts, dynamic pricing</p>
-                <p><strong>Recommendation:</strong> <em>Launch price-drop alerts, personalized discounts, waitlist feature</em></p>
-            </div>
-
-            <div class="segment-box">
-                <h3>🔄 Repeat Buyers (4.1%, 15 users)</h3>
-                <p><strong>Wishlist Behavior:</strong> Quick decisions, high engagement - churn risk visible</p>
-                <p><strong>Friction Points:</strong> Delivery reliability (blocking re-orders)</p>
-                <p><strong>Purchase Drivers:</strong> Delivery guarantees, faster resolution, loyalty rewards</p>
-                <p><strong>Recommendation:</strong> <em>Priority: Improve delivery SLA, implement fast-track returns for repeat customers</em></p>
-            </div>
-        </div>
-
-        <!-- Top Unmet Needs & Solutions -->
-        <div class="section">
-            <h2>🎯 Top Unmet Needs & Recommended Solutions</h2>
-
-            <div class="recommendation">
-                <h3>1️⃣ Fit & Sizing Uncertainty (1.4% direct mention, high implicit impact)</h3>
-                <strong>What users say:</strong> <em>"Worried it won't fit, size runs small/large, no try-on option"</em><br>
-                <strong>Why it matters:</strong> Blocks purchase for apparel, especially for first-time users<br>
-                <strong>Build This:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>Virtual try-on AR capability</li>
-                    <li>AI-powered fit recommendation using purchase history</li>
-                    <li>Size comparison tool (how item fits vs. past purchases)</li>
-                    <li>Enhanced size guides with body type filters</li>
-                </ul>
-            </div>
-
-            <div class="recommendation">
-                <h3>2️⃣ Delivery Reliability Crisis (8.8% explicit, causing widespread churn)</h3>
-                <strong>What users say:</strong> <em>"Takes money but doesn't deliver on time, won't commit to purchase again"</em><br>
-                <strong>Why it matters:</strong> Single biggest barrier to wishlist→purchase conversion; churn driver<br>
-                <strong>Build This:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>Real-time delivery tracking with SMS/app updates</li>
-                    <li>Delivery guarantee with compensation</li>
-                    <li>Simplified return process (current: too complicated)</li>
-                    <li>Proactive support: notify if order at risk</li>
-                </ul>
-            </div>
-
-            <div class="recommendation">
-                <h3>3️⃣ Missing Product Information (4.7% explicitly, affects quality-conscious segment)</h3>
-                <strong>What users say:</strong> <em>"Need fabric, care instructions, styling guidance before buying"</em><br>
-                <strong>Why it matters:</strong> Reduces confidence, extends decision time, increases external research<br>
-                <strong>Build This:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>AI-generated styling guides (how to wear, outfit ideas)</li>
-                    <li>Care instruction videos for complex fabrics</li>
-                    <li>Material composition & durability specs</li>
-                    <li>"How to style" section with outfit recommendations</li>
-                </ul>
-            </div>
-
-            <div class="recommendation">
-                <h3>4️⃣ Price Hesitation (3% explicit, affects decision-making)</h3>
-                <strong>What users say:</strong> <em>"Love it but too expensive, waiting for sale"</em><br>
-                <strong>Why it matters:</strong> Postpones purchase indefinitely; many never convert<br>
-                <strong>Build This:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>Price-drop alerts for wishlist items</li>
-                    <li>Personalized discount recommendations</li>
-                    <li>Waitlist feature (notify when price falls to target)</li>
-                    <li>Dynamic pricing for wishlist items based on inventory</li>
-                </ul>
-            </div>
-
-            <div class="recommendation">
-                <h3>5️⃣ Social Validation Gap (1.9% explicit, high implicit trust barrier)</h3>
-                <strong>What users say:</strong> <em>"Few reviews, uncertain about quality"</em><br>
-                <strong>Why it matters:</strong> Blocks new product adoption, especially for unknown brands<br>
-                <strong>Build This:</strong>
-                <ul style="margin-left: 20px; margin-top: 10px;">
-                    <li>Expert/influencer recommendation badges</li>
-                    <li>Verified-buyer review indicators</li>
-                    <li>Community features (popularity scores, user reviews)</li>
-                    <li>Post-purchase review incentive program</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- Expected Impact -->
-        <div class="section">
-            <h2>📊 Expected Impact of Solutions</h2>
-            <table style="width: 100%; border-collapse: collapse;">
-                <thead>
-                    <tr style="background: #f0f4ff; border-bottom: 2px solid #2a5298;">
-                        <th style="padding: 12px; text-align: left; color: #1e3c72;">Solution</th>
-                        <th style="padding: 12px; text-align: center; color: #1e3c72;">Users Impacted</th>
-                        <th style="padding: 12px; text-align: center; color: #1e3c72;">Est. Conversion Lift</th>
-                        <th style="padding: 12px; text-align: left; color: #1e3c72;">Implementation Effort</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Delivery Reliability Improvements</td>
-                        <td style="padding: 12px; text-align: center;">32 users (8.8%)</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+5-8%</td>
-                        <td style="padding: 12px;">Medium (ops + tech)</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Product Info Enrichment</td>
-                        <td style="padding: 12px; text-align: center;">17 users (4.7%)</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+3-5%</td>
-                        <td style="padding: 12px;">Low-Medium (content)</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Price Intelligence Features</td>
-                        <td style="padding: 12px; text-align: center;">11 users (3%)</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+2-3%</td>
-                        <td style="padding: 12px;">Low (data pipe)</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Social Proof & Reviews</td>
-                        <td style="padding: 12px; text-align: center;">7 users (1.9%)</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+1-2%</td>
-                        <td style="padding: 12px;">Medium (incentives)</td>
-                    </tr>
-                    <tr>
-                        <td style="padding: 12px;"><strong>Virtual Try-on & Fit Tools</strong></td>
-                        <td style="padding: 12px; text-align: center;"><strong>5+ users (1.4%)</strong></td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;"><strong>+1-2%</strong></td>
-                        <td style="padding: 12px;"><strong>High (AI/AR)</strong></td>
-                    </tr>
-                    <tr style="background: #e8f5e9; font-weight: bold; border-top: 2px solid #2a5298;">
-                        <td style="padding: 12px;">TOTAL POTENTIAL</td>
-                        <td style="padding: 12px; text-align: center;">32+ users</td>
-                        <td style="padding: 12px; text-align: center; color: #2e7d32;">+12-20%</td>
-                        <td style="padding: 12px;">Phased approach</td>
-                    </tr>
-                </tbody>
-            </table>
         </div>
 
         <div class="footer">
             <p>🔍 Myntra Wishlist Research Analysis | Based on 363 Reviews</p>
-            <p style="font-size: 0.9em; margin-top: 10px;">Analysis Date: August 19, 2026</p>
+            <p style="margin-top: 8px;">Analysis Date: August 19, 2026</p>
         </div>
     </div>
 
     <script>
-        // Tab switching function
         function switchTab(tabName) {
-            // Hide all tab contents
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
-            document.querySelectorAll('.tab-button').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(el => el.classList.remove('active'));
 
-            // Show selected tab
             document.getElementById(tabName).classList.add('active');
             event.target.classList.add('active');
         }
 
-        // Research questions data
         const questions = [
             {
                 number: 1,
@@ -490,7 +500,7 @@
                     "Side-by-side comparison in wishlist",
                     "Decision paralysis - too many options (0.8%)",
                     "Quality-conscious users compare more rigorously",
-                    "Price comparison across platforms (Amazon, Flipkart)",
+                    "Price comparison across platforms",
                     "Limited in-app tools - resort to external research"
                 ],
                 quotes: [
@@ -581,7 +591,6 @@
             }
         ];
 
-        // Render questions
         function renderQuestions() {
             const grid = document.getElementById('questionsGrid');
             questions.forEach(q => {
@@ -591,8 +600,8 @@
                     <div class="research-number">Q${q.number}</div>
                     <div class="research-question">${q.question}</div>
                     ${q.findings.map(f => `<div class="finding">• ${f}</div>`).join('')}
-                    ${q.quotes.map(q => `<div class="quote">"${q}"</div>`).join('')}
-                    <div style="margin-top: 15px;">
+                    ${q.quotes.map(quote => `<div class="quote">"${quote}"</div>`).join('')}
+                    <div style="margin-top: 12px;">
                         ${q.stats.map(s => `<span class="stat-badge">${s}</span>`).join('')}
                     </div>
                 `;
@@ -600,117 +609,167 @@
             });
         }
 
-        // Render segments
         function renderSegments() {
             const seg = document.getElementById('segmentSection');
             seg.innerHTML = `
-                <h2>👥 Customer Segment Analysis</h2>
                 <div class="segment-box">
                     <h3>🔵 New Customers (77.7%, 282 users)</h3>
-                    <p><strong>Wishlist Behavior:</strong> Research & comparison tool before first purchase</p>
-                    <p><strong>Key Friction:</strong> Sizing uncertainty, brand trust, delivery concerns</p>
-                    <p><strong>Solution:</strong> Onboarding - fit guides, expert recommendations, delivery guarantees</p>
+                    <p><strong>Wishlist Behavior:</strong> Use as research & comparison tool before first purchase</p>
+                    <p><strong>Friction Points:</strong> Sizing uncertainty, brand trust, delivery reliability</p>
+                    <p><strong>Purchase Drivers:</strong> Social proof, detailed product info, confidence-building</p>
+                    <p><strong>Recommendation:</strong> Invest in onboarding features - fit guides, expert recommendations, delivery guarantees</p>
                 </div>
+
                 <div class="segment-box">
                     <h3>⭐ Quality-Conscious (16.8%, 61 users)</h3>
-                    <p><strong>Wishlist Behavior:</strong> Extensive research - comparing specs, reviews, materials</p>
-                    <p><strong>Key Friction:</strong> Missing details, insufficient reviews, delivery reliability</p>
-                    <p><strong>Solution:</strong> Premium content - style guides, material specs, expert badges</p>
+                    <p><strong>Wishlist Behavior:</strong> Extensive research phase - comparing specs, reviews, materials</p>
+                    <p><strong>Friction Points:</strong> Missing product details, insufficient reviews, delivery concerns</p>
+                    <p><strong>Purchase Drivers:</strong> Detailed specifications, expert validation, reliability</p>
+                    <p><strong>Recommendation:</strong> Provide premium content - style guides, material details, expert badges, VIP support</p>
                 </div>
+
                 <div class="segment-box">
                     <h3>💰 Price-Sensitive (1.4%, 5 users)</h3>
                     <p><strong>Wishlist Behavior:</strong> Price monitoring tool - waiting for discounts</p>
-                    <p><strong>Key Friction:</strong> Price barriers</p>
-                    <p><strong>Solution:</strong> Price-drop alerts, waitlist, personalized discounts</p>
+                    <p><strong>Friction Points:</strong> Price barriers, waiting for sales</p>
+                    <p><strong>Purchase Drivers:</strong> Discounts, sales alerts, dynamic pricing</p>
+                    <p><strong>Recommendation:</strong> Launch price-drop alerts, personalized discounts, waitlist feature</p>
                 </div>
+
                 <div class="segment-box">
                     <h3>🔄 Repeat Buyers (4.1%, 15 users)</h3>
-                    <p><strong>Wishlist Behavior:</strong> Quick decisions - churn risk visible</p>
-                    <p><strong>Key Friction:</strong> Delivery reliability (blocking re-orders)</p>
-                    <p><strong>Solution:</strong> Delivery SLA improvements, fast-track returns, loyalty rewards</p>
+                    <p><strong>Wishlist Behavior:</strong> Quick decisions, high engagement - churn risk visible</p>
+                    <p><strong>Friction Points:</strong> Delivery reliability (blocking re-orders)</p>
+                    <p><strong>Purchase Drivers:</strong> Delivery guarantees, faster resolution, loyalty rewards</p>
+                    <p><strong>Recommendation:</strong> Priority: Improve delivery SLA, implement fast-track returns for repeat customers</p>
                 </div>
             `;
         }
 
-        // Render solutions
         function renderSolutions() {
             const sol = document.getElementById('solutionsSection');
             sol.innerHTML = `
-                <h2>🎯 Top 5 Unmet Needs & Solutions</h2>
                 <div class="recommendation">
-                    <h3>1️⃣ Delivery Reliability (8.8% affected)</h3>
-                    <strong>What users need:</strong> Guaranteed on-time delivery, real-time tracking<br>
-                    <strong>Build:</strong> Real-time tracking, delivery guarantees, simplified returns<br>
-                    <strong>Expected Lift:</strong> +5-8%
+                    <h3>1️⃣ Fit & Sizing Uncertainty (1.4% direct mention, high implicit impact)</h3>
+                    <strong>What users say:</strong> "Worried it won't fit, size runs small/large, no try-on option"<br>
+                    <strong>Why it matters:</strong> Blocks purchase for apparel, especially for first-time users<br>
+                    <strong>Build This:</strong>
+                    <ul>
+                        <li>Virtual try-on AR capability</li>
+                        <li>AI-powered fit recommendation using purchase history</li>
+                        <li>Size comparison tool (how item fits vs. past purchases)</li>
+                        <li>Enhanced size guides with body type filters</li>
+                    </ul>
                 </div>
+
                 <div class="recommendation">
-                    <h3>2️⃣ Product Information (4.7% affected)</h3>
-                    <strong>What users need:</strong> Style guides, material details, care instructions<br>
-                    <strong>Build:</strong> AI-generated styling guides, care videos, outfit recommendations<br>
-                    <strong>Expected Lift:</strong> +3-5%
+                    <h3>2️⃣ Delivery Reliability Crisis (8.8% explicit, causing widespread churn)</h3>
+                    <strong>What users say:</strong> "Takes money but doesn't deliver on time, won't commit to purchase again"<br>
+                    <strong>Why it matters:</strong> Single biggest barrier to wishlist→purchase conversion; churn driver<br>
+                    <strong>Build This:</strong>
+                    <ul>
+                        <li>Real-time delivery tracking with SMS/app updates</li>
+                        <li>Delivery guarantee with compensation</li>
+                        <li>Simplified return process (current: too complicated)</li>
+                        <li>Proactive support: notify if order at risk</li>
+                    </ul>
                 </div>
+
                 <div class="recommendation">
-                    <h3>3️⃣ Price Intelligence (3.0% affected)</h3>
-                    <strong>What users need:</strong> Price-drop alerts, personalized discounts<br>
-                    <strong>Build:</strong> Price alerts, waitlist, dynamic pricing<br>
-                    <strong>Expected Lift:</strong> +2-3%
+                    <h3>3️⃣ Missing Product Information (4.7% explicitly, affects quality-conscious segment)</h3>
+                    <strong>What users say:</strong> "Need fabric, care instructions, styling guidance before buying"<br>
+                    <strong>Why it matters:</strong> Reduces confidence, extends decision time, increases external research<br>
+                    <strong>Build This:</strong>
+                    <ul>
+                        <li>AI-generated styling guides (how to wear, outfit ideas)</li>
+                        <li>Care instruction videos for complex fabrics</li>
+                        <li>Material composition & durability specs</li>
+                        <li>"How to style" section with outfit recommendations</li>
+                    </ul>
                 </div>
+
                 <div class="recommendation">
-                    <h3>4️⃣ Social Proof (1.9% affected)</h3>
-                    <strong>What users need:</strong> Community validation, expert recommendations<br>
-                    <strong>Build:</strong> Expert badges, verified reviews, community features<br>
-                    <strong>Expected Lift:</strong> +1-2%
+                    <h3>4️⃣ Price Hesitation (3% explicit, affects decision-making)</h3>
+                    <strong>What users say:</strong> "Love it but too expensive, waiting for sale"<br>
+                    <strong>Why it matters:</strong> Postpones purchase indefinitely; many never convert<br>
+                    <strong>Build This:</strong>
+                    <ul>
+                        <li>Price-drop alerts for wishlist items</li>
+                        <li>Personalized discount recommendations</li>
+                        <li>Waitlist feature (notify when price falls to target)</li>
+                        <li>Dynamic pricing for wishlist items based on inventory</li>
+                    </ul>
                 </div>
+
                 <div class="recommendation">
-                    <h3>5️⃣ Fit & Sizing Tools (1.4% affected)</h3>
-                    <strong>What users need:</strong> Confidence in apparel fit before purchase<br>
-                    <strong>Build:</strong> Virtual try-on AR, AI fit prediction, size recommendations<br>
-                    <strong>Expected Lift:</strong> +1-2%
+                    <h3>5️⃣ Social Validation Gap (1.9% explicit, high implicit trust barrier)</h3>
+                    <strong>What users say:</strong> "Few reviews, uncertain about quality"<br>
+                    <strong>Why it matters:</strong> Blocks new product adoption, especially for unknown brands<br>
+                    <strong>Build This:</strong>
+                    <ul>
+                        <li>Expert/influencer recommendation badges</li>
+                        <li>Verified-buyer review indicators</li>
+                        <li>Community features (popularity scores, user reviews)</li>
+                        <li>Post-purchase review incentive program</li>
+                    </ul>
                 </div>
             `;
         }
 
-        // Render impact
         function renderImpact() {
             const imp = document.getElementById('impactSection');
             imp.innerHTML = `
-                <h2>📈 Expected Business Impact</h2>
-                <table style="width: 100%; border-collapse: collapse;">
-                    <tr style="background: #f0f4ff; border-bottom: 2px solid #2a5298;">
-                        <th style="padding: 12px; text-align: left; color: #1e3c72;">Solution</th>
-                        <th style="padding: 12px; text-align: center; color: #1e3c72;">Impact</th>
-                        <th style="padding: 12px; text-align: center; color: #1e3c72;">Effort</th>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Delivery Reliability</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+5-8%</td>
-                        <td style="padding: 12px; text-align: center;">Medium</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Product Info Enrichment</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+3-5%</td>
-                        <td style="padding: 12px; text-align: center;">Low-Med</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Price Intelligence</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+2-3%</td>
-                        <td style="padding: 12px; text-align: center;">Low</td>
-                    </tr>
-                    <tr style="border-bottom: 1px solid #eee;">
-                        <td style="padding: 12px;">Social Proof Features</td>
-                        <td style="padding: 12px; text-align: center; font-weight: bold; color: #d32f2f;">+1-2%</td>
-                        <td style="padding: 12px; text-align: center;">Medium</td>
-                    </tr>
-                    <tr style="background: #e8f5e9; font-weight: bold; border-top: 2px solid #2a5298;">
-                        <td style="padding: 12px;"><strong>TOTAL POTENTIAL</strong></td>
-                        <td style="padding: 12px; text-align: center; color: #2e7d32;"><strong>+12-20%</strong></td>
-                        <td style="padding: 12px; text-align: center;">Phased</td>
-                    </tr>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Solution</th>
+                            <th style="text-align: center;">Users Impacted</th>
+                            <th style="text-align: center;">Est. Conversion Lift</th>
+                            <th>Implementation Effort</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Delivery Reliability Improvements</td>
+                            <td style="text-align: center;">32 users (8.8%)</td>
+                            <td class="impact-value">+5-8%</td>
+                            <td>Medium (ops + tech)</td>
+                        </tr>
+                        <tr>
+                            <td>Product Info Enrichment</td>
+                            <td style="text-align: center;">17 users (4.7%)</td>
+                            <td class="impact-value">+3-5%</td>
+                            <td>Low-Medium (content)</td>
+                        </tr>
+                        <tr>
+                            <td>Price Intelligence Features</td>
+                            <td style="text-align: center;">11 users (3%)</td>
+                            <td class="impact-value">+2-3%</td>
+                            <td>Low (data pipe)</td>
+                        </tr>
+                        <tr>
+                            <td>Social Proof & Reviews</td>
+                            <td style="text-align: center;">7 users (1.9%)</td>
+                            <td class="impact-value">+1-2%</td>
+                            <td>Medium (incentives)</td>
+                        </tr>
+                        <tr>
+                            <td>Virtual Try-on & Fit Tools</td>
+                            <td style="text-align: center;">5+ users (1.4%)</td>
+                            <td class="impact-value">+1-2%</td>
+                            <td>High (AI/AR)</td>
+                        </tr>
+                        <tr class="total">
+                            <td>TOTAL POTENTIAL</td>
+                            <td style="text-align: center;">32+ users</td>
+                            <td style="text-align: center;">+12-20%</td>
+                            <td>Phased approach</td>
+                        </tr>
+                    </tbody>
                 </table>
             `;
         }
 
-        // Render all
         renderQuestions();
         renderSegments();
         renderSolutions();
