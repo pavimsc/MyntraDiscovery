@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "total_reviews_analyzed": 1038,
+    "analysis_date": "2026-08-20T11:14:11.704Z"
+  },
+  "questions": {
+    "q1": {
+      "question": "Why do users add fashion products to their wishlist?",
+      "answer": "498 reviews (48.0%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
+      "evidence": [
+        "Myntra is comfortable website",
+        "Ordered 31st Jan 2019",
+        "I shop a lot on Myntra and Jabong"
+      ],
+      "count": 498
+    },
+    "q2": {
+      "question": "What prevents wishlisted products from eventually being purchased?",
+      "answer": "Top friction points: app performance (71.8%), wishlist limit (54.2%), stock management (17.1%), technical bug (15.1%), customer support (14.9%)",
+      "friction_distribution": {
+        "app_performance": 745,
+        "wishlist_limit": 563,
+        "stock_management": 177,
+        "technical_bug": 157,
+        "customer_support": 155
+      },
+      "total_friction_mentions": 2426
+    },
+    "q3": {
+      "question": "What uncertainties remain after identifying a product?",
+      "answer": "231 reviews (22.3%) mention uncertainties.",
+      "count": 231
+    },
+    "q4": {
+      "question": "What causes users to postpone a purchase?",
+      "answer": "238 reviews (22.9%) show postponement due to price and delivery concerns.",
+      "count": 238
+    },
+    "q5": {
+      "question": "How do users compare multiple shortlisted products?",
+      "answer": "229 reviews (22.1%) from comparison-focused customers.",
+      "count": 229
+    },
+    "q6": {
+      "question": "What information do users seek outside Myntra?",
+      "answer": "131 reviews (12.6%) indicate external research.",
+      "count": 131
+    },
+    "q7": {
+      "question": "What role do fit, price, reviews, delivery, and quality play?",
+      "answer": "Critical factors: Price (14.5%), Delivery (11.4%), Quality (8.2%), Product Info (4.8%), Fit (5.2%)",
+      "factor_distribution": {
+        "fit": 54,
+        "price": 150,
+        "reviews": 50,
+        "delivery": 118,
+        "quality": 85
+      }
+    },
+    "q8": {
+      "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
+      "answer": "Genuine intent: 46.7%. Bookmarking: 48.0%.",
+      "purchase_intent": 485,
+      "bookmarking": 498
+    },
+    "q9": {
+      "question": "How do these behaviors differ across user segments?",
+      "answer": "Segment distribution: app user (62.0%), quality conscious (8.3%), repeat buyer (8.9%), price sensitive (13.8%), new customer (7.0%)",
+      "segment_distribution": {
+        "app_user": 644,
+        "quality_conscious": 86,
+        "repeat_buyer": 92,
+        "price_sensitive": 143,
+        "new_customer": 73
+      }
+    },
+    "q10": {
+      "question": "What unmet needs emerge consistently?",
+      "answer": "Top needs: Price Transparency (14.5%), Delivery Reliability (11.4%), App Performance (71.8%), Quality Assurance (8.2%), Wishlist Features (54.2%)",
+      "unmet_needs": {
+        "wishlist_features": 563,
+        "performance": 745,
+        "price_transparency": 150,
+        "delivery": 118,
+        "quality_assurance": 85
+      }
+    }
+  }
+}
