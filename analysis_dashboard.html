@@ -425,8 +425,8 @@
 <body>
     <div class="container">
         <header>
-            <h1>Myntra Wishlist Analysis</h1>
-            <p>Batch Analysis Dashboard | Groq LLM Powered | 675 Reviews Analyzed</p>
+            <h1>Myntra Wishlist Discovery Engine</h1>
+            <p>Groq LLM Powered</p>
             <div class="status loading" id="status">
                 <span class="loading-spinner"></span>Loading analysis results...
             </div>
@@ -439,22 +439,12 @@
             </div>
             <div class="metric">
                 <div class="metric-value">-</div>
-                <div class="metric-label">Cost (Groq)</div>
-            </div>
-            <div class="metric">
-                <div class="metric-value">-</div>
                 <div class="metric-label">Friction Points</div>
             </div>
             <div class="metric">
                 <div class="metric-value">-</div>
                 <div class="metric-label">Avg Confidence</div>
             </div>
-        </div>
-
-        <div class="export-buttons">
-            <button class="btn" onclick="exportToJSON()">📥 Export JSON</button>
-            <button class="btn" onclick="exportToCSV()">📥 Export CSV</button>
-            <button class="btn secondary" onclick="window.print()">🖨️ Print/PDF</button>
         </div>
 
         <div class="tabs">
@@ -514,14 +504,10 @@
                 <h2>Sentiment Analysis</h2>
                 <div class="sentiment-grid" id="sentimentDetails"></div>
             </div>
-            <div class="section">
-                <h2>Sentiment by Customer Segment</h2>
-                <table class="table" id="sentimentBySegment"></table>
-            </div>
         </div>
 
         <footer>
-            <p>Generated using Groq LLM batch analysis • Cost: $0 (Free Tier) • Analysis Date: <span id="analysisDate"></span></p>
+            <p>Generated using Groq LLM batch analysis • Analysis Date: <span id="analysisDate"></span></p>
         </footer>
     </div>
 
@@ -583,9 +569,8 @@
         function updateMetrics(data, summary) {
             const metrics = document.querySelectorAll('.metric');
             metrics[0].innerHTML = `<div class="metric-value">${data.reviews.length}</div><div class="metric-label">Reviews Analyzed</div>`;
-            metrics[1].innerHTML = `<div class="metric-value">$0</div><div class="metric-label">Cost (Groq)</div>`;
-            metrics[2].innerHTML = `<div class="metric-value">${Object.keys(summary.top_friction_points).length}</div><div class="metric-label">Friction Types</div>`;
-            metrics[3].innerHTML = `<div class="metric-value">${summary.average_confidence}</div><div class="metric-label">Avg Confidence</div>`;
+            metrics[1].innerHTML = `<div class="metric-value">${Object.keys(summary.top_friction_points).length}</div><div class="metric-label">Friction Types</div>`;
+            metrics[2].innerHTML = `<div class="metric-value">${summary.average_confidence}</div><div class="metric-label">Avg Confidence</div>`;
 
             document.getElementById('analysisDate').textContent = new Date(data.metadata.analysis_date).toLocaleDateString();
         }
