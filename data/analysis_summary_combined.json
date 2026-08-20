@@ -1,0 +1,28 @@
+{
+  "total_reviews": 675,
+  "sentiment_distribution": {
+    "positive": 196,
+    "neutral": 357,
+    "negative": 122
+  },
+  "segment_distribution": {
+    "app_user": 346,
+    "price_sensitive": 133,
+    "new_customer": 70,
+    "repeat_buyer": 82,
+    "quality_conscious": 44
+  },
+  "top_friction_points": {
+    "wishlist_limit": 559,
+    "app_performance": 484,
+    "stock_management": 166,
+    "technical_bug": 149,
+    "price_increase": 136,
+    "customer_support": 90,
+    "delivery_delay": 82,
+    "payment_issue": 67,
+    "return_process": 51,
+    "size_fit": 45
+  },
+  "average_confidence": "0.824"
+}

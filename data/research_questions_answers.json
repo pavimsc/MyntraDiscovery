@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "total_reviews_analyzed": 0,
+    "analysis_date": "2026-08-20T11:06:15.378Z",
+    "timestamp": 1787223975378
+  },
+  "questions": {
+    "q1": {
+      "question": "Why do users add fashion products to their wishlist?",
+      "answer": "Users add to wishlist for 0 reasons found in reviews: price tracking (0%), saving for later (0%), comparison shopping (0%)",
+      "evidence": [],
+      "count": 0
+    },
+    "q2": {
+      "question": "What prevents wishlisted products from eventually being purchased?",
+      "answer": "Top friction points preventing purchase: ",
+      "friction_distribution": {},
+      "total_friction_mentions": 0
+    },
+    "q3": {
+      "question": "What uncertainties remain after users identify a product they like?",
+      "answer": "0 reviews (NaN%) mention uncertainties: product information gaps, sizing concerns, price reliability",
+      "evidence": [],
+      "count": 0
+    },
+    "q4": {
+      "question": "What causes users to postpone a purchase?",
+      "answer": "0 reviews show postponement factors: price waiting (NaN%), delivery concerns (NaN%), information gaps (NaN%)",
+      "evidence": [],
+      "count": 0
+    },
+    "q5": {
+      "question": "How do users compare multiple shortlisted products?",
+      "answer": "0 reviews mention comparison behavior",
+      "evidence": [],
+      "count": 0
+    },
+    "q6": {
+      "question": "What information do users seek outside Myntra?",
+      "answer": "0 reviews indicate external research: price comparison with other platforms, alternative shopping options, detailed product reviews",
+      "count": 0
+    },
+    "q7": {
+      "question": "What role do fit, size, styling, price, reviews, occasion, social validation play?",
+      "answer": "Critical factors: Delivery (NaN%), Price (NaN%), Quality (NaN%), Fit/Size (NaN%), Product Info (NaN%)",
+      "factor_distribution": {
+        "fit": 0,
+        "price": 0,
+        "reviews": 0,
+        "delivery": 0,
+        "quality": 0
+      }
+    },
+    "q8": {
+      "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
+      "answer": "Genuine intent: NaN% (tracking, comparing). Bookmarking: NaN% (saving for later)",
+      "purchase_intent": 0,
+      "bookmarking": 0
+    },
+    "q9": {
+      "question": "How do these behaviors differ across user segments?",
+      "answer": "Segment distribution: ",
+      "segment_distribution": {}
+    },
+    "q10": {
+      "question": "What unmet needs emerge consistently?",
+      "answer": "Top unmet needs: App Performance (NaN%), Price Transparency (NaN%), Delivery Reliability (NaN%), Wishlist Features (NaN%), Quality Assurance (NaN%)",
+      "unmet_needs": {
+        "wishlist_features": 0,
+        "performance": 0,
+        "price_transparency": 0,
+        "delivery": 0,
+        "quality_assurance": 0
+      }
+    }
+  }
+}
