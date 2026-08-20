@@ -1,7 +1,7 @@
 {
   "metadata": {
     "total_reviews_analyzed": 1038,
-    "analysis_date": "2026-08-20T11:14:11.704Z"
+    "analysis_date": "2026-08-20T11:35:38.530Z"
   },
   "questions": {
     "q1": {
@@ -16,25 +16,25 @@
     },
     "q2": {
       "question": "What prevents wishlisted products from eventually being purchased?",
-      "answer": "Top friction points: app performance (71.8%), wishlist limit (54.2%), stock management (17.1%), technical bug (15.1%), customer support (14.9%)",
+      "answer": "Top friction points: wishlist limit (54.2%), app performance (27.2%), price concern (14.6%), wishlist removal (12.2%), product unavailable (11.3%)",
       "friction_distribution": {
-        "app_performance": 745,
         "wishlist_limit": 563,
-        "stock_management": 177,
-        "technical_bug": 157,
-        "customer_support": 155
+        "app_performance": 282,
+        "price_concern": 152,
+        "wishlist_removal": 127,
+        "product_unavailable": 117
       },
-      "total_friction_mentions": 2426
+      "total_friction_mentions": 1667
     },
     "q3": {
       "question": "What uncertainties remain after identifying a product?",
-      "answer": "231 reviews (22.3%) mention uncertainties.",
-      "count": 231
+      "answer": "154 reviews (14.8%) mention uncertainties.",
+      "count": 154
     },
     "q4": {
       "question": "What causes users to postpone a purchase?",
-      "answer": "238 reviews (22.9%) show postponement due to price and delivery concerns.",
-      "count": 238
+      "answer": "0 reviews (0.0%) show postponement due to price and delivery concerns.",
+      "count": 0
     },
     "q5": {
       "question": "How do users compare multiple shortlisted products?",
@@ -43,18 +43,18 @@
     },
     "q6": {
       "question": "What information do users seek outside Myntra?",
-      "answer": "131 reviews (12.6%) indicate external research.",
-      "count": 131
+      "answer": "138 reviews (13.3%) indicate external research.",
+      "count": 138
     },
     "q7": {
       "question": "What role do fit, price, reviews, delivery, and quality play?",
-      "answer": "Critical factors: Price (14.5%), Delivery (11.4%), Quality (8.2%), Product Info (4.8%), Fit (5.2%)",
+      "answer": "Critical factors: Price (0.0%), Delivery (0.0%), Quality (0.0%), Product Info (10.4%), Fit (5.2%)",
       "factor_distribution": {
         "fit": 54,
-        "price": 150,
-        "reviews": 50,
-        "delivery": 118,
-        "quality": 85
+        "price": 0,
+        "reviews": 108,
+        "delivery": 0,
+        "quality": 0
       }
     },
     "q8": {
@@ -76,13 +76,13 @@
     },
     "q10": {
       "question": "What unmet needs emerge consistently?",
-      "answer": "Top needs: Price Transparency (14.5%), Delivery Reliability (11.4%), App Performance (71.8%), Quality Assurance (8.2%), Wishlist Features (54.2%)",
+      "answer": "Top needs: Price Transparency (0.0%), Delivery Reliability (0.0%), App Performance (27.2%), Quality Assurance (0.0%), Wishlist Features (54.2%)",
       "unmet_needs": {
         "wishlist_features": 563,
-        "performance": 745,
-        "price_transparency": 150,
-        "delivery": 118,
-        "quality_assurance": 85
+        "performance": 282,
+        "price_transparency": 0,
+        "delivery": 0,
+        "quality_assurance": 0
       }
     }
   }

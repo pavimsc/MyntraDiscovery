@@ -27,20 +27,18 @@ function log(msg, color = 'reset') {
     console.log(`${colors[color]}${msg}${colors.reset}`);
 }
 
-// Friction point patterns
+// Friction point patterns - WISHLIST FOCUSED
 const frictionPatterns = {
-    wishlist_limit: /limit|maximum|wishlist|capacity|exceed/i,
-    price_increase: /price|expensive|cost|money|afford/i,
-    delivery_delay: /delivery|ship|arrive|delay|wait|slow/i,
-    poor_quality: /quality|defect|broke|damaged|cheap|fraud/i,
-    app_performance: /app|crash|bug|hang|slow|freeze|performance/i,
-    payment_issue: /payment|transaction|refund|money|card|upi|scam/i,
-    return_process: /return|exchange|refund|complaint|doorstep/i,
-    customer_support: /support|service|help|complaint|response|care/i,
-    stock_management: /stock|out|available|sold|inventory/i,
+    wishlist_limit: /limit|maximum|wishlist|capacity|exceed|1000|restrict/i,
+    wishlist_removal: /remove|delete|clear|lost|disappear/i,
+    price_tracking: /price.*drop|price.*change|price.*increase|price.*wait|price.*deal|price.*cheaper/i,
+    product_unavailable: /stock|out.*stock|not.*available|sold.*out|unavailable|listed/i,
     size_fit: /size|fit|tight|loose|small|large|measurement|kurta|kurtis/i,
-    product_info: /description|image|detail|misleading|information|shown/i,
-    technical_bug: /bug|error|technical|glitch|issue|blacklist/i
+    product_info: /description|image|detail|information|shown|quality|material/i,
+    price_concern: /expensive|price|cost|afford|cheap|expensive|money/i,
+    delivery_fear: /delivery|ship|arrive|delay|wait|trust|reliable/i,
+    purchase_decision: /hesitat|decision|uncertain|confus|compare|choose/i,
+    return_worry: /return|exchange|refund|complaint|policy/i
 };
 
 // Sentiment patterns

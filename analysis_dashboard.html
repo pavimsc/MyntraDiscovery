@@ -424,14 +424,21 @@
 <body>
     <div class="container">
         <header>
-            <h1>Myntra Wishlist AI Discovery Engine</h1>
-            <p>powered by Groq LLM</p>
+            <h1>Myntra Wishlist Analysis</h1>
+            <p>Batch Analysis Dashboard | Groq LLM Powered | 675 Reviews Analyzed</p>
+            <div class="status loading" id="status">
+                <span class="loading-spinner"></span>Loading analysis results...
+            </div>
         </header>
 
         <div class="key-metrics" id="metrics">
             <div class="metric">
                 <div class="metric-value">-</div>
                 <div class="metric-label">Reviews Analyzed</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">-</div>
+                <div class="metric-label">Cost (Groq)</div>
             </div>
             <div class="metric">
                 <div class="metric-value">-</div>
@@ -443,6 +450,11 @@
             </div>
         </div>
 
+        <div class="export-buttons">
+            <button class="btn" onclick="exportToJSON()">📥 Export JSON</button>
+            <button class="btn" onclick="exportToCSV()">📥 Export CSV</button>
+            <button class="btn secondary" onclick="window.print()">🖨️ Print/PDF</button>
+        </div>
 
         <div class="tabs">
             <button class="tab-btn active" onclick="showTab('overview')">Overview</button>
@@ -501,10 +513,14 @@
                 <h2>Sentiment Analysis</h2>
                 <div class="sentiment-grid" id="sentimentDetails"></div>
             </div>
+            <div class="section">
+                <h2>Sentiment by Customer Segment</h2>
+                <table class="table" id="sentimentBySegment"></table>
+            </div>
         </div>
 
         <footer>
-            <p>Analysis Date: <span id="analysisDate"></span></p>
+            <p>Generated using Groq LLM batch analysis • Cost: $0 (Free Tier) • Analysis Date: <span id="analysisDate"></span></p>
         </footer>
     </div>
 
@@ -535,11 +551,14 @@
                     throw new Error('Summary data not found');
                 }
             } catch (error) {
+                showStatus('error', `Error loading analysis: ${error.message}`);
                 console.error(error);
             }
         }
 
         function displayAnalysis(data, summary) {
+            // Update status
+            showStatus('ready', `✓ Analysis loaded: ${data.reviews.length} reviews analyzed`);
 
             // Update metrics
             updateMetrics(data, summary);
@@ -563,8 +582,9 @@
         function updateMetrics(data, summary) {
             const metrics = document.querySelectorAll('.metric');
             metrics[0].innerHTML = `<div class="metric-value">${data.reviews.length}</div><div class="metric-label">Reviews Analyzed</div>`;
-            metrics[1].innerHTML = `<div class="metric-value">${Object.keys(summary.top_friction_points).length}</div><div class="metric-label">Friction Types</div>`;
-            metrics[2].innerHTML = `<div class="metric-value">${summary.average_confidence}</div><div class="metric-label">Avg Confidence</div>`;
+            metrics[1].innerHTML = `<div class="metric-value">$0</div><div class="metric-label">Cost (Groq)</div>`;
+            metrics[2].innerHTML = `<div class="metric-value">${Object.keys(summary.top_friction_points).length}</div><div class="metric-label">Friction Types</div>`;
+            metrics[3].innerHTML = `<div class="metric-value">${summary.average_confidence}</div><div class="metric-label">Avg Confidence</div>`;
 
             document.getElementById('analysisDate').textContent = new Date(data.metadata.analysis_date).toLocaleDateString();
         }
@@ -611,21 +631,10 @@
 
         async function loadResearchQuestions() {
             try {
-                // Try to load the latest 1038 analysis first
-                let response = await fetch('data/research_questions_1038.json');
-                if (!response.ok) {
-                    // Fallback to combined analysis
-                    response = await fetch('data/research_questions_combined.json');
-                }
-                if (!response.ok) {
-                    // Fallback to answers
-                    response = await fetch('data/research_questions_answers.json');
-                }
+                const response = await fetch('data/research_questions_answers.json');
                 if (response.ok) {
                     const data = await response.json();
                     displayResearchQuestions(data.questions);
-                } else {
-                    console.error('Could not find research questions file');
                 }
             } catch (error) {
                 console.error('Error loading research questions:', error);
@@ -774,4 +783,3 @@
     </script>
 </body>
 </html>
-<!-- Cache buster: 1787225341 -->
