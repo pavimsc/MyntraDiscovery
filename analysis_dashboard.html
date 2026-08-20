@@ -529,14 +529,21 @@
 
         async function loadAnalysis() {
             try {
-                // Try to load the combined analysis first, fall back to individual files
-                const response = await fetch('data/reviews_combined_analyzed.json');
+                // Try to load the latest combined analysis first (1038 reviews), then fall back to 675
+                let response = await fetch('data/reviews_1038_analyzed.json');
+                if (!response.ok) {
+                    response = await fetch('data/reviews_combined_analyzed.json');
+                }
                 if (!response.ok) {
                     throw new Error('Analysis data not found. Please run the analysis script first.');
                 }
                 analysisData = await response.json();
 
-                const summaryResponse = await fetch('data/analysis_summary_combined.json');
+                // Load corresponding summary
+                let summaryResponse = await fetch('data/analysis_summary_1038.json');
+                if (!summaryResponse.ok) {
+                    summaryResponse = await fetch('data/analysis_summary_combined.json');
+                }
                 if (summaryResponse.ok) {
                     const summary = await summaryResponse.json();
                     displayAnalysis(analysisData, summary);
