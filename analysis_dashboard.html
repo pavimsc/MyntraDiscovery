@@ -631,10 +631,21 @@
 
         async function loadResearchQuestions() {
             try {
-                const response = await fetch('data/research_questions_answers.json');
+                // Try to load the latest 1038 analysis first
+                let response = await fetch('data/research_questions_1038.json');
+                if (!response.ok) {
+                    // Fallback to combined analysis
+                    response = await fetch('data/research_questions_combined.json');
+                }
+                if (!response.ok) {
+                    // Fallback to answers
+                    response = await fetch('data/research_questions_answers.json');
+                }
                 if (response.ok) {
                     const data = await response.json();
                     displayResearchQuestions(data.questions);
+                } else {
+                    console.error('Could not find research questions file');
                 }
             } catch (error) {
                 console.error('Error loading research questions:', error);
