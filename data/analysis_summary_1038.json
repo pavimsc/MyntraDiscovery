@@ -13,16 +13,16 @@
     "new_customer": 73
   },
   "top_friction_points": {
-    "app_performance": 745,
     "wishlist_limit": 563,
-    "stock_management": 177,
-    "technical_bug": 157,
-    "customer_support": 155,
-    "price_increase": 150,
-    "delivery_delay": 118,
-    "payment_issue": 86,
-    "return_process": 86,
-    "poor_quality": 85
+    "app_performance": 282,
+    "price_concern": 152,
+    "wishlist_removal": 127,
+    "product_unavailable": 117,
+    "delivery_fear": 114,
+    "product_info": 108,
+    "return_worry": 87,
+    "size_fit": 54,
+    "price_tracking": 38
   },
-  "average_confidence": "0.821"
+  "average_confidence": "0.828"
 }
