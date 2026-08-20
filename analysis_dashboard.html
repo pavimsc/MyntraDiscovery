@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myntra Wishlist - Batch Analysis Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', sans-serif;
+            background: #ffffff;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+
+        body {
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        header {
+            margin-bottom: 50px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.2em;
+            margin-bottom: 8px;
+            font-weight: 700;
+            color: #000;
+        }
+
+        header p {
+            font-size: 1em;
+            color: #666;
+            font-weight: 400;
+        }
+
+        .status {
+            margin: 20px 0;
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+
+        .status.loading {
+            background: #e3f2fd;
+            color: #1565c0;
+            border: 1px solid #90caf9;
+        }
+
+        .status.ready {
+            background: #e8f5e9;
+            color: #2e7d32;
+            border: 1px solid #81c784;
+        }
+
+        .status.error {
+            background: #ffebee;
+            color: #c62828;
+            border: 1px solid #ef5350;
+        }
+
+        .key-metrics {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+
+        .metric {
+            padding: 20px;
+            background: #f5f5f5;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.2em;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+        }
+
+        .metric-label {
+            font-size: 0.85em;
+            color: #666;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .tabs {
+            display: flex;
+            gap: 0;
+            border-bottom: 2px solid #e5e5e5;
+            margin: 40px 0 30px 0;
+            overflow-x: auto;
+        }
+
+        .tab-btn {
+            padding: 15px 25px;
+            background: none;
+            border: none;
+            border-bottom: 3px solid transparent;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .tab-btn:hover {
+            color: #2c3e50;
+        }
+
+        .tab-btn.active {
+            color: #000;
+            border-bottom-color: #000;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .section {
+            margin: 30px 0;
+            padding: 25px;
+            background: #f9f9f9;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+        }
+
+        .section h2 {
+            font-size: 1.3em;
+            margin-bottom: 15px;
+            color: #000;
+            font-weight: 700;
+        }
+
+        .section h3 {
+            font-size: 1.05em;
+            margin: 20px 0 10px 0;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .question-box {
+            margin: 25px 0;
+            padding: 20px;
+            background: #fff;
+            border-left: 4px solid #2196F3;
+            border-radius: 2px;
+        }
+
+        .question-box .question {
+            font-size: 1.05em;
+            font-weight: 600;
+            color: #000;
+            margin-bottom: 12px;
+        }
+
+        .question-box .answer {
+            color: #333;
+            line-height: 1.7;
+            margin-bottom: 10px;
+        }
+
+        .question-box .evidence {
+            margin-top: 12px;
+            padding: 10px;
+            background: #f5f5f5;
+            border-radius: 2px;
+            font-size: 0.9em;
+            color: #555;
+            font-style: italic;
+        }
+
+        .chart-container {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+        }
+
+        .bar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .bar-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .bar-label {
+            width: 150px;
+            font-size: 0.9em;
+            font-weight: 500;
+            color: #666;
+            text-align: right;
+        }
+
+        .bar {
+            flex: 1;
+            height: 30px;
+            background: linear-gradient(90deg, #2196F3, #21CBF3);
+            border-radius: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            color: #fff;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .sentiment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .sentiment-card {
+            padding: 20px;
+            text-align: center;
+            border-radius: 4px;
+            border: 2px solid #e8e8e8;
+        }
+
+        .sentiment-card.positive {
+            background: #e8f5e9;
+            border-color: #81c784;
+        }
+
+        .sentiment-card.neutral {
+            background: #f5f5f5;
+            border-color: #bdbdbd;
+        }
+
+        .sentiment-card.negative {
+            background: #ffebee;
+            border-color: #ef5350;
+        }
+
+        .sentiment-value {
+            font-size: 2em;
+            font-weight: 700;
+            margin-bottom: 5px;
+        }
+
+        .sentiment-label {
+            font-size: 0.9em;
+            text-transform: uppercase;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+
+        .segment-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .segment-card {
+            padding: 20px;
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .segment-count {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #2196F3;
+            margin-bottom: 5px;
+        }
+
+        .segment-name {
+            font-size: 0.9em;
+            font-weight: 600;
+            color: #666;
+            text-transform: capitalize;
+        }
+
+        .friction-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin: 20px 0;
+        }
+
+        .friction-item {
+            padding: 15px;
+            background: #fff;
+            border: 1px solid #e8e8e8;
+            border-radius: 4px;
+            text-align: center;
+        }
+
+        .friction-count {
+            font-size: 1.5em;
+            font-weight: 700;
+            color: #d32f2f;
+            margin-bottom: 5px;
+        }
+
+        .friction-label {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: #666;
+            text-transform: capitalize;
+        }
+
+        .export-buttons {
+            display: flex;
+            gap: 10px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            padding: 12px 24px;
+            background: #2196F3;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #1976D2;
+        }
+
+        .btn.secondary {
+            background: #f5f5f5;
+            color: #333;
+            border: 1px solid #e0e0e0;
+        }
+
+        .btn.secondary:hover {
+            background: #e8e8e8;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #2196F3;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #fff;
+        }
+
+        .table th {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 2px solid #e0e0e0;
+            font-weight: 600;
+            color: #333;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        .table tr:hover {
+            background: #f9f9f9;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e5e5;
+            text-align: center;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Myntra Wishlist Analysis</h1>
+            <p>Batch Analysis Dashboard | Groq LLM Powered | 675 Reviews Analyzed</p>
+            <div class="status loading" id="status">
+                <span class="loading-spinner"></span>Loading analysis results...
+            </div>
+        </header>
+
+        <div class="key-metrics" id="metrics">
+            <div class="metric">
+                <div class="metric-value">-</div>
+                <div class="metric-label">Reviews Analyzed</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">-</div>
+                <div class="metric-label">Cost (Groq)</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">-</div>
+                <div class="metric-label">Friction Points</div>
+            </div>
+            <div class="metric">
+                <div class="metric-value">-</div>
+                <div class="metric-label">Avg Confidence</div>
+            </div>
+        </div>
+
+        <div class="export-buttons">
+            <button class="btn" onclick="exportToJSON()">📥 Export JSON</button>
+            <button class="btn" onclick="exportToCSV()">📥 Export CSV</button>
+            <button class="btn secondary" onclick="window.print()">🖨️ Print/PDF</button>
+        </div>
+
+        <div class="tabs">
+            <button class="tab-btn active" onclick="showTab('overview')">Overview</button>
+            <button class="tab-btn" onclick="showTab('questions')">Research Questions</button>
+            <button class="tab-btn" onclick="showTab('segments')">Customer Segments</button>
+            <button class="tab-btn" onclick="showTab('friction')">Friction Points</button>
+            <button class="tab-btn" onclick="showTab('sentiment')">Sentiment Analysis</button>
+        </div>
+
+        <!-- Overview Tab -->
+        <div id="overview" class="tab-content active">
+            <div class="section">
+                <h2>Key Findings Summary</h2>
+                <div class="chart-container">
+                    <h3>Top 5 Friction Points</h3>
+                    <div class="bar-chart" id="topFrictions"></div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Sentiment Distribution</h2>
+                <div class="sentiment-grid" id="sentimentDistribution"></div>
+            </div>
+
+            <div class="section">
+                <h2>Customer Segments</h2>
+                <div class="segment-grid" id="segmentDistribution"></div>
+            </div>
+        </div>
+
+        <!-- Research Questions Tab -->
+        <div id="questions" class="tab-content">
+            <div class="section" id="questionsContainer"></div>
+        </div>
+
+        <!-- Customer Segments Tab -->
+        <div id="segments" class="tab-content">
+            <div class="section" id="segmentsContainer"></div>
+        </div>
+
+        <!-- Friction Points Tab -->
+        <div id="friction" class="tab-content">
+            <div class="section">
+                <h2>All Friction Points Breakdown</h2>
+                <div class="friction-grid" id="frictionGrid"></div>
+            </div>
+            <div class="section">
+                <h2>Friction Point Distribution</h2>
+                <div class="bar-chart" id="frictionChart"></div>
+            </div>
+        </div>
+
+        <!-- Sentiment Tab -->
+        <div id="sentiment" class="tab-content">
+            <div class="section">
+                <h2>Sentiment Analysis</h2>
+                <div class="sentiment-grid" id="sentimentDetails"></div>
+            </div>
+            <div class="section">
+                <h2>Sentiment by Customer Segment</h2>
+                <table class="table" id="sentimentBySegment"></table>
+            </div>
+        </div>
+
+        <footer>
+            <p>Generated using Groq LLM batch analysis • Cost: $0 (Free Tier) • Analysis Date: <span id="analysisDate"></span></p>
+        </footer>
+    </div>
+
+    <script>
+        let analysisData = null;
+
+        async function loadAnalysis() {
+            try {
+                // Try to load the combined analysis first, fall back to individual files
+                const response = await fetch('data/reviews_combined_analyzed.json');
+                if (!response.ok) {
+                    throw new Error('Analysis data not found. Please run the analysis script first.');
+                }
+                analysisData = await response.json();
+
+                const summaryResponse = await fetch('data/analysis_summary_combined.json');
+                if (summaryResponse.ok) {
+                    const summary = await summaryResponse.json();
+                    displayAnalysis(analysisData, summary);
+                } else {
+                    throw new Error('Summary data not found');
+                }
+            } catch (error) {
+                showStatus('error', `Error loading analysis: ${error.message}`);
+                console.error(error);
+            }
+        }
+
+        function displayAnalysis(data, summary) {
+            // Update status
+            showStatus('ready', `✓ Analysis loaded: ${data.reviews.length} reviews analyzed`);
+
+            // Update metrics
+            updateMetrics(data, summary);
+
+            // Display overview
+            displayOverview(summary);
+
+            // Display research questions
+            loadResearchQuestions();
+
+            // Display segments
+            displaySegments(summary);
+
+            // Display friction
+            displayFriction(summary);
+
+            // Display sentiment
+            displaySentiment(summary);
+        }
+
+        function updateMetrics(data, summary) {
+            const metrics = document.querySelectorAll('.metric');
+            metrics[0].innerHTML = `<div class="metric-value">${data.reviews.length}</div><div class="metric-label">Reviews Analyzed</div>`;
+            metrics[1].innerHTML = `<div class="metric-value">$0</div><div class="metric-label">Cost (Groq)</div>`;
+            metrics[2].innerHTML = `<div class="metric-value">${Object.keys(summary.top_friction_points).length}</div><div class="metric-label">Friction Types</div>`;
+            metrics[3].innerHTML = `<div class="metric-value">${summary.average_confidence}</div><div class="metric-label">Avg Confidence</div>`;
+
+            document.getElementById('analysisDate').textContent = new Date(data.metadata.analysis_date).toLocaleDateString();
+        }
+
+        function displayOverview(summary) {
+            // Top frictions
+            const topFrictions = document.getElementById('topFrictions');
+            topFrictions.innerHTML = '';
+            const maxFriction = Math.max(...Object.values(summary.top_friction_points));
+            Object.entries(summary.top_friction_points).forEach(([friction, count]) => {
+                const percentage = (count / maxFriction * 100).toFixed(1);
+                topFrictions.innerHTML += `
+                    <div class="bar-item">
+                        <div class="bar-label">${friction.replace(/_/g, ' ')}</div>
+                        <div class="bar" style="width: ${percentage}%">${count}</div>
+                    </div>
+                `;
+            });
+
+            // Sentiment distribution
+            const sentimentDist = document.getElementById('sentimentDistribution');
+            sentimentDist.innerHTML = '';
+            Object.entries(summary.sentiment_distribution).forEach(([sentiment, count]) => {
+                sentimentDist.innerHTML += `
+                    <div class="sentiment-card ${sentiment}">
+                        <div class="sentiment-value">${count}</div>
+                        <div class="sentiment-label">${sentiment}</div>
+                    </div>
+                `;
+            });
+
+            // Segment distribution
+            const segmentDist = document.getElementById('segmentDistribution');
+            segmentDist.innerHTML = '';
+            Object.entries(summary.segment_distribution).forEach(([segment, count]) => {
+                segmentDist.innerHTML += `
+                    <div class="segment-card">
+                        <div class="segment-count">${count}</div>
+                        <div class="segment-name">${segment.replace(/_/g, ' ')}</div>
+                    </div>
+                `;
+            });
+        }
+
+        async function loadResearchQuestions() {
+            try {
+                const response = await fetch('data/research_questions_answers.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    displayResearchQuestions(data.questions);
+                }
+            } catch (error) {
+                console.error('Error loading research questions:', error);
+            }
+        }
+
+        function displayResearchQuestions(questions) {
+            const container = document.getElementById('questionsContainer');
+            container.innerHTML = '<h2>10 Research Questions Answered</h2>';
+
+            Object.entries(questions).forEach(([key, q]) => {
+                const evidence = q.evidence ? q.evidence.join('<br><br>') : '';
+                container.innerHTML += `
+                    <div class="question-box">
+                        <div class="question">${q.question}</div>
+                        <div class="answer">${q.answer}</div>
+                        ${evidence ? `<div class="evidence"><strong>Evidence:</strong><br>${evidence}</div>` : ''}
+                    </div>
+                `;
+            });
+        }
+
+        function displaySegments(summary) {
+            const container = document.getElementById('segmentsContainer');
+            container.innerHTML = '<h2>Customer Segment Analysis</h2>';
+
+            const total = Object.values(summary.segment_distribution).reduce((a, b) => a + b, 0);
+            Object.entries(summary.segment_distribution).forEach(([segment, count]) => {
+                const percentage = ((count / total) * 100).toFixed(1);
+                container.innerHTML += `
+                    <div class="question-box">
+                        <div class="question">${segment.replace(/_/g, ' ')}</div>
+                        <div class="answer">
+                            <strong>${count} reviews (${percentage}% of total)</strong><br>
+                            This customer segment represents a significant portion of wishlist users, indicating distinct behavior patterns and preferences.
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function displayFriction(summary) {
+            const grid = document.getElementById('frictionGrid');
+            grid.innerHTML = '';
+            Object.entries(summary.top_friction_points).forEach(([friction, count]) => {
+                grid.innerHTML += `
+                    <div class="friction-item">
+                        <div class="friction-count">${count}</div>
+                        <div class="friction-label">${friction.replace(/_/g, ' ')}</div>
+                    </div>
+                `;
+            });
+
+            const chart = document.getElementById('frictionChart');
+            chart.innerHTML = '';
+            const maxFriction = Math.max(...Object.values(summary.top_friction_points));
+            Object.entries(summary.top_friction_points).forEach(([friction, count]) => {
+                const percentage = (count / maxFriction * 100).toFixed(1);
+                chart.innerHTML += `
+                    <div class="bar-item">
+                        <div class="bar-label">${friction.replace(/_/g, ' ')}</div>
+                        <div class="bar" style="width: ${percentage}%">${count} (${((count / Object.values(summary.top_friction_points).reduce((a,b)=>a+b,0)) * 100).toFixed(1)}%)</div>
+                    </div>
+                `;
+            });
+        }
+
+        function displaySentiment(summary) {
+            const detailsDiv = document.getElementById('sentimentDetails');
+            detailsDiv.innerHTML = '';
+            const total = Object.values(summary.sentiment_distribution).reduce((a, b) => a + b, 0);
+            Object.entries(summary.sentiment_distribution).forEach(([sentiment, count]) => {
+                const percentage = ((count / total) * 100).toFixed(1);
+                detailsDiv.innerHTML += `
+                    <div class="sentiment-card ${sentiment}">
+                        <div class="sentiment-value">${count}</div>
+                        <div class="sentiment-label">${sentiment}</div>
+                        <div style="font-size: 0.85em; margin-top: 8px;">${percentage}% of reviews</div>
+                    </div>
+                `;
+            });
+        }
+
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function showStatus(type, message) {
+            const status = document.getElementById('status');
+            status.className = `status ${type}`;
+            if (type === 'loading') {
+                status.innerHTML = `<span class="loading-spinner"></span>${message}`;
+            } else if (type === 'ready') {
+                status.innerHTML = `✓ ${message}`;
+            } else {
+                status.innerHTML = `✗ ${message}`;
+            }
+        }
+
+        function exportToJSON() {
+            if (!analysisData) {
+                alert('Analysis data not loaded yet');
+                return;
+            }
+            const dataStr = JSON.stringify(analysisData, null, 2);
+            const dataBlob = new Blob([dataStr], {type: 'application/json'});
+            downloadFile(dataBlob, 'myntra-analysis.json');
+        }
+
+        function exportToCSV() {
+            if (!analysisData) {
+                alert('Analysis data not loaded yet');
+                return;
+            }
+            const rows = [['Review ID', 'Sentiment', 'Segment', 'Friction Points', 'Quote', 'Confidence']];
+            analysisData.reviews.forEach(r => {
+                rows.push([
+                    r.reviewId,
+                    r.sentiment,
+                    r.customer_segment,
+                    r.friction_points.join('; '),
+                    r.quote.replace(/"/g, '""'),
+                    r.confidence
+                ]);
+            });
+            const csv = rows.map(row => row.map(cell => `"${cell}"`).join(',')).join('\n');
+            const dataBlob = new Blob([csv], {type: 'text/csv'});
+            downloadFile(dataBlob, 'myntra-analysis.csv');
+        }
+
+        function downloadFile(blob, filename) {
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            a.click();
+            URL.revokeObjectURL(url);
+        }
+
+        // Load analysis on page load
+        window.addEventListener('load', loadAnalysis);
+    </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "total_reviews_analyzed": 675,
+    "analysis_date": "2026-08-20T11:10:27.264Z",
+    "timestamp": 1787224227264
+  },
+  "questions": {
+    "q1": {
+      "question": "Why do users add fashion products to their wishlist?",
+      "answer": "196 reviews (29.0%) indicate positive sentiment when adding to wishlist, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
+      "evidence": [
+        "Not happy with the platform fees at all",
+        "Myntra App has now become my one stop shop for all the all type clothes, shoes and other accessories",
+        "Selling used clothes at discounted prices"
+      ],
+      "count": 196
+    },
+    "q2": {
+      "question": "What prevents wishlisted products from eventually being purchased?",
+      "answer": "Top friction points: wishlist limit (82.8%), app performance (71.7%), stock management (24.6%), technical bug (22.1%), price increase (20.1%)",
+      "friction_distribution": {
+        "wishlist_limit": 559,
+        "app_performance": 484,
+        "stock_management": 166,
+        "technical_bug": 149,
+        "price_increase": 136
+      },
+      "total_friction_mentions": 1899
+    },
+    "q3": {
+      "question": "What uncertainties remain after users identify a product?",
+      "answer": "197 reviews (29.2%) mention uncertainties about product information, sizing, and pricing.",
+      "evidence": [
+        "Myntra App has now become my one stop shop for all the all type clothes, shoes and other accessories",
+        "Selling used clothes at discounted prices",
+        "Tricksters"
+      ],
+      "count": 197
+    },
+    "q4": {
+      "question": "What causes users to postpone a purchase?",
+      "answer": "192 reviews (28.4%) show postponement due to price concerns and delivery delays.",
+      "evidence": [
+        "Myntra App has now become my one stop shop for all the all type clothes, shoes and other accessories",
+        "Selling used clothes at discounted prices",
+        "Way too slow to operate"
+      ],
+      "count": 192
+    },
+    "q5": {
+      "question": "How do users compare multiple shortlisted products?",
+      "answer": "177 reviews (26.2%) from price-sensitive and quality-conscious customers indicate comparison behavior.",
+      "evidence": [
+        "Myntra App has now become my one stop shop for all the all type clothes, shoes and other accessories",
+        "Tricksters"
+      ],
+      "count": 177
+    },
+    "q6": {
+      "question": "What information do users seek outside Myntra?",
+      "answer": "75 reviews (11.1%) indicate external research for product details, comparisons, and reviews.",
+      "count": 75
+    },
+    "q7": {
+      "question": "What role do fit, price, reviews, delivery, and quality play?",
+      "answer": "Critical factors: Price (20.1%), Delivery (12.1%), Quality (5.3%), Product Info (5.0%), Fit/Size (6.7%)",
+      "factor_distribution": {
+        "fit": 45,
+        "price": 136,
+        "reviews": 34,
+        "delivery": 82,
+        "quality": 36
+      }
+    },
+    "q8": {
+      "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
+      "answer": "Genuine intent: 18.1% (negative sentiment, friction-focused). Bookmarking: 29.0% (positive sentiment, saving for later).",
+      "purchase_intent": 122,
+      "bookmarking": 196
+    },
+    "q9": {
+      "question": "How do these behaviors differ across user segments?",
+      "answer": "Segment distribution: app user (51.3%), price sensitive (19.7%), new customer (10.4%), repeat buyer (12.1%), quality conscious (6.5%)",
+      "segment_distribution": {
+        "app_user": 346,
+        "price_sensitive": 133,
+        "new_customer": 70,
+        "repeat_buyer": 82,
+        "quality_conscious": 44
+      }
+    },
+    "q10": {
+      "question": "What unmet needs emerge consistently?",
+      "answer": "Top unmet needs: Price Transparency (20.1%), Delivery Reliability (12.1%), App Performance (71.7%), Quality Assurance (5.3%), Wishlist Features (82.8%)",
+      "unmet_needs": {
+        "wishlist_features": 559,
+        "performance": 484,
+        "price_transparency": 136,
+        "delivery": 82,
+        "quality_assurance": 36
+      }
+    }
+  }
+}

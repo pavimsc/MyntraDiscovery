@@ -1,0 +1,10 @@
+{
+  "metadata": {
+    "total_reviews": 0,
+    "analysis_date": "2026-08-20T11:06:15.377Z",
+    "groq_model": "qwen/qwen3.6-27b",
+    "batch_size": 100,
+    "total_cost": "$0 (Groq free tier)"
+  },
+  "reviews": []
+}
