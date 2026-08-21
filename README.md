@@ -11,7 +11,7 @@ Comprehensive analysis of **1,038 Myntra reviews** (363 LinkedIn QA + 675 app re
 ## 🚀 Quick Start
 
 **View the Analysis:**
-1. 👉 Open the **[Interactive Analysis Dashboard](analysis_dashboard.html)** - Shows all findings with visualizations
+1. 👉 **[Live Interactive Dashboard](https://pavimsc.github.io/MyntraDiscovery/analysis_dashboard.html)** - Hosted on GitHub Pages, showing all findings with visualizations
 2. Or explore the data directly:
    - `data/reviews_1038_analyzed.json` - All 1,038 analyzed reviews
    - `data/research_questions_1038.json` - 10 research Q&A
@@ -378,14 +378,18 @@ node combine_and_analyze.js
 
 ### View Results
 ```bash
-# Open interactive dashboard
+# Open live dashboard on GitHub Pages
+https://pavimsc.github.io/MyntraDiscovery/analysis_dashboard.html
+
+# Or open locally after running analysis
 open analysis_dashboard.html
-# or access via: file:///path/to/MyntraDiscovery/analysis_dashboard.html
 ```
 
 ---
 
 ## 📊 Interactive Dashboard
+
+**🔗 Live Dashboard:** https://pavimsc.github.io/MyntraDiscovery/analysis_dashboard.html
 
 **Features:**
 - 5 tab navigation: Overview, Research Questions, Customer Segments, Friction Points, Sentiment Analysis
@@ -395,9 +399,9 @@ open analysis_dashboard.html
 - Customer segment breakdown and comparison
 - Clean, focused UI highlighting wishlist-specific findings
 
-**To Use:**
-1. Run analysis script (creates JSON data files)
-2. Open `analysis_dashboard.html` in any modern browser
+**To Access:**
+1. **Live Version:** Open https://pavimsc.github.io/MyntraDiscovery/analysis_dashboard.html (no installation needed)
+2. **Or Run Locally:** Execute analysis script to create JSON data files, then open `analysis_dashboard.html`
 3. View tabs to explore wishlist-specific findings
 4. Share interactive results with stakeholders
 
@@ -495,7 +499,7 @@ To contribute improvements to this analysis:
 For questions about:
 - **Analysis:** See [research_questions_1038.json](data/research_questions_1038.json)
 - **Data:** See [reviews_1038_analyzed.json](data/reviews_1038_analyzed.json)
-- **Dashboard:** Open [analysis_dashboard.html](analysis_dashboard.html)
+- **Dashboard:** Open [Live Dashboard](https://pavimsc.github.io/MyntraDiscovery/analysis_dashboard.html) or [Local Version](analysis_dashboard.html)
 - **Architecture:** See Architecture section above
 
 ---
