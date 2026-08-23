@@ -478,7 +478,13 @@
     <div class="container">
         <header>
             <h1>Myntra Wishlist Discovery Engine</h1>
-            <p>Groq LLM Powered</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <p>Groq LLM Powered</p>
+                <div id="runStatus" style="font-size: 0.85em; color: #666; text-align: right;">
+                    <div id="lastRun">Last Run: Loading...</div>
+                    <div id="nextRun">Next Run: Loading...</div>
+                </div>
+            </div>
             <div class="status loading" id="status">
                 <span class="loading-spinner"></span>Loading analysis results...
             </div>
@@ -568,12 +574,53 @@
         </div>
 
         <footer>
-            <p>Hybrid Analysis: Local heuristics + Optional Groq AI enhancement • Analysis Date: <span id="analysisDate"></span></p>
+            <p>Hybrid Analysis: Local heuristics + Optional Groq AI enhancement • Last Run: <span id="footerLastRun">-</span> • Analysis Date: <span id="analysisDate"></span></p>
         </footer>
     </div>
 
     <script>
         let analysisData = null;
+
+        async function loadRunStatus() {
+            try {
+                const response = await fetch('data/last-run.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    displayRunStatus(data);
+                }
+            } catch (error) {
+                console.error('Error loading run status:', error);
+            }
+        }
+
+        function displayRunStatus(data) {
+            // Format timestamps
+            const lastRun = new Date(data.last_run);
+            const nextRun = new Date(data.next_run);
+
+            const lastRunFormatted = lastRun.toLocaleString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: true
+            });
+
+            const nextRunFormatted = nextRun.toLocaleString('en-US', {
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit',
+                hour12: true
+            });
+
+            // Update header
+            document.getElementById('lastRun').textContent = `Last Run: ${lastRunFormatted}`;
+            document.getElementById('nextRun').textContent = `Next Run: ${nextRunFormatted}`;
+
+            // Update footer
+            document.getElementById('footerLastRun').textContent = lastRunFormatted;
+        }
 
         async function loadAnalysis() {
             try {
@@ -900,7 +947,10 @@
         }
 
         // Load analysis on page load
-        window.addEventListener('load', loadAnalysis);
+        window.addEventListener('load', () => {
+            loadRunStatus();
+            loadAnalysis();
+        });
     </script>
 </body>
 </html>

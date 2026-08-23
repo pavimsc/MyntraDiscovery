@@ -28,6 +28,25 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
         run: node combine_and_analyze_with_groq.js
 
+      - name: Update last run timestamp
+        run: |
+          node -e "
+          const fs = require('fs');
+          const now = new Date().toISOString();
+          const nextRun = new Date(now);
+          nextRun.setDate(nextRun.getDate() + 1);
+
+          const data = {
+            last_run: now,
+            next_run: nextRun.toISOString(),
+            run_count: (JSON.parse(fs.readFileSync('data/last-run.json')).run_count || 0) + 1,
+            status: 'success'
+          };
+
+          fs.writeFileSync('data/last-run.json', JSON.stringify(data, null, 2));
+          console.log('Updated last-run.json:', data);
+          "
+
       - name: Commit and push updates
         run: |
           git config --local user.email "action@github.com"
