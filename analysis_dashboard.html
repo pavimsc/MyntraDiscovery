@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Cache buster: 2026-08-20T12:10:45Z v3 -->
+<!-- Cache buster: 2026-08-23T12:10:45Z v4-dark-modern -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
     <style>
         :root {
-            --primary: #2563eb;
-            --primary-dark: #1e40af;
-            --primary-light: #dbeafe;
-            --success: #10b981;
-            --warning: #f59e0b;
-            --danger: #ef4444;
-            --text-primary: #1f2937;
-            --text-secondary: #6b7280;
-            --bg-primary: #ffffff;
-            --bg-secondary: #f9fafb;
-            --bg-tertiary: #f3f4f6;
-            --border: #e5e7eb;
-            --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
-            --shadow-md: 0 4px 6px rgba(0,0,0,0.07);
-            --shadow-lg: 0 10px 15px rgba(0,0,0,0.1);
+            --primary: #60a5fa;
+            --primary-dark: #0f172a;
+            --primary-light: #34d399;
+            --success: #34d399;
+            --warning: #fbbf24;
+            --danger: #f87171;
+            --text-primary: #f1f5f9;
+            --text-secondary: #cbd5e1;
+            --bg-primary: #1e293b;
+            --bg-secondary: #0f172a;
+            --bg-tertiary: #1a2332;
+            --border: #334155;
+            --shadow-sm: 0 1px 2px rgba(0,0,0,0.3);
+            --shadow-md: 0 4px 6px rgba(0,0,0,0.4);
+            --shadow-lg: 0 10px 15px rgba(0,0,0,0.5);
         }
 
         * {
@@ -33,7 +33,7 @@
 
         html, body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-            background: var(--bg-secondary);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: var(--text-primary);
             line-height: 1.6;
         }
@@ -48,12 +48,13 @@
         }
 
         header {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             margin-bottom: 40px;
             padding: 40px;
             border-radius: 12px;
             color: white;
             box-shadow: var(--shadow-lg);
+            border: 1px solid rgba(96, 165, 250, 0.2);
         }
 
         header h1 {
@@ -61,41 +62,46 @@
             margin-bottom: 12px;
             font-weight: 700;
             letter-spacing: -0.5px;
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
 
         header p {
             font-size: 1.1em;
-            opacity: 0.95;
+            opacity: 0.9;
             font-weight: 500;
+            color: #cbd5e1;
         }
 
         .status {
             margin: 20px 0;
             padding: 15px;
-            border-radius: 4px;
+            border-radius: 8px;
             font-size: 0.95em;
             display: none;
         }
 
         .status.loading {
             display: block;
-            background: #e3f2fd;
-            color: #1565c0;
-            border: 1px solid #90caf9;
+            background: rgba(96, 165, 250, 0.1);
+            color: #60a5fa;
+            border: 1px solid rgba(96, 165, 250, 0.3);
         }
 
         .status.ready {
             display: none;
-            background: #e8f5e9;
-            color: #2e7d32;
-            border: 1px solid #81c784;
+            background: rgba(52, 211, 153, 0.1);
+            color: #34d399;
+            border: 1px solid rgba(52, 211, 153, 0.3);
         }
 
         .status.error {
             display: block;
-            background: #ffebee;
-            color: #c62828;
-            border: 1px solid #ef5350;
+            background: rgba(248, 113, 113, 0.1);
+            color: #f87171;
+            border: 1px solid rgba(248, 113, 113, 0.3);
         }
 
         .key-metrics {
@@ -107,8 +113,8 @@
 
         .metric {
             padding: 24px;
-            background: var(--bg-primary);
-            border: 1px solid var(--border);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(52, 211, 153, 0.1) 100%);
+            border: 1px solid rgba(96, 165, 250, 0.2);
             border-radius: 10px;
             text-align: center;
             box-shadow: var(--shadow-md);
@@ -117,13 +123,17 @@
 
         .metric:hover {
             box-shadow: var(--shadow-lg);
-            border-color: var(--primary-light);
+            border-color: rgba(96, 165, 250, 0.4);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.15) 0%, rgba(52, 211, 153, 0.15) 100%);
         }
 
         .metric-value {
             font-size: 2.5em;
             font-weight: 700;
-            color: var(--primary);
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 8px;
         }
 
@@ -138,7 +148,7 @@
         .tabs {
             display: flex;
             gap: 8px;
-            border-bottom: 2px solid var(--border);
+            border-bottom: 2px solid rgba(96, 165, 250, 0.2);
             margin: 40px 0 30px 0;
             overflow-x: auto;
             padding-bottom: 0;
@@ -159,12 +169,15 @@
         }
 
         .tab-btn:hover {
-            color: var(--primary);
+            color: #60a5fa;
         }
 
         .tab-btn.active {
-            color: var(--primary);
-            border-bottom-color: var(--primary);
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            border-bottom-color: #60a5fa;
         }
 
         .tab-content {
@@ -194,32 +207,36 @@
         .section h3 {
             font-size: 1.1em;
             margin: 20px 0 12px 0;
-            color: var(--primary);
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             font-weight: 600;
         }
 
         .question-box {
             margin: 20px 0;
             padding: 20px;
-            background: var(--bg-secondary);
-            border-left: 4px solid var(--primary);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.05) 0%, rgba(52, 211, 153, 0.05) 100%);
+            border-left: 4px solid #60a5fa;
             border-radius: 8px;
             transition: all 0.3s ease;
         }
 
         .question-box:hover {
             box-shadow: var(--shadow-md);
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1) 0%, rgba(52, 211, 153, 0.1) 100%);
         }
 
         .question-box .question {
             font-size: 1.05em;
             font-weight: 600;
-            color: #000;
+            color: var(--text-primary);
             margin-bottom: 12px;
         }
 
         .question-box .answer {
-            color: #333;
+            color: var(--text-secondary);
             line-height: 1.7;
             margin-bottom: 10px;
         }
@@ -227,28 +244,31 @@
         .question-box .evidence {
             margin-top: 12px;
             padding: 10px;
-            background: #f5f5f5;
+            background: rgba(96, 165, 250, 0.1);
             border-radius: 2px;
             font-size: 0.9em;
-            color: #555;
+            color: var(--text-secondary);
             font-style: italic;
         }
 
         .insight-box {
             margin: 20px 0;
             padding: 20px;
-            background: #fff;
-            border-left: 5px solid #2c5aa0;
-            border-radius: 2px;
+            background: rgba(96, 165, 250, 0.05);
+            border-left: 5px solid #60a5fa;
+            border-radius: 8px;
         }
 
         .insight-box.executive {
-            background: linear-gradient(135deg, rgba(44, 90, 160, 0.08), rgba(44, 90, 160, 0.03));
-            border-left: 5px solid #2c5aa0;
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.1), rgba(52, 211, 153, 0.05));
+            border-left: 5px solid #60a5fa;
         }
 
         .insight-box h3 {
-            color: #2c5aa0;
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 15px;
             font-size: 1.1em;
             text-transform: capitalize;
@@ -260,7 +280,7 @@
 
         .insight-section strong {
             display: block;
-            color: #2c5aa0;
+            color: #60a5fa;
             margin-bottom: 8px;
             font-weight: 600;
             font-size: 0.95em;
@@ -269,7 +289,7 @@
         .insight-section p {
             margin: 8px 0;
             line-height: 1.6;
-            color: #555;
+            color: var(--text-secondary);
         }
 
         .insight-section ul {
@@ -279,15 +299,15 @@
         .insight-section ul li {
             margin: 8px 0;
             line-height: 1.6;
-            color: #555;
+            color: var(--text-secondary);
         }
 
         .chart-container {
             margin: 20px 0;
             padding: 20px;
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 4px;
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.05) 0%, rgba(52, 211, 153, 0.05) 100%);
+            border: 1px solid rgba(96, 165, 250, 0.1);
+            border-radius: 8px;
         }
 
         .bar-chart {
@@ -306,15 +326,15 @@
             width: 150px;
             font-size: 0.9em;
             font-weight: 500;
-            color: #666;
+            color: var(--text-secondary);
             text-align: right;
         }
 
         .bar {
             flex: 1;
             height: 30px;
-            background: linear-gradient(90deg, #2196F3, #21CBF3);
-            border-radius: 2px;
+            background: linear-gradient(90deg, #60a5fa, #34d399);
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: flex-end;
@@ -335,7 +355,7 @@
             padding: 24px;
             text-align: center;
             border-radius: 10px;
-            border: none;
+            border: 1px solid rgba(96, 165, 250, 0.2);
             box-shadow: var(--shadow-md);
             transition: all 0.3s ease;
         }
@@ -346,24 +366,28 @@
         }
 
         .sentiment-card.positive {
-            background: linear-gradient(135deg, rgba(16,185,129,0.1) 0%, rgba(16,185,129,0.05) 100%);
-            color: var(--success);
+            background: linear-gradient(135deg, rgba(52,211,153,0.1) 0%, rgba(52,211,153,0.05) 100%);
+            border-color: rgba(52, 211, 153, 0.3);
+            color: #34d399;
         }
 
         .sentiment-card.neutral {
-            background: var(--bg-secondary);
-            color: var(--text-secondary);
+            background: linear-gradient(135deg, rgba(96,165,250,0.1) 0%, rgba(96,165,250,0.05) 100%);
+            border-color: rgba(96, 165, 250, 0.3);
+            color: #60a5fa;
         }
 
         .sentiment-card.negative {
-            background: linear-gradient(135deg, rgba(239,68,68,0.1) 0%, rgba(239,68,68,0.05) 100%);
-            color: var(--danger);
+            background: linear-gradient(135deg, rgba(248,113,113,0.1) 0%, rgba(248,113,113,0.05) 100%);
+            border-color: rgba(248, 113, 113, 0.3);
+            color: #f87171;
         }
 
         .sentiment-value {
             font-size: 2.5em;
             font-weight: 700;
             margin-bottom: 8px;
+            color: inherit;
         }
 
         .sentiment-label {
@@ -371,6 +395,7 @@
             text-transform: uppercase;
             font-weight: 600;
             letter-spacing: 0.75px;
+            color: inherit;
         }
 
         .segment-grid {
@@ -382,23 +407,26 @@
 
         .segment-card {
             padding: 20px;
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 4px;
+            background: linear-gradient(135deg, rgba(96,165,250,0.1) 0%, rgba(96,165,250,0.05) 100%);
+            border: 1px solid rgba(96, 165, 250, 0.2);
+            border-radius: 8px;
             text-align: center;
         }
 
         .segment-count {
             font-size: 1.8em;
             font-weight: 700;
-            color: #2196F3;
+            background: linear-gradient(135deg, #60a5fa 0%, #34d399 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
             margin-bottom: 5px;
         }
 
         .segment-name {
             font-size: 0.9em;
             font-weight: 600;
-            color: #666;
+            color: var(--text-secondary);
             text-transform: capitalize;
         }
 
@@ -411,23 +439,23 @@
 
         .friction-item {
             padding: 15px;
-            background: #fff;
-            border: 1px solid #e8e8e8;
-            border-radius: 4px;
+            background: linear-gradient(135deg, rgba(248,113,113,0.1) 0%, rgba(248,113,113,0.05) 100%);
+            border: 1px solid rgba(248, 113, 113, 0.2);
+            border-radius: 8px;
             text-align: center;
         }
 
         .friction-count {
             font-size: 1.5em;
             font-weight: 700;
-            color: #d32f2f;
+            color: #f87171;
             margin-bottom: 5px;
         }
 
         .friction-label {
             font-size: 0.8em;
             font-weight: 600;
-            color: #666;
+            color: var(--text-secondary);
             text-transform: capitalize;
         }
 
@@ -440,36 +468,37 @@
 
         .btn {
             padding: 12px 24px;
-            background: #2196F3;
+            background: linear-gradient(135deg, #60a5fa, #34d399);
             color: white;
             border: none;
-            border-radius: 4px;
+            border-radius: 8px;
             cursor: pointer;
             font-size: 0.95em;
             font-weight: 600;
-            transition: background 0.3s;
+            transition: all 0.3s;
         }
 
         .btn:hover {
-            background: #1976D2;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
         }
 
         .btn.secondary {
-            background: #f5f5f5;
-            color: #333;
-            border: 1px solid #e0e0e0;
+            background: rgba(96, 165, 250, 0.1);
+            color: var(--text-primary);
+            border: 1px solid rgba(96, 165, 250, 0.3);
         }
 
         .btn.secondary:hover {
-            background: #e8e8e8;
+            background: rgba(96, 165, 250, 0.2);
         }
 
         .loading-spinner {
             display: inline-block;
             width: 20px;
             height: 20px;
-            border: 3px solid #f3f3f3;
-            border-top: 3px solid #2196F3;
+            border: 3px solid rgba(96, 165, 250, 0.3);
+            border-top: 3px solid #60a5fa;
             border-radius: 50%;
             animation: spin 1s linear infinite;
             margin-right: 10px;
@@ -485,15 +514,15 @@
             width: 100%;
             border-collapse: collapse;
             margin: 20px 0;
-            background: #fff;
+            background: var(--bg-primary);
         }
 
         .table th {
             padding: 12px;
             text-align: left;
-            border-bottom: 2px solid #e0e0e0;
+            border-bottom: 2px solid var(--border);
             font-weight: 600;
-            color: #333;
+            color: var(--text-primary);
             font-size: 0.9em;
             text-transform: uppercase;
             letter-spacing: 0.5px;
@@ -501,11 +530,12 @@
 
         .table td {
             padding: 12px;
-            border-bottom: 1px solid #e8e8e8;
+            border-bottom: 1px solid var(--border);
+            color: var(--text-secondary);
         }
 
         .table tr:hover {
-            background: #f9f9f9;
+            background: rgba(96, 165, 250, 0.05);
         }
 
         footer {
@@ -524,7 +554,7 @@
             <h1>Myntra Wishlist Discovery Engine</h1>
             <div style="display: flex; justify-content: space-between; align-items: center;">
                 <p>Groq LLM Powered</p>
-                <div id="runStatus" style="font-size: 0.85em; color: #666; text-align: right;">
+                <div id="runStatus" style="font-size: 0.85em; color: #cbd5e1; text-align: right;">
                     <div id="lastRun">Last Run: Loading...</div>
                     <div id="nextRun">Next Run: Loading...</div>
                 </div>
