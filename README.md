@@ -22,12 +22,41 @@ Comprehensive analysis of **1,038 Myntra reviews** (363 LinkedIn QA + 675 app re
 # Install dependencies
 npm install
 
-# Analyze 675 new reviews only
-node analyze_reviews_optimized.js
-
-# Combine 363 earlier + 675 new reviews (1,038 total)
+# Option 1: Local analysis only (FREE, <5 sec)
 node combine_and_analyze.js
+
+# Option 2: AI-enhanced with Groq (Minimal usage, ~$0.001)
+export GROQ_API_KEY="your-key-here"
+node combine_and_analyze_with_groq.js
 ```
+
+---
+
+## 🤖 Automated Nightly Analysis
+
+**Dashboard updates automatically every night at 2 AM UTC!**
+
+### Smart Change Detection
+- ✅ Only runs analysis when NEW reviews are added
+- ✅ Skips redundant analysis if data unchanged
+- ✅ Saves 99% of API costs
+- ✅ Always shows last run timestamp
+
+### Dashboard Features
+- 📊 **6 Interactive Tabs**: Overview, Research Questions, Insights, Segments, Friction Points, Sentiment
+- 🤖 **AI Insights Tab**: AI-generated recommendations with impact projections
+- ⏰ **Last Run/Next Run**: Shows automated schedule in header & footer
+- 📈 **Live Data**: Updates when new reviews detected
+
+### Setup Required (One-time)
+1. Add Groq API key as GitHub secret: `GROQ_API_KEY`
+   - Go to: Settings → Secrets and variables → Actions
+   - New secret: `GROQ_API_KEY` = `gsk_...`
+
+2. Workflow automatically runs nightly
+   - First run: Analyzes existing 1,038 reviews
+   - Subsequent runs: Only analyze new data
+   - Cost: ~$0.001 per new dataset
 
 ---
 
@@ -67,6 +96,33 @@ node combine_and_analyze.js
 
 ## 🏗️ Architecture
 
+### Automated Workflow (GitHub Actions)
+
+```
+┌─────────────────────────────────────────────────────┐
+│  GitHub Actions: Nightly at 2 AM UTC                │
+└─────────────────────────────────────────────────────┘
+                     ↓
+┌─────────────────────────────────────────────────────┐
+│  SMART CHANGE DETECTION                             │
+│  check-data-changes.js                              │
+│  ├─ Calculate MD5 hash of review files              │
+│  ├─ Compare with previous state (.data-hash)        │
+│  ├─ If changed → Run full analysis ✅               │
+│  └─ If unchanged → Skip analysis, save costs ✅     │
+└─────────────────────────────────────────────────────┘
+                     ↓
+        ┌────────────┴────────────┐
+        ↓                         ↓
+   [Data Changed]         [No Changes]
+        ↓                         ↓
+   Run Analysis          Update Timestamp
+        ↓                         ↓
+   Update Metadata         Commit Status
+        ↓                         ↓
+   Both commit          to GitHub & push
+```
+
 ### Data Pipeline
 
 ```
@@ -80,15 +136,15 @@ node combine_and_analyze.js
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
 │              COMBINE & NORMALIZE                             │
-│  combine_and_analyze.js                                     │
+│  combine_and_analyze.js or combine_and_analyze_with_groq.js │
 │  - Merge datasets (363 + 675 = 1,038)                       │
 │  - Normalize to common format                               │
 │  - Preserve metadata (source, date, sentiment)              │
 └─────────────────────────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
-│          LOCAL HEURISTICS ANALYSIS                           │
-│  Regex Pattern Matching (No API calls needed)                │
+│          LOCAL HEURISTICS ANALYSIS (Always)                  │
+│  Regex Pattern Matching - $0, <5 seconds                     │
 │  ┌──────────────────────────────────────────────────────────┐ │
 │  │ 1. FRICTION POINT DETECTION (10 wishlist-focused)       │ │
 │  │    - wishlist_limit (1,000 item cap)                    │ │
@@ -123,35 +179,57 @@ node combine_and_analyze.js
 └─────────────────────────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
-│        AGGREGATE & ANSWER RESEARCH QUESTIONS                 │
+│        AGGREGATE & ANSWER RESEARCH QUESTIONS (Local)         │
+│  Pure aggregation - $0, no API calls                         │
 │                                                              │
-│  Q1: Why add to wishlist? (448 positive sentiments)         │
+│  Q1: Why add to wishlist? (498 positive reviews)            │
 │  Q2: What prevents purchase? (Friction ranking)             │
-│  Q3: What uncertainties remain? (172 reviews)               │
-│  Q4: What causes postponement? (268 reviews)                │
+│  Q3: What uncertainties remain? (154 reviews)               │
+│  Q4: What causes postponement? (Reviews with concerns)      │
 │  Q5: How do users compare? (229 reviews)                    │
-│  Q6: What external research? (229 reviews)                  │
+│  Q6: What external research? (138 reviews)                  │
 │  Q7: Role of critical factors? (Factor distribution)        │
-│  Q8: Purchase intent vs bookmarking? (50/50 split)          │
+│  Q8: Purchase intent vs bookmarking? (Sentiment-based)      │
 │  Q9: Segment behavior differences? (5 segments)             │
-│  Q10: Unmet needs? (Price, delivery, app, support)          │
+│  Q10: Unmet needs? (Price, delivery, app, wishlist)         │
 └─────────────────────────────────────────────────────────────┘
+                          ↓
+    ┌───────────────────────────────────────────┐
+    │ OPTIONAL: GROQ AI ENHANCEMENT (2 calls)   │
+    │ combine_and_analyze_with_groq.js          │
+    │ ~$0.001, 30-60 seconds                    │
+    │                                           │
+    │ 1. Generate research answers (Call #1)    │
+    │ 2. Generate actionable insights (Call #2) │
+    └───────────────────────────────────────────┘
                           ↓
 ┌─────────────────────────────────────────────────────────────┐
 │              SAVE & VISUALIZE RESULTS                        │
 │  ┌──────────────────────┬──────────────────────────────────┐ │
-│  │ reviews_1038_analyzed.json                               │ │
-│  │ (305 KB - all reviews with analysis)                    │ │
+│  │ reviews_1038_analyzed.json (575 KB)                      │ │
+│  │ All 1,038 reviews with friction/sentiment/segment        │ │
 │  │                                                           │ │
-│  │ research_questions_1038.json                             │ │
-│  │ (10 Q&A with evidence quotes)                            │ │
+│  │ research_questions_1038.json (2.9 KB)                    │ │
+│  │ 10 Q&A with evidence quotes & AI enhancement             │ │
 │  │                                                           │ │
-│  │ analysis_summary_1038.json                               │ │
-│  │ (Statistics and distributions)                           │ │
+│  │ analysis_summary_1038.json (609 B)                       │ │
+│  │ Statistics, friction ranking, distributions              │ │
+│  │                                                           │ │
+│  │ ai_insights_1038.json (220 B) [if Groq used]             │ │
+│  │ AI-generated recommendations with impact projections     │ │
+│  │                                                           │ │
+│  │ last-run.json                                            │ │
+│  │ Tracks last run, next run, run count, status             │ │
 │  │                                                           │ │
 │  │ analysis_dashboard.html                                  │ │
-│  │ (Interactive web visualization)                          │ │
+│  │ 6 interactive tabs with live data loading               │ │
 │  └──────────────────────────────────────────────────────────┘ │
+└─────────────────────────────────────────────────────────────┘
+                          ↓
+┌─────────────────────────────────────────────────────────────┐
+│         GITHUB PAGES DEPLOYMENT                              │
+│  Live Dashboard: https://pavimsc.github.io/...               │
+│  Auto-updates when data changes                             │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -216,31 +294,36 @@ frictionPatterns = {
 
 ```
 MyntraDiscovery/
-├── README.md                                # This file
-├── analysis_dashboard.html                  # Interactive visualization
-├── package.json                             # Node.js dependencies
+├── README.md                                      # This file
+├── analysis_dashboard.html                        # 6-tab interactive dashboard
+├── package.json                                   # Node.js dependencies
 │
-├── Scripts (Analysis Pipeline)
-├── combine_and_analyze.js                   # Local heuristics (FREE, <5 sec)
-├── combine_and_analyze_with_groq.js         # Local + Groq AI (HYBRID, ~$0.001)
-├── analyze_reviews_optimized.js             # Analyze 675 reviews (local only)
-├── analyze_reviews_batch.js                 # Batch processing with Groq (reference)
+├── Automation & Analysis Scripts
+├── check-data-changes.js                          # Smart change detection
+├── combine_and_analyze.js                         # Local heuristics (FREE)
+├── combine_and_analyze_with_groq.js               # Local + Groq AI (HYBRID)
+├── analyze_reviews_optimized.js                   # Analyze 675 reviews only
+├── analyze_reviews_batch.js                       # Batch processing (reference)
 │
-├── data/                                    # Analysis outputs
-│   ├── reviews_1038_analyzed.json           # All 1,038 analyzed reviews (575 KB)
-│   ├── research_questions_1038.json         # 10 research Q&A (2.9 KB)
-│   ├── analysis_summary_1038.json           # Statistics and distributions (609 B)
-│   ├── ai_insights_1038.json                # 🤖 AI-generated insights (220 B)
-│   ├── raw_reviews.json                     # Original 363 LinkedIn reviews
-│   ├── wishlist_research_findings.json      # Earlier analysis (363 reviews)
-│   └── themes.json                          # Tagged themes
+├── .github/workflows/                             # GitHub Actions
+│   └── nightly-analysis.yml                       # Nightly automated workflow
 │
-├── analysis/                                # Legacy Python analysis
+├── data/                                          # Analysis outputs
+│   ├── reviews_1038_analyzed.json                 # All reviews (575 KB)
+│   ├── research_questions_1038.json               # 10 Q&A (2.9 KB)
+│   ├── analysis_summary_1038.json                 # Statistics (609 B)
+│   ├── ai_insights_1038.json                      # 🤖 AI insights (220 B)
+│   ├── last-run.json                              # ⏰ Workflow timestamps
+│   ├── .data-hash                                 # Change detection state
+│   ├── raw_reviews.json                           # Original 363 LinkedIn reviews
+│   └── (other historical analysis files)
+│
+├── analysis/                                      # Legacy Python analysis
 │   ├── extract_themes_improved.py
 │   ├── synthesize_insights_final.py
 │   └── prompts.py
 │
-└── .git/                                    # Version control
+└── .git/                                          # Version control
 ```
 
 ---
@@ -284,14 +367,35 @@ node combine_and_analyze.js
 
 ---
 
+## 💰 Cost & Performance
+
+### Local Analysis Only
+- **Cost:** $0 (completely free)
+- **Time:** <5 seconds
+- **Confidence:** 82.8%
+- **Runs:** Unlimited, no rate limits
+
+### With Groq AI Enhancement (Optional)
+- **Cost:** ~$0.001 per analysis (2 API calls)
+- **Time:** 30-60 seconds
+- **Includes:** AI-generated insights & recommendations
+- **When:** Only if data changes (smart detection)
+
+### Monthly Costs (Worst Case)
+- Daily analysis with data changes: ~$0.03
+- Weekly with changes: ~$0.01
+- No data changes: $0 (smart skipping)
+
+---
+
 ## 📈 Key Metrics
 
 ### Data Quality
 - **Total Reviews:** 1,038
 - **Sources:** LinkedIn QA (363) + CSV (675)
-- **Average Confidence:** 0.821 (82.1%)
-- **Processing Time:** < 5 seconds
-- **Cost:** $0
+- **Average Confidence:** 82.8%
+- **Processing Time:** < 5 seconds (local) or 30-60 sec (with AI)
+- **Cost:** $0-0.03/month depending on usage
 
 ### Friction Analysis (Wishlist-Focused)
 - **Top Issue:** Wishlist Limit (563 reviews, 54.2%) ⭐
