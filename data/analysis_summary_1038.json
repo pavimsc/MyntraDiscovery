@@ -1,9 +1,9 @@
 {
   "total_reviews": 1038,
   "sentiment_distribution": {
-    "positive": 498,
-    "neutral": 55,
-    "negative": 485
+    "positive": 455,
+    "negative": 234,
+    "neutral": 349
   },
   "segment_distribution": {
     "app_user": 644,
@@ -14,7 +14,6 @@
   },
   "top_friction_points": {
     "wishlist_limit": 563,
-    "app_performance": 282,
     "price_concern": 152,
     "wishlist_removal": 127,
     "product_unavailable": 117,
@@ -22,7 +21,8 @@
     "product_info": 108,
     "return_worry": 87,
     "size_fit": 54,
-    "price_tracking": 38
+    "price_tracking": 38,
+    "purchase_decision": 25
   },
-  "average_confidence": "0.828"
+  "average_confidence": "0.767"
 }

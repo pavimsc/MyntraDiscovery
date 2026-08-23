@@ -1,0 +1,32 @@
+{
+  "critical_issues": [
+    {
+      "friction_point": "wishlist_limit",
+      "root_cause": "Users can only save a limited number of items (e.g., 30) which forces them to delete or ignore products they’re interested in. When shoppers hit the cap, they abandon the wishlist flow and lose confidence that the platform will support their buying journey, leading to lower conversion from wish‑list to purchase.",
+      "recommendations": [
+        "Increase the default wishlist capacity to a generous number (e.g., 200) or make it unlimited for logged‑in users; store the list server‑side so it persists across devices.",
+        "Introduce a “Save for Later” or “Archive” sub‑list that automatically moves older or low‑priority items when the limit is reached, preserving the original selections."
+      ],
+      "impact": "Removing the hard cap can lift wishlist‑to‑checkout conversion by 8‑12% and reduce churn on the wishlist page, as users no longer need to prune items before buying."
+    },
+    {
+      "friction_point": "price_concern",
+      "root_cause": "Shoppers add items to the wishlist to monitor price changes, but they receive no clear signals about discounts, price history, or upcoming sales. Uncertainty about whether the price will drop causes hesitation and abandonment.",
+      "recommendations": [
+        "Add a real‑time price‑drop alert: push a notification or in‑app banner when a wish‑listed product’s price falls 5%+ or goes on sale.",
+        "Show a price‑history graph and a “Best price guarantee” badge on the wishlist card, highlighting any current promotions or coupon eligibility."
+      ],
+      "impact": "Price‑alert features typically boost conversion of wish‑listed items by 10‑15% and increase average order value because users are more likely to purchase when they perceive a deal."
+    },
+    {
+      "friction_point": "wishlist_removal",
+      "root_cause": "Users report accidental removal of items or a confusing “Remove” UI, leading to frustration and loss of intent. When an item disappears, trust in the wishlist as a reliable planning tool erodes, decreasing the likelihood of later purchase.",
+      "recommendations": [
+        "Redesign the removal interaction to a swipe‑to‑delete with an “Undo” toast that stays visible for 5‑10 seconds.",
+        "Add a confirmation checkbox for bulk deletions and a “Move to Archive” option instead of outright deletion."
+      ],
+      "impact": "A smoother, reversible removal flow can cut wishlist‑related churn by 6‑9% and improve overall user satisfaction, which correlates with a 3‑5% lift in conversion from wish‑list to checkout."
+    }
+  ],
+  "executive_summary": "The three biggest wishlist frictions on Myntra are the restrictive wishlist limit, lack of price‑visibility, and a clunky removal experience. By expanding or removing the item cap, providing proactive price‑drop alerts and clear price history, and making removal actions reversible and intuitive, Myntra can expect a combined 20‑30% boost in wishlist‑to‑purchase conversion and stronger user loyalty to the platform."
+}

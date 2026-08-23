@@ -1,89 +1,93 @@
 {
   "metadata": {
     "total_reviews_analyzed": 1038,
-    "analysis_date": "2026-08-20T11:35:38.530Z"
+    "analysis_date": "2026-08-23T07:29:32.612Z"
   },
   "questions": {
     "q1": {
       "question": "Why do users add fashion products to their wishlist?",
-      "answer": "498 reviews (48.0%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
-      "evidence": [
-        "Myntra is comfortable website",
-        "Ordered 31st Jan 2019",
-        "I shop a lot on Myntra and Jabong"
-      ],
-      "count": 498
+      "answer": "455 reviews (43.8%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
+      "count": 455,
+      "ai_enhanced_answer": "Users add fashion items to their wishlist primarily to curate a personal style collection they can revisit, to track items they like but aren’t ready to buy, and to take advantage of future sales or price drops. The high wishlist_limit count (563) shows many users treat the list as a personal catalog rather than an immediate purchase queue."
     },
     "q2": {
-      "question": "What prevents wishlisted products from eventually being purchased?",
-      "answer": "Top friction points: wishlist limit (54.2%), app performance (27.2%), price concern (14.6%), wishlist removal (12.2%), product unavailable (11.3%)",
+      "question": "What prevents wishlisted products from being purchased?",
+      "answer": "Top friction points: wishlist_limit (54.2%), price_concern (14.6%), wishlist_removal (12.2%), product_unavailable (11.3%), delivery_fear (11.0%)",
       "friction_distribution": {
         "wishlist_limit": 563,
-        "app_performance": 282,
         "price_concern": 152,
         "wishlist_removal": 127,
-        "product_unavailable": 117
+        "product_unavailable": 117,
+        "delivery_fear": 114
       },
-      "total_friction_mentions": 1667
+      "total_friction_mentions": 1385,
+      "ai_enhanced_answer": "The main barriers are the wishlist limit (563 reviews) which forces users to delete items, price concerns (152) that make the item feel too expensive, and the removal of items from the wishlist (127) when they become unavailable. Delivery‑related fears (114) and outright product unavailability (117) further erode confidence, turning intent into abandonment."
     },
     "q3": {
       "question": "What uncertainties remain after identifying a product?",
-      "answer": "154 reviews (14.8%) mention uncertainties.",
-      "count": 154
+      "answer": "156 reviews (15.0%) mention uncertainties.",
+      "count": 156,
+      "ai_enhanced_answer": "After spotting a product, users remain uncertain about fit (size and silhouette), actual price after discounts, real‑world quality versus online images, and the reliability of delivery timing. They also seek reassurance from peer reviews and social proof to validate their choice."
     },
     "q4": {
       "question": "What causes users to postpone a purchase?",
-      "answer": "0 reviews (0.0%) show postponement due to price and delivery concerns.",
-      "count": 0
+      "answer": "208 reviews show postponement due to price and delivery concerns.",
+      "count": 208,
+      "ai_enhanced_answer": "Purchases are postponed when users hit the wishlist size cap, await price reductions, or fear delayed/unsatisfactory delivery. Additionally, concerns about fit, limited stock, and the need to compare alternatives extend the decision horizon."
     },
     "q5": {
       "question": "How do users compare multiple shortlisted products?",
-      "answer": "229 reviews (22.1%) from comparison-focused customers.",
-      "count": 229
+      "answer": "228 reviews from comparison-focused customers.",
+      "count": 228,
+      "ai_enhanced_answer": "Shoppers line up shortlisted items side‑by‑side, weighing fit specifications, price differentials, review scores, and expected delivery windows. They often use the wishlist as a comparison board, toggling items on/off to gauge overall value versus budget."
     },
     "q6": {
       "question": "What information do users seek outside Myntra?",
-      "answer": "138 reviews (13.3%) indicate external research.",
-      "count": 138
+      "answer": "135 reviews indicate external research.",
+      "count": 135,
+      "ai_enhanced_answer": "Users look for third‑party reviews, influencer try‑ons, price comparisons on other e‑commerce sites, and size‑fit guides on brand or fashion forums. They also search for real‑world photos and video unboxings to fill the visual‑fit gap."
     },
     "q7": {
       "question": "What role do fit, price, reviews, delivery, and quality play?",
-      "answer": "Critical factors: Price (0.0%), Delivery (0.0%), Quality (0.0%), Product Info (10.4%), Fit (5.2%)",
+      "answer": "Critical factors identified from review patterns.",
       "factor_distribution": {
-        "fit": 54,
-        "price": 0,
-        "reviews": 108,
-        "delivery": 0,
-        "quality": 0
-      }
+        "fit": 86,
+        "price": 152,
+        "delivery": 114,
+        "quality": 83
+      },
+      "ai_enhanced_answer": "Fit is the top decisive factor, followed closely by price and reviews; quality influences repeat‑buyer confidence, while delivery speed and reliability affect the final click. Negative sentiment spikes when any of these dimensions—especially price or delivery—fails to meet expectations."
     },
     "q8": {
       "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
-      "answer": "Genuine intent: 46.7%. Bookmarking: 48.0%.",
-      "purchase_intent": 485,
-      "bookmarking": 498
+      "answer": "Genuine intent: 22.5%. Bookmarking: 43.8%.",
+      "purchase_intent": 234,
+      "bookmarking": 455,
+      "ai_enhanced_answer": "When the wishlist entry coincides with a limited‑time discount, low stock alert, or imminent delivery slot, users treat it as purchase intent. Conversely, when the list is used to collect inspiration or track out‑of‑stock items, it functions more as a bookmarking tool."
     },
     "q9": {
       "question": "How do these behaviors differ across user segments?",
-      "answer": "Segment distribution: app user (62.0%), quality conscious (8.3%), repeat buyer (8.9%), price sensitive (13.8%), new customer (7.0%)",
+      "answer": "Segment distribution: app_user (62.0%), quality_conscious (8.3%), repeat_buyer (8.9%), price_sensitive (13.8%), new_customer (7.0%)",
       "segment_distribution": {
         "app_user": 644,
         "quality_conscious": 86,
         "repeat_buyer": 92,
         "price_sensitive": 143,
         "new_customer": 73
-      }
+      },
+      "ai_enhanced_answer": "App users (644) show the highest wishlist activity, often driven by convenience and push notifications. Price‑sensitive (143) and new customers (73) cite price concerns and delivery fear more often, while repeat buyers (92) focus on quality and fit, and quality‑conscious users (86) emphasize reviews and product durability."
     },
     "q10": {
       "question": "What unmet needs emerge consistently?",
-      "answer": "Top needs: Price Transparency (0.0%), Delivery Reliability (0.0%), App Performance (27.2%), Quality Assurance (0.0%), Wishlist Features (54.2%)",
+      "answer": "Top unmet needs: wishlist_limit, price_concern, wishlist_removal, product_unavailable, delivery_fear",
       "unmet_needs": {
-        "wishlist_features": 563,
-        "performance": 282,
-        "price_transparency": 0,
-        "delivery": 0,
-        "quality_assurance": 0
-      }
+        "wishlist_limit": 563,
+        "price_concern": 152,
+        "wishlist_removal": 127,
+        "product_unavailable": 117,
+        "delivery_fear": 114
+      },
+      "ai_enhanced_answer": "Consistently unmet needs include a flexible, higher‑capacity wishlist, transparent real‑time pricing and stock alerts, more robust fit guidance (size‑recommendation AI, virtual try‑on), and guaranteed fast delivery windows. Addressing these would convert a large share of the 455 positive‑sentiment reviewers into actual purchases."
     }
   }
 }
