@@ -23,10 +23,21 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run AI-enhanced analysis
+      - name: Check for data changes
+        id: check_changes
+        run: |
+          node check-data-changes.js
+          echo "exit_code=$?" >> $GITHUB_OUTPUT
+        continue-on-error: true
+
+      - name: Run AI-enhanced analysis (if data changed)
+        if: steps.check_changes.outputs.exit_code == '0'
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
-        run: node combine_and_analyze_with_groq.js
+        run: |
+          echo "📊 Running AI-enhanced analysis..."
+          node combine_and_analyze_with_groq.js
+          echo "✅ Analysis complete"
 
       - name: Update last run timestamp
         run: |
@@ -36,16 +47,30 @@ jobs:
           const nextRun = new Date(now);
           nextRun.setDate(nextRun.getDate() + 1);
 
+          let runCount = 1;
+          let previousStatus = 'no-changes';
+
+          try {
+            const previous = JSON.parse(fs.readFileSync('data/last-run.json'));
+            runCount = (previous.run_count || 0) + 1;
+            previousStatus = previous.status || 'unknown';
+          } catch (e) {}
+
+          const analysisRan = process.env.ANALYSIS_STATUS === 'ran';
+
           const data = {
             last_run: now,
             next_run: nextRun.toISOString(),
-            run_count: (JSON.parse(fs.readFileSync('data/last-run.json')).run_count || 0) + 1,
-            status: 'success'
+            run_count: runCount,
+            status: analysisRan ? 'success' : 'no-changes',
+            last_check: now
           };
 
           fs.writeFileSync('data/last-run.json', JSON.stringify(data, null, 2));
           console.log('Updated last-run.json:', data);
           "
+        env:
+          ANALYSIS_STATUS: ${{ steps.check_changes.outputs.exit_code == '0' && 'ran' || 'skipped' }}
 
       - name: Commit and push updates
         run: |
@@ -54,9 +79,9 @@ jobs:
 
           # Check if there are changes
           if git diff-index --quiet HEAD --; then
-            echo "No changes to commit"
+            echo "✅ No new data to commit"
           else
-            git add data/*.json
-            git commit -m "Nightly AI analysis update - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+            git add data/*.json data/.data-hash
+            git commit -m "Workflow update: ${{ steps.check_changes.outputs.exit_code == '0' && 'Ran analysis' || 'No data changes' }} - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
             git push
           fi
