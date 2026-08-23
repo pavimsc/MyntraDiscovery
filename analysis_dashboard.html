@@ -197,6 +197,54 @@
             font-style: italic;
         }
 
+        .insight-box {
+            margin: 20px 0;
+            padding: 20px;
+            background: #fff;
+            border-left: 5px solid #2c5aa0;
+            border-radius: 2px;
+        }
+
+        .insight-box.executive {
+            background: linear-gradient(135deg, rgba(44, 90, 160, 0.08), rgba(44, 90, 160, 0.03));
+            border-left: 5px solid #2c5aa0;
+        }
+
+        .insight-box h3 {
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            text-transform: capitalize;
+        }
+
+        .insight-section {
+            margin: 16px 0;
+        }
+
+        .insight-section strong {
+            display: block;
+            color: #2c5aa0;
+            margin-bottom: 8px;
+            font-weight: 600;
+            font-size: 0.95em;
+        }
+
+        .insight-section p {
+            margin: 8px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        .insight-section ul {
+            margin: 10px 0 10px 20px;
+        }
+
+        .insight-section ul li {
+            margin: 8px 0;
+            line-height: 1.6;
+            color: #555;
+        }
+
         .chart-container {
             margin: 20px 0;
             padding: 20px;
@@ -454,6 +502,7 @@
         <div class="tabs">
             <button class="tab-btn active" onclick="showTab('overview')">Overview</button>
             <button class="tab-btn" onclick="showTab('questions')">Research Questions</button>
+            <button class="tab-btn" onclick="showTab('insights')">💡 Insights</button>
             <button class="tab-btn" onclick="showTab('segments')">Customer Segments</button>
             <button class="tab-btn" onclick="showTab('friction')">Friction Points</button>
             <button class="tab-btn" onclick="showTab('sentiment')">Sentiment Analysis</button>
@@ -483,6 +532,14 @@
         <!-- Research Questions Tab -->
         <div id="questions" class="tab-content">
             <div class="section" id="questionsContainer"></div>
+        </div>
+
+        <!-- AI Insights & Recommendations Tab -->
+        <div id="insights" class="tab-content">
+            <div class="section">
+                <h2>🤖 AI-Generated Insights & Recommendations</h2>
+                <div id="insightsContainer"></div>
+            </div>
         </div>
 
         <!-- Customer Segments Tab -->
@@ -568,6 +625,9 @@
 
             // Display sentiment
             displaySentiment(summary);
+
+            // Load AI insights (if available)
+            loadInsights();
         }
 
         function updateMetrics(data, summary) {
@@ -721,6 +781,59 @@
                         <div class="sentiment-value">${count}</div>
                         <div class="sentiment-label">${sentiment}</div>
                         <div style="font-size: 0.85em; margin-top: 8px;">${percentage}% of reviews</div>
+                    </div>
+                `;
+            });
+        }
+
+        async function loadInsights() {
+            try {
+                const response = await fetch('data/ai_insights_1038.json');
+                if (response.ok) {
+                    const data = await response.json();
+                    displayInsights(data);
+                }
+            } catch (error) {
+                console.error('Error loading insights:', error);
+            }
+        }
+
+        function displayInsights(insights) {
+            const container = document.getElementById('insightsContainer');
+            container.innerHTML = '';
+
+            if (!insights.critical_issues || insights.critical_issues.length === 0) {
+                container.innerHTML = '<p style="color: var(--text-secondary);">No AI insights available. Run analysis with Groq to generate insights.</p>';
+                return;
+            }
+
+            // Executive Summary
+            container.innerHTML += `
+                <div class="insight-box executive">
+                    <h3>Executive Summary</h3>
+                    <p>${insights.executive_summary}</p>
+                </div>
+            `;
+
+            // Critical Issues
+            insights.critical_issues.forEach((issue, index) => {
+                container.innerHTML += `
+                    <div class="insight-box issue-${index + 1}">
+                        <h3>${issue.friction_point.replace(/_/g, ' ')}</h3>
+                        <div class="insight-section">
+                            <strong>Root Cause:</strong>
+                            <p>${issue.root_cause}</p>
+                        </div>
+                        <div class="insight-section">
+                            <strong>Recommendations:</strong>
+                            <ul style="margin-left: 20px;">
+                                ${issue.recommendations.map(rec => `<li>${rec}</li>`).join('')}
+                            </ul>
+                        </div>
+                        <div class="insight-section">
+                            <strong>Expected Impact:</strong>
+                            <p>${issue.impact}</p>
+                        </div>
                     </div>
                 `;
             });
