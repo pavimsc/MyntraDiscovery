@@ -47,6 +47,19 @@ jobs:
           const nextRun = new Date(now);
           nextRun.setDate(nextRun.getDate() + 1);
 
+          // Convert to Melbourne time (UTC+10 for AEST, UTC+11 for AEDT)
+          const toMelbourneTime = (date) => {
+            return date.toLocaleString('en-AU', {
+              timeZone: 'Australia/Melbourne',
+              year: 'numeric',
+              month: 'short',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit',
+              second: '2-digit'
+            });
+          };
+
           let runCount = 1;
           let previousStatus = 'no-changes';
 
@@ -60,14 +73,18 @@ jobs:
 
           const data = {
             last_run: now,
+            last_run_melbourne: toMelbourneTime(new Date(now)),
             next_run: nextRun.toISOString(),
+            next_run_melbourne: toMelbourneTime(nextRun),
             run_count: runCount,
             status: analysisRan ? 'success' : 'no-changes',
-            last_check: now
+            last_check: now,
+            timezone: 'Australia/Melbourne (UTC+10 AEST / UTC+11 AEDT)'
           };
 
           fs.writeFileSync('data/last-run.json', JSON.stringify(data, null, 2));
-          console.log('Updated last-run.json:', data);
+          console.log('Updated last-run.json with Melbourne times');
+          console.log('Next run: ' + data.next_run_melbourne);
           "
         env:
           ANALYSIS_STATUS: ${{ steps.check_changes.outputs.exit_code == '0' && 'ran' || 'skipped' }}
