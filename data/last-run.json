@@ -1,6 +1,10 @@
 {
   "last_run": "2026-08-23T07:30:00Z",
-  "next_run": "2026-08-24T02:00:00Z",
+  "last_run_melbourne": "23 Aug 05:30 PM",
+  "next_run": "2026-08-31T02:00:00Z",
+  "next_run_melbourne": "31 Aug 12:00 PM",
   "run_count": 1,
-  "status": "success"
+  "status": "success",
+  "timezone": "Australia/Melbourne (UTC+10 AEST / UTC+11 AEDT)",
+  "note": "Schedule changed to weekly (Sundays)"
 }
