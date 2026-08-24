@@ -189,6 +189,43 @@ async function callGroq(messages, maxRetries = 3) {
 }
 
 /**
+ * Load previously processed review hashes to avoid duplicates
+ */
+function loadProcessedReviewHashes() {
+    try {
+        const hashFile = 'data/.processed-reviews-hash.json';
+        if (fs.existsSync(hashFile)) {
+            const data = JSON.parse(fs.readFileSync(hashFile, 'utf-8'));
+            return new Set(data.hashes || []);
+        }
+    } catch (error) {
+        log(`⚠️  Could not load processed review hashes: ${error.message}`, 'yellow');
+    }
+    return new Set();
+}
+
+/**
+ * Save processed review hashes to prevent duplicate LLM calls
+ */
+function saveProcessedReviewHashes(hashes) {
+    try {
+        const hashFile = 'data/.processed-reviews-hash.json';
+        fs.writeFileSync(hashFile, JSON.stringify({ hashes: Array.from(hashes) }, null, 2));
+        log(`💾 Saved ${hashes.size} processed review hashes`, 'green');
+    } catch (error) {
+        log(`⚠️  Could not save processed review hashes: ${error.message}`, 'yellow');
+    }
+}
+
+/**
+ * Generate a simple hash of review content for deduplication
+ */
+function hashReview(review) {
+    const crypto = require('crypto');
+    return crypto.createHash('md5').update(review.content || '').digest('hex');
+}
+
+/**
  * Generate research question answers using Groq AI
  */
 async function generateResearchAnswers(summary, reviews) {
@@ -387,21 +424,40 @@ async function main() {
         let researchAnswers = null;
         let insights = null;
 
+        // Load previously processed reviews to avoid duplicate LLM calls
+        const processedHashes = loadProcessedReviewHashes();
+        const currentHashes = new Set(allReviews.map(r => hashReview(r)));
+
+        // Check if all reviews have already been processed
+        const allReviewsProcessed = currentHashes.size > 0 &&
+                                   [...currentHashes].every(hash => processedHashes.has(hash));
+
         if (CONFIG.groqApiKey && CONFIG.groqApiKey !== 'your-api-key') {
-            try {
-                // Call 1: Research questions
-                researchAnswers = await generateResearchAnswers(summary, analyzedReviews);
+            if (allReviewsProcessed && processedHashes.size > 0) {
+                log('\n⏭️  All reviews have been previously processed by LLM', 'yellow');
+                log('   Skipping Groq API calls to save costs', 'yellow');
+                log(`   Processed: ${processedHashes.size} reviews, Current: ${currentHashes.size} reviews`, 'yellow');
+            } else {
+                try {
+                    // Call 1: Research questions
+                    researchAnswers = await generateResearchAnswers(summary, analyzedReviews);
 
-                // Small delay between calls
-                await new Promise(resolve => setTimeout(resolve, CONFIG.requestDelay));
+                    // Small delay between calls
+                    await new Promise(resolve => setTimeout(resolve, CONFIG.requestDelay));
 
-                // Call 2: Insights
-                insights = await generateInsights(summary);
+                    // Call 2: Insights
+                    insights = await generateInsights(summary);
 
-                log('\n✅ Successfully generated AI-enhanced insights', 'green');
-            } catch (error) {
-                log(`\n⚠️  Groq AI enhancement skipped: ${error.message}`, 'yellow');
-                log('Continuing with local analysis results...', 'yellow');
+                    log('\n✅ Successfully generated AI-enhanced insights', 'green');
+
+                    // Track processed reviews
+                    processedHashes.forEach(hash => currentHashes.add(hash));
+                    currentHashes.forEach(hash => processedHashes.add(hash));
+                    saveProcessedReviewHashes(processedHashes);
+                } catch (error) {
+                    log(`\n⚠️  Groq AI enhancement skipped: ${error.message}`, 'yellow');
+                    log('Continuing with local analysis results...', 'yellow');
+                }
             }
         } else {
             log('\n⚠️  Groq API key not configured. Using local analysis only.', 'yellow');
