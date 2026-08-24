@@ -226,6 +226,95 @@ function hashReview(review) {
 }
 
 /**
+ * Process reviews in batches to the LLM
+ */
+async function processReviewBatches(allReviews, processedHashes, batchSize = 100) {
+    const newReviews = allReviews.filter(r => !processedHashes.has(hashReview(r)));
+
+    if (newReviews.length === 0) {
+        log('\n✅ No new reviews to process', 'green');
+        return null;
+    }
+
+    log(`\n📦 Processing ${newReviews.length} new reviews in batches of ${batchSize}...`, 'cyan');
+
+    const batches = [];
+    for (let i = 0; i < newReviews.length; i += batchSize) {
+        batches.push(newReviews.slice(i, i + batchSize));
+    }
+
+    log(`   Total batches: ${batches.length}`, 'cyan');
+
+    let allBatchResults = [];
+
+    for (let batchIdx = 0; batchIdx < batches.length; batchIdx++) {
+        const batch = batches[batchIdx];
+        log(`\n📊 Batch ${batchIdx + 1}/${batches.length} (${batch.length} reviews)...`, 'cyan');
+
+        try {
+            const batchResults = await processBatchWithGroq(batch, batchIdx + 1, batches.length);
+            allBatchResults.push(...batchResults);
+
+            // Update processed hashes after each successful batch
+            batch.forEach(review => {
+                processedHashes.add(hashReview(review));
+            });
+            saveProcessedReviewHashes(processedHashes);
+
+            // Delay between batches to respect rate limits
+            if (batchIdx < batches.length - 1) {
+                const delayMs = CONFIG.requestDelay * 2;
+                log(`⏳ Waiting ${delayMs}ms before next batch...`, 'yellow');
+                await new Promise(resolve => setTimeout(resolve, delayMs));
+            }
+        } catch (error) {
+            log(`❌ Batch ${batchIdx + 1} failed: ${error.message}`, 'red');
+            throw error;
+        }
+    }
+
+    return allBatchResults;
+}
+
+/**
+ * Process a single batch of reviews with Groq
+ */
+async function processBatchWithGroq(reviewBatch, batchNumber, totalBatches) {
+    const reviewSummary = reviewBatch
+        .map((r, i) => `${i + 1}. "${r.content?.substring(0, 150)}..."`)
+        .join('\n');
+
+    const prompt = `Analyze this batch of ${reviewBatch.length} Myntra reviews (Batch ${batchNumber}/${totalBatches}):
+
+${reviewSummary}
+
+Provide:
+1. Top friction points in this batch
+2. Common sentiment patterns
+3. Key customer segments represented
+4. Actionable insights specific to these reviews
+
+Format as JSON: { "friction_points": [...], "sentiment_patterns": {...}, "segments": [...], "insights": [...] }`;
+
+    try {
+        const response = await callGroq([
+            { role: 'system', content: 'You are an expert in e-commerce user behavior analysis. Provide data-driven insights.' },
+            { role: 'user', content: prompt }
+        ]);
+
+        const jsonMatch = response.match(/\{[\s\S]*\}/);
+        if (jsonMatch) {
+            return JSON.parse(jsonMatch[0]);
+        }
+        log(`⚠️  Could not parse JSON from batch ${batchNumber}`, 'yellow');
+        return {};
+    } catch (error) {
+        log(`❌ Error processing batch ${batchNumber}: ${error.message}`, 'red');
+        throw error;
+    }
+}
+
+/**
  * Generate research question answers using Groq AI
  */
 async function generateResearchAnswers(summary, reviews) {
@@ -236,7 +325,7 @@ async function generateResearchAnswers(summary, reviews) {
         .map(([name, count]) => `${name}: ${count} reviews`)
         .join('\n');
 
-    const prompt = `Based on analysis of 1,038 Myntra reviews, here are the key findings:
+    const prompt = `Based on analysis of ${summary.total_reviews} Myntra reviews, here are the key findings:
 
 TOP FRICTION POINTS:
 ${topFrictions}
@@ -420,40 +509,37 @@ async function main() {
             analyzedReviews.reduce((sum, r) => sum + r.confidence, 0) / analyzedReviews.length
         ).toFixed(3);
 
-        // Step 4: Make MINIMAL Groq calls for AI enhancement
+        // Step 4: Process reviews in batches to the LLM
         let researchAnswers = null;
         let insights = null;
 
         // Load previously processed reviews to avoid duplicate LLM calls
         const processedHashes = loadProcessedReviewHashes();
-        const currentHashes = new Set(allReviews.map(r => hashReview(r)));
-
-        // Check if all reviews have already been processed
-        const allReviewsProcessed = currentHashes.size > 0 &&
-                                   [...currentHashes].every(hash => processedHashes.has(hash));
+        const newReviewCount = allReviews.filter(r => !processedHashes.has(hashReview(r))).length;
 
         if (CONFIG.groqApiKey && CONFIG.groqApiKey !== 'your-api-key') {
-            if (allReviewsProcessed && processedHashes.size > 0) {
+            if (newReviewCount === 0 && processedHashes.size > 0) {
                 log('\n⏭️  All reviews have been previously processed by LLM', 'yellow');
                 log('   Skipping Groq API calls to save costs', 'yellow');
-                log(`   Processed: ${processedHashes.size} reviews, Current: ${currentHashes.size} reviews`, 'yellow');
+                log(`   Processed: ${processedHashes.size} reviews, Current: ${allReviews.length} reviews`, 'yellow');
             } else {
                 try {
-                    // Call 1: Research questions
+                    // Process new reviews in batches (default: 100 reviews per batch)
+                    const batchResults = await processReviewBatches(allReviews, processedHashes, 100);
+
+                    // Small delay before summary generation
+                    await new Promise(resolve => setTimeout(resolve, CONFIG.requestDelay));
+
+                    // Generate overall research questions based on complete analysis
                     researchAnswers = await generateResearchAnswers(summary, analyzedReviews);
 
                     // Small delay between calls
                     await new Promise(resolve => setTimeout(resolve, CONFIG.requestDelay));
 
-                    // Call 2: Insights
+                    // Generate insights based on complete analysis
                     insights = await generateInsights(summary);
 
                     log('\n✅ Successfully generated AI-enhanced insights', 'green');
-
-                    // Track processed reviews
-                    processedHashes.forEach(hash => currentHashes.add(hash));
-                    currentHashes.forEach(hash => processedHashes.add(hash));
-                    saveProcessedReviewHashes(processedHashes);
                 } catch (error) {
                     log(`\n⚠️  Groq AI enhancement skipped: ${error.message}`, 'yellow');
                     log('Continuing with local analysis results...', 'yellow');
@@ -507,11 +593,12 @@ async function main() {
         log('\n📈 COMBINED ANALYSIS WITH GROQ AI COMPLETE!', 'green');
         log('\n✅ Summary:', 'green');
         log(`   • Total reviews analyzed: ${allReviews.length}`, 'reset');
-        log(`   • Earlier reviews (LinkedIn): ${rawReviews.length}`, 'reset');
-        log(`   • New reviews (CSV): ${csvReviews.length}`, 'reset');
+        log(`   • Previously processed: ${processedHashes.size}`, 'reset');
+        log(`   • New reviews processed in batches: ${newReviewCount}`, 'reset');
+        log(`   • Batch size: 100 reviews per API call`, 'reset');
         log(`   • Local analysis: $0 (instant, no API calls)`, 'reset');
-        log(`   • Groq AI calls: 2 (~600 tokens total) `, 'reset');
-        log(`   • Total cost: ~$0.001`, 'reset');
+        log(`   • Groq AI efficiency: Only new reviews sent`, 'reset');
+        log(`   • Total batches processed: ${Math.ceil(newReviewCount / 100) || 0}`, 'reset');
         log('\n📊 Files created:', 'green');
         log('   • reviews_1038_analyzed.json (complete dataset)', 'reset');
         log('   • research_questions_1038.json (Q&A with AI enhancement)', 'reset');
