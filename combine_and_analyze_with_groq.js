@@ -300,18 +300,29 @@ async function main() {
     try {
         log('\n╔════════════════════════════════════════════╗', 'cyan');
         log('║   Combined Analysis with Groq AI v4.0     ║', 'cyan');
-        log('║   363 + 675 = 1,038 Total Reviews         ║', 'cyan');
+        log(`║   Total Reviews to analyze               ║`, 'cyan');
         log('╚════════════════════════════════════════════╝\n', 'cyan');
 
         // Step 1: Load reviews
         log('📚 Loading review datasets...', 'cyan');
         const rawReviews = JSON.parse(fs.readFileSync('data/raw_reviews.json', 'utf-8'));
-        const csvPath = '/root/.claude/uploads/67b92f82-9a6f-5f91-9a45-c4568918eb03/0d1a3627-wishlist_reviews.csv';
-        const csvData = fs.readFileSync(csvPath, 'utf-8');
-        const csvReviews = csv.parse(csvData, { columns: true });
 
-        log(`✅ Loaded ${rawReviews.length} earlier reviews (from LinkedIn_QA)`, 'green');
-        log(`✅ Loaded ${csvReviews.length} new reviews (from CSV)`, 'green');
+        let csvReviews = [];
+        // Try to load CSV if it exists
+        const csvPath = process.env.CSV_PATH || '/root/.claude/uploads/67b92f82-9a6f-5f91-9a45-c4568918eb03/0d1a3627-wishlist_reviews.csv';
+        try {
+            if (fs.existsSync(csvPath)) {
+                const csvData = fs.readFileSync(csvPath, 'utf-8');
+                csvReviews = csv.parse(csvData, { columns: true });
+                log(`✅ Loaded ${csvReviews.length} new reviews (from CSV)`, 'green');
+            } else {
+                log(`⚠️  CSV file not found at ${csvPath}, continuing with raw reviews only`, 'yellow');
+            }
+        } catch (error) {
+            log(`⚠️  Could not load CSV: ${error.message}, continuing with raw reviews only`, 'yellow');
+        }
+
+        log(`✅ Loaded ${rawReviews.length} reviews (from raw_reviews.json)`, 'green');
 
         // Step 2: Normalize reviews
         let allReviews = rawReviews.map((r, i) => normalizeReview(r, i)).filter(r => r);
