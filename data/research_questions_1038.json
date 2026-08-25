@@ -1,93 +1,83 @@
 {
   "metadata": {
-    "total_reviews_analyzed": 1038,
-    "analysis_date": "2026-08-23T07:29:32.612Z"
+    "total_reviews_analyzed": 363,
+    "analysis_date": "2026-08-25T11:05:19.847Z"
   },
   "questions": {
     "q1": {
       "question": "Why do users add fashion products to their wishlist?",
-      "answer": "455 reviews (43.8%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
-      "count": 455,
-      "ai_enhanced_answer": "Users add fashion items to their wishlist primarily to curate a personal style collection they can revisit, to track items they like but aren’t ready to buy, and to take advantage of future sales or price drops. The high wishlist_limit count (563) shows many users treat the list as a personal catalog rather than an immediate purchase queue."
+      "answer": "262 reviews (72.2%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
+      "count": 262
     },
     "q2": {
       "question": "What prevents wishlisted products from being purchased?",
-      "answer": "Top friction points: wishlist_limit (54.2%), price_concern (14.6%), wishlist_removal (12.2%), product_unavailable (11.3%), delivery_fear (11.0%)",
+      "answer": "Top friction points: delivery_fear (11.6%), product_info (9.9%), return_worry (9.9%), price_concern (4.1%), wishlist_removal (2.5%)",
       "friction_distribution": {
-        "wishlist_limit": 563,
-        "price_concern": 152,
-        "wishlist_removal": 127,
-        "product_unavailable": 117,
-        "delivery_fear": 114
+        "delivery_fear": 42,
+        "product_info": 36,
+        "return_worry": 36,
+        "price_concern": 15,
+        "wishlist_removal": 9
       },
-      "total_friction_mentions": 1385,
-      "ai_enhanced_answer": "The main barriers are the wishlist limit (563 reviews) which forces users to delete items, price concerns (152) that make the item feel too expensive, and the removal of items from the wishlist (127) when they become unavailable. Delivery‑related fears (114) and outright product unavailability (117) further erode confidence, turning intent into abandonment."
+      "total_friction_mentions": 152
     },
     "q3": {
       "question": "What uncertainties remain after identifying a product?",
-      "answer": "156 reviews (15.0%) mention uncertainties.",
-      "count": 156,
-      "ai_enhanced_answer": "After spotting a product, users remain uncertain about fit (size and silhouette), actual price after discounts, real‑world quality versus online images, and the reliability of delivery timing. They also seek reassurance from peer reviews and social proof to validate their choice."
+      "answer": "54 reviews (15.0%) mention uncertainties.",
+      "count": 54
     },
     "q4": {
       "question": "What causes users to postpone a purchase?",
-      "answer": "208 reviews show postponement due to price and delivery concerns.",
-      "count": 208,
-      "ai_enhanced_answer": "Purchases are postponed when users hit the wishlist size cap, await price reductions, or fear delayed/unsatisfactory delivery. Additionally, concerns about fit, limited stock, and the need to compare alternatives extend the decision horizon."
+      "answer": "73 reviews show postponement due to price and delivery concerns.",
+      "count": 73
     },
     "q5": {
       "question": "How do users compare multiple shortlisted products?",
-      "answer": "228 reviews from comparison-focused customers.",
-      "count": 228,
-      "ai_enhanced_answer": "Shoppers line up shortlisted items side‑by‑side, weighing fit specifications, price differentials, review scores, and expected delivery windows. They often use the wishlist as a comparison board, toggling items on/off to gauge overall value versus budget."
+      "answer": "80 reviews from comparison-focused customers.",
+      "count": 80
     },
     "q6": {
       "question": "What information do users seek outside Myntra?",
-      "answer": "135 reviews indicate external research.",
-      "count": 135,
-      "ai_enhanced_answer": "Users look for third‑party reviews, influencer try‑ons, price comparisons on other e‑commerce sites, and size‑fit guides on brand or fashion forums. They also search for real‑world photos and video unboxings to fill the visual‑fit gap."
+      "answer": "47 reviews indicate external research.",
+      "count": 47
     },
     "q7": {
       "question": "What role do fit, price, reviews, delivery, and quality play?",
       "answer": "Critical factors identified from review patterns.",
       "factor_distribution": {
-        "fit": 86,
-        "price": 152,
-        "delivery": 114,
-        "quality": 83
-      },
-      "ai_enhanced_answer": "Fit is the top decisive factor, followed closely by price and reviews; quality influences repeat‑buyer confidence, while delivery speed and reliability affect the final click. Negative sentiment spikes when any of these dimensions—especially price or delivery—fails to meet expectations."
+        "fit": 42,
+        "price": 15,
+        "delivery": 42,
+        "quality": 29
+      }
     },
     "q8": {
       "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
-      "answer": "Genuine intent: 22.5%. Bookmarking: 43.8%.",
-      "purchase_intent": 234,
-      "bookmarking": 455,
-      "ai_enhanced_answer": "When the wishlist entry coincides with a limited‑time discount, low stock alert, or imminent delivery slot, users treat it as purchase intent. Conversely, when the list is used to collect inspiration or track out‑of‑stock items, it functions more as a bookmarking tool."
+      "answer": "Genuine intent: 26.4%. Bookmarking: 72.2%.",
+      "purchase_intent": 96,
+      "bookmarking": 262
     },
     "q9": {
       "question": "How do these behaviors differ across user segments?",
-      "answer": "Segment distribution: app_user (62.0%), quality_conscious (8.3%), repeat_buyer (8.9%), price_sensitive (13.8%), new_customer (7.0%)",
+      "answer": "Segment distribution: app_user (82.1%), quality_conscious (11.6%), repeat_buyer (2.8%), price_sensitive (2.8%), new_customer (0.8%)",
       "segment_distribution": {
-        "app_user": 644,
-        "quality_conscious": 86,
-        "repeat_buyer": 92,
-        "price_sensitive": 143,
-        "new_customer": 73
-      },
-      "ai_enhanced_answer": "App users (644) show the highest wishlist activity, often driven by convenience and push notifications. Price‑sensitive (143) and new customers (73) cite price concerns and delivery fear more often, while repeat buyers (92) focus on quality and fit, and quality‑conscious users (86) emphasize reviews and product durability."
+        "app_user": 298,
+        "quality_conscious": 42,
+        "repeat_buyer": 10,
+        "price_sensitive": 10,
+        "new_customer": 3
+      }
     },
     "q10": {
       "question": "What unmet needs emerge consistently?",
-      "answer": "Top unmet needs: wishlist_limit, price_concern, wishlist_removal, product_unavailable, delivery_fear",
+      "answer": "Top unmet needs: delivery_fear, product_info, return_worry, price_concern, wishlist_removal",
       "unmet_needs": {
-        "wishlist_limit": 563,
-        "price_concern": 152,
-        "wishlist_removal": 127,
-        "product_unavailable": 117,
-        "delivery_fear": 114
-      },
-      "ai_enhanced_answer": "Consistently unmet needs include a flexible, higher‑capacity wishlist, transparent real‑time pricing and stock alerts, more robust fit guidance (size‑recommendation AI, virtual try‑on), and guaranteed fast delivery windows. Addressing these would convert a large share of the 455 positive‑sentiment reviewers into actual purchases."
+        "delivery_fear": 42,
+        "product_info": 36,
+        "return_worry": 36,
+        "price_concern": 15,
+        "wishlist_removal": 9
+      }
     }
   }
 }

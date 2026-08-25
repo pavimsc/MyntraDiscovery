@@ -1,28 +1,27 @@
 {
-  "total_reviews": 1038,
+  "total_reviews": 363,
   "sentiment_distribution": {
-    "positive": 455,
-    "negative": 234,
-    "neutral": 349
+    "positive": 262,
+    "negative": 96,
+    "neutral": 5
   },
   "segment_distribution": {
-    "app_user": 644,
-    "quality_conscious": 86,
-    "repeat_buyer": 92,
-    "price_sensitive": 143,
-    "new_customer": 73
+    "app_user": 298,
+    "quality_conscious": 42,
+    "repeat_buyer": 10,
+    "price_sensitive": 10,
+    "new_customer": 3
   },
   "top_friction_points": {
-    "wishlist_limit": 563,
-    "price_concern": 152,
-    "wishlist_removal": 127,
-    "product_unavailable": 117,
-    "delivery_fear": 114,
-    "product_info": 108,
-    "return_worry": 87,
-    "size_fit": 54,
-    "price_tracking": 38,
-    "purchase_decision": 25
+    "delivery_fear": 42,
+    "product_info": 36,
+    "return_worry": 36,
+    "price_concern": 15,
+    "wishlist_removal": 9,
+    "size_fit": 8,
+    "wishlist_limit": 4,
+    "product_unavailable": 1,
+    "purchase_decision": 1
   },
-  "average_confidence": "0.767"
+  "average_confidence": "0.721"
 }
