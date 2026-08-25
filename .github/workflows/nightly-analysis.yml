@@ -2,8 +2,8 @@ name: Nightly AI Analysis
 
 on:
   schedule:
-    # Run every Sunday at 2 AM UTC (12:00 PM Melbourne time)
-    - cron: '0 2 * * 0'
+    # Run every day at 2 AM UTC (12:00 PM Melbourne time)
+    - cron: '0 2 * * *'
   # Also allow manual trigger
   workflow_dispatch:
 
