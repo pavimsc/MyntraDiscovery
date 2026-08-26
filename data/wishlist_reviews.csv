@@ -1,0 +1,676 @@
+review_id,review_text,sentiment,customer_segment,friction_points,confidence
+89ee8aa1-0671-4d71-aa43-dcd8625c75a3,"Not happy with the platform fees at all",positive,app_user,"wishlist_limit, app_performance",0.8410967246177163
+32ba30e6-d206-4048-8b5d-0bcda793fa15,"Worst app, it show ""wishlist has reached the maximum limit"", no other shopping app show such limitat",negative,app_user,"wishlist_limit, app_performance",0.7040099945758411
+7f069ed6-5ad4-4e28-b914-702cdd474b24,"Idk what the heck is wrong with myntra lately",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.9278173413542994
+b59a21a5-a587-4c80-8b08-7bce40b05c25,"Would have given this app 5 ⭐ if they had a button to quickly access the wishlist instead of having ",neutral,app_user,"wishlist_limit, app_performance",0.856878271834566
+eca063cb-6ba1-4044-bd23-97b5680233fe,"Myntra App has now become my one stop shop for all the all type clothes, shoes and other accessories",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8603993752304961
+42efa78a-dd67-4997-9bf1-b2b5772fb5b6,"Selling used clothes at discounted prices",positive,new_customer,"wishlist_limit, price_increase, delivery_delay, app_performance, payment_issue, return_process",0.8086346930419032
+47e12e4e-cb3f-4c00-bc78-de5fcd40b042,"Way too slow to operate",neutral,app_user,"wishlist_limit, delivery_delay, app_performance",0.9197516311446796
+28a0f06e-325c-4155-8842-961494aac709,"Tricksters",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7507422608566174
+e83a572d-15da-4c6c-b0bb-b2ae3001411d,"I've an issue regarding personalised ads",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.9122403992865149
+7b6030a3-8e5f-43d8-900c-a730a20665ae,"I am unable to login",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, product_info",0.7523433945171513
+c99bc775-1a2b-4e5c-bd82-9462440380ba,"Amazing user experience, ease in buying and returning products, hassle-free wishlisting feature Mynt",positive,quality_conscious,"wishlist_limit, poor_quality, return_process",0.8621244636842492
+8e5f674f-1961-4dba-91d6-7aa915a9a710,"From last 5 years I am enjoying your service",neutral,price_sensitive,"price_increase, customer_support",0.7338602272342953
+a7a43903-ef9f-4c0e-a489-264889a072af,"1",neutral,repeat_buyer,"wishlist_limit, return_process, stock_management, size_fit",0.746687712354954
+9f6dcddc-2a72-4021-8cb7-6ca3aeb1ae27,"They don't show buyers review and their pics",negative,price_sensitive,"wishlist_limit, price_increase, stock_management",0.7850341723351317
+8c77e8fe-c28b-414b-b392-cd7bf6e1e814,"The app is quite slow and takes a while to load your wishlist and cart",positive,app_user,"wishlist_limit, delivery_delay, app_performance, technical_bug",0.9182480589988294
+056cf023-f1f6-472c-8ff9-c7dcc74b9d48,"I have saved a few items in their shopping bag since the longest time",neutral,app_user,"stock_management, technical_bug",0.8963090674735843
+c1620c8d-fa52-470e-a552-20247fc127b5,"Get a grip on the constant price change of the items",neutral,price_sensitive,"price_increase, app_performance, stock_management, technical_bug",0.7385700521327241
+dc34a2f0-76d4-44be-9f3f-be5bbfa6fdd2,"I loved Myntra so much but since 5 to 6 months I can't add anything to my wishlist",positive,app_user,"wishlist_limit, app_performance, stock_management",0.9388605506769143
+b681a316-2f28-4c50-8bf0-7ac69ed4eacd,"So, the site is great in terms of the choices it offers, but there are a lot of glitches",positive,price_sensitive,"delivery_delay, app_performance, stock_management, technical_bug",0.8759721459654161
+0544e03d-5273-4a5b-8512-14dd7d66b82e,"The app isn't working from past 8 months",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.7681905156772204
+33680aff-bcc5-4963-a60e-ed82c34d2bcd,"At first the app was working very well but now there has been many issues that are arising",neutral,new_customer,"wishlist_limit, app_performance, technical_bug",0.7833613468263994
+fca147f7-a79d-436e-b6a0-fc005e4fa6b6,"I'm using this for years now",neutral,quality_conscious,"wishlist_limit, delivery_delay, poor_quality, app_performance, return_process, customer_support, stock_management, technical_bug",0.8449103510151277
+386ef80c-ade0-445f-93dd-61bd79f915e5,"I don't like some of the technical issues of Myntra like",neutral,app_user,"wishlist_limit, app_performance, payment_issue, technical_bug",0.7894361318398924
+543c8610-b263-462c-b482-68934b04b221,"I've a suggestion to make",neutral,repeat_buyer,"wishlist_limit, size_fit",0.8727362125056422
+10caebdb-a01d-4ee8-984e-f41008040a6d,"Loved it , the coupens the prices, i have saved a lot of money",positive,price_sensitive,"price_increase, payment_issue",0.7579446200432727
+2c5a7646-7b3f-45de-a9c1-013590a1d5a9,"I like the products catalogue,delivery ,payment options n all but lately with too much updates the a",neutral,app_user,"wishlist_limit, delivery_delay, app_performance, payment_issue, stock_management, technical_bug",0.8717249793496171
+b027ca00-074c-4c96-8881-479279eebf02,"The functioning of the app is very terrible",negative,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.8756953940950114
+4fb8f416-1ec4-4531-807b-dd49261a34f6,"It used to be a nice shopping application but lately I cannot zoom into pictures or even open them",positive,price_sensitive,"wishlist_limit, price_increase, poor_quality, app_performance, technical_bug",0.736871141979788
+6700ee0b-0716-420b-92ba-043931557d9d,"Half of the things in this app does not work",positive,new_customer,"wishlist_limit, app_performance",0.7047649912056115
+fdda0362-5fc6-45bb-bd6d-e4a5066c9f38,"My experience is good",positive,app_user,"wishlist_limit, size_fit",0.9067133172586859
+429f6103-9b28-4aa6-b4c2-a3ef44df55f5,"I gave 4 stars just because of brands available at myntra",negative,quality_conscious,"wishlist_limit, price_increase, delivery_delay, app_performance, stock_management",0.764982699902889
+b7a817b2-10bb-411a-b2ba-b2a300ce19d6,"Hi",neutral,app_user,"app_performance, stock_management",0.7135271731979526
+7f35abf5-09ad-4226-8c81-f42457d8e66a,"Problem with login itself",neutral,repeat_buyer,"wishlist_limit, return_process",0.7399042190457582
+9ddc96a6-b3f7-4c06-bd63-6ca0e2f6c4b8,"Love the small customer friendly features on the app like you can categorise your wishlist, you can ",positive,app_user,"wishlist_limit, app_performance, stock_management, size_fit, technical_bug",0.70757122444629
+ad495e5d-43af-4f28-bf84-2282da46a4a7,"Whenever I am clicking Shopping bag, it shows the numner of products which I have saved but it doesn",neutral,app_user,"app_performance, technical_bug",0.7354177666999914
+2b7a0830-3305-48b8-a3df-1ad244d8da1c,"Very bad experience with the app",negative,quality_conscious,"wishlist_limit, app_performance, return_process, product_info",0.7257861979643754
+b7537f4a-8082-437c-8b7c-559ba5e05a0d,"The app becomes sort of slow when we look at all customer photos",neutral,quality_conscious,"wishlist_limit, delivery_delay, app_performance, stock_management",0.8445116305085181
+2d97b805-d7e3-464e-88ba-884939582684,"Myntra used to be a go to online shopping app earlier but over the past few months it hangs constant",neutral,new_customer,"wishlist_limit, app_performance, technical_bug",0.8246464837161023
+5d6d85ac-1c35-4ed1-a3a8-5c49f5e658fb,"What's wrong with the processing payments",neutral,app_user,"delivery_delay, app_performance, payment_issue, stock_management, technical_bug",0.7080249873491546
+55f00828-5127-4eaf-986f-a59dbcdb4703,"Myntra has been a go-to for online shopping for as long as I can remember and it never gave us any t",neutral,new_customer,"wishlist_limit, app_performance, technical_bug",0.8447940733997905
+1cb17274-96a8-4d82-b4a1-3ee5365f679e,"If you guys couldn't resolve the issues in your site/app please don't give ads in YouTube/anywhere",negative,repeat_buyer,"wishlist_limit, app_performance, stock_management, technical_bug",0.7062911987780209
+12f82b9a-05ff-4199-852d-51b61026b556,"The app is always hanging recently",negative,repeat_buyer,"wishlist_limit, delivery_delay, app_performance, customer_support, product_info",0.9009223512773298
+7e0afa84-3169-4a81-aa7c-183a8b382781,"It hav very nice clothes",negative,quality_conscious,"wishlist_limit, poor_quality, app_performance, technical_bug",0.7666948425952811
+f3d46f6f-6b28-45eb-b628-a37101757b5e,"Can you please increase the wishlist limit",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7319480496998638
+df37a631-ff42-4735-8b82-e458cce7b247,"The wishlist just won't show all of saved items",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7959618993505241
+7951f43a-6b70-451e-a1e9-8d575bb1bf3b,"nice app",positive,app_user,"app_performance",0.8470052251231727
+b7eeb80f-d528-4632-9da6-4fd90bf9f500,"Once you wishlist something, they gradually increase the prize over few days and also when their sto",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, return_process, stock_management, size_fit, technical_bug",0.9460534590347087
+fad89f78-6417-4d01-89a3-30a86f32da92,"I don't know why they deleted my feedback",neutral,new_customer,"app_performance, stock_management, technical_bug",0.7186413971730234
+ed4da22c-f628-4b2a-aa9e-345178b47f88,"Removed the option of logging in with mail ID",negative,repeat_buyer,"wishlist_limit, app_performance, customer_support, size_fit",0.920836342633139
+abe3e710-fbea-445d-910a-2dc1650e1be9,"I have been shopping on myntra since ages and I used to love this app but not now",positive,app_user,"wishlist_limit, app_performance, technical_bug",0.8961022384908379
+1b29c2c8-8684-4f12-b0f4-7da4efb29043,"Great App",positive,app_user,"wishlist_limit, app_performance",0.9095858748581684
+6ff4841e-a37b-402a-aea6-91e530f19a30,"The new feature of converting points into super coins and spending it through all the apps using sup",positive,new_customer,"wishlist_limit, app_performance, customer_support, stock_management",0.707221433475782
+4267002b-2468-4f54-83df-a6b55d654e7d,"Myntra used to be very trustworthy but nomore",neutral,new_customer,"payment_issue, return_process, customer_support, size_fit, technical_bug",0.810141266275641
+a3468af6-07b1-4f2a-9e40-835035ad71b2,"From 1 month myntra is not working in my phone",negative,app_user,"wishlist_limit, app_performance",0.9338977037211611
+d2f7e27d-5013-45cc-b44f-8d480dbe00df,"Why you make fool of customer",positive,price_sensitive,"wishlist_limit, price_increase, poor_quality, app_performance",0.7244752325063346
+eea37b4d-272f-4042-a830-8f637285f2b9,"Wishlist should be updated automatically ( means it shouldn't be limited upto 1000) but when we add ",neutral,new_customer,"wishlist_limit",0.7216207169802066
+daa4e0bd-4e6b-4b3e-b16e-82b25ea21b67,"I am not happy with your service bcz I wanted to purchase Monte Carlo olive green stripped full slea",positive,price_sensitive,"wishlist_limit, app_performance, customer_support",0.7961333342436132
+4458881e-fd3d-4546-936a-3fd8d8da82a6,"I'm facing an issue wherein after clicking on the shopping bag button it is just loading and not sho",neutral,app_user,"wishlist_limit, customer_support, stock_management, technical_bug",0.7735751463817161
+7a825d69-f52b-4d82-98de-a5ac3b61bcd7,"As you add the product in your wishlist, the price will increase to double next day",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7948620820436699
+71c3e623-8945-4fd5-b84f-e93438b04f31,"I am not able to see items in my wishlist",neutral,app_user,"wishlist_limit",0.9044841939426018
+f5d9e859-055b-4ea4-a735-61936bcbf463,"App is not responding from a long time",neutral,repeat_buyer,"wishlist_limit, app_performance, customer_support",0.8630994704628949
+d687d4d6-6fd9-4745-9e8d-26e28bae7e6d,"I love myntra for its quality of products and even for variety, but i just want to give a feedback t",positive,quality_conscious,"wishlist_limit, poor_quality",0.7525434393976103
+2618189b-6cf3-47ff-ab95-8209d3ef6c78,"Lately, the app hangs a lot",positive,price_sensitive,"wishlist_limit, price_increase, app_performance, stock_management",0.8567990540360597
+24d2390a-436a-449a-b054-d41c2788467b,"My experience with Myntra has always been amazing, until recently when I had to order so many items ",positive,repeat_buyer,"wishlist_limit, delivery_delay, payment_issue, customer_support, stock_management, technical_bug",0.9313981197885202
+ff03781f-4992-4898-a565-88f42e972c1f,"Freaking pathetic application",neutral,app_user,"wishlist_limit, app_performance",0.8858485689140029
+f416332d-319e-4650-bf05-3b5b6d9cc0bc,"I'm having a very bad experience with the add to cart I couldn't understand why it really says to di",negative,app_user,"app_performance",0.7894054226921701
+00dba9f9-7143-46e3-9349-26d67b4b7b5e,"This is a fantastic app n my personal favorite for shopping",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7710520051669185
+aab26356-1308-4a44-a2aa-9bc7fc40cdcc,"Whenever I add a product to my wishlist or cart or check them out multiple times , it goes out of st",neutral,app_user,"wishlist_limit, delivery_delay, stock_management",0.7750358514028306
+f22ed91f-6e97-4637-ac6c-bba8baf98a8a,"Recently the app isn't working",neutral,app_user,"wishlist_limit, app_performance, stock_management, product_info",0.8834957227045608
+aa91166e-a271-4799-8705-31297b560639,"Unable to use the app",negative,app_user,"wishlist_limit, app_performance, technical_bug",0.8512205430670026
+de4d0f8c-b2b8-4967-97a9-26e965859bd5,"[new edit] - I reinstalled the app and was was adding things to wishlist",negative,new_customer,"wishlist_limit, app_performance, stock_management",0.9423869624088201
+34759b36-cc4e-47f2-87d6-7f3de2edefc3,"The app has been down since 2-3 days",positive,new_customer,"wishlist_limit, price_increase, app_performance, return_process, customer_support, stock_management",0.9014871738789763
+cf27ecbd-1fbd-4520-9932-688a93611dca,"From past one week, every now and then while exploring products either the app will go haywire or on",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7442564519141333
+1485e904-51ad-4e31-8767-72337a8f288c,"Why can't I add or delete from a wishlist collection I made",negative,app_user,"wishlist_limit",0.8217469162841096
+202cfd03-ed56-4f13-a2f4-4dd06a05af99,"I am using this app from almost 3 months",neutral,repeat_buyer,"wishlist_limit, app_performance, customer_support, technical_bug",0.7923272091247467
+0631cbb7-155e-497c-ae2d-e25528e1063e,"Kindly please remove this cache, it is like when you open your wishlist to check out the things in i",positive,repeat_buyer,"wishlist_limit, app_performance, stock_management, technical_bug",0.8323594941827959
+c8d19d5c-3322-4005-8252-a601a4cb3d35,"I'm a constant customer of Myntra Shopping",positive,app_user,"wishlist_limit, app_performance, customer_support",0.7510601081529318
+bc6633f7-49be-4f2d-8efe-2129054b239b,"The application is not responding properly",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8683668829101088
+5e92cd47-0f4b-4818-b66a-1dfd75f82ff6,"Everything about about this app is good but I find one thing very annoying that when I open shopping",positive,repeat_buyer,"app_performance, stock_management, product_info, technical_bug",0.9284845544303686
+407ad09c-6f25-4b90-a0f8-2d0d7631226e,"The app sucks",neutral,app_user,"app_performance",0.9287994529859841
+5c128ec9-0764-4dec-ab29-7550f7a466be,"Myntra is my all time favorite shopping app and will always be but it is becoming worse than ever th",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, technical_bug",0.8159323292137249
+3b525966-4b68-4012-a4be-de151fd86040,"The last update is a complete failure",neutral,app_user,"wishlist_limit, app_performance",0.7516071217301155
+0d4910f0-938a-4f8f-8ecf-ae80adc5dc1a,"Well the products are good and all if you are buying from the brand's",negative,quality_conscious,"wishlist_limit, app_performance",0.9294337349731098
+5228de4b-0147-4ef6-b3c5-d5a63d414c41,"Hd the worst experience with the platform",negative,app_user,"return_process, size_fit",0.892953202377444
+7e3f01d3-3bab-4a33-8b74-185549deeb8b,"Myntra app has become very slow",negative,app_user,"wishlist_limit, delivery_delay, app_performance",0.9320243645167312
+97c8e99e-35ee-4eb6-b9bd-243717195ebd,"The app is very smooth to use and user friendly as well but I would have liked it better if - 1) I c",neutral,price_sensitive,"price_increase, app_performance, stock_management",0.8120302484752486
+4afe82ad-e201-4662-a00d-8bdac933ad7c,"When it's about online shopping I always prefer this app",positive,quality_conscious,"wishlist_limit, app_performance, customer_support, stock_management",0.8174136073190358
+b204c7db-ebaa-4000-ae74-760f28dcd95f,"Can you remove the limit on the items in wishlist",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.9487686858796567
+15bbbd9e-09cc-460f-81da-75b32eef0681,"It has become buggy as hell",neutral,new_customer,"wishlist_limit, app_performance, technical_bug",0.783545560371375
+65905e5c-fa25-4b7d-89f1-7d38320fdf7b,"Amazing shopping experience",positive,repeat_buyer,"wishlist_limit, app_performance, size_fit",0.9037173057518962
+4180ded9-3a70-45a4-8694-bcd412fcce1b,"Good app,,, maintains genuinity in products👍,,,,best thing is the software/ui,,,,it's very easy to ",negative,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance",0.7106113720440904
+ac2f5d99-f7a7-42a5-95e2-ea76758a3727,"probably the most reliable shopping app in terms of product authenticity, Sales alert, similar produ",neutral,quality_conscious,"wishlist_limit, delivery_delay, app_performance, payment_issue, customer_support, technical_bug",0.7419017952730504
+9a280c4f-4cfd-44f3-bb93-7ca627bd78c5,"Every now and then my wishlist will be gone and even though I am connected to internet 5G ,the app s",neutral,repeat_buyer,"wishlist_limit, app_performance, return_process, technical_bug",0.8769935960220006
+1f7691e6-fcf9-412a-8d3e-b02c8ba71be1,"This is a very poor service providing app in which there is no listening to the customer",negative,app_user,"price_increase, app_performance, payment_issue, customer_support",0.7019397919719711
+b4652c42-bf6b-4bf0-ae9c-413e7a7393fb,"Hi Myntra team, I just noticed an issue in your app, i hope this can be fixed",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8725719278291082
+eaa0de1b-aa64-4820-984b-f73f0b842df0,"They give very less information about the product even about the size of material",positive,quality_conscious,"wishlist_limit, price_increase, poor_quality, stock_management, size_fit, product_info",0.9156590350931881
+a908dc42-c27e-4997-bdd7-9771a9648e9e,"Please fix the recent changes that have gone into the app",neutral,app_user,"wishlist_limit, delivery_delay, poor_quality, app_performance, customer_support, technical_bug",0.8644956399771746
+f2dd775f-7f1d-4a64-affc-3a2ebbfb117e,"The wishlist button doesnot work",neutral,app_user,"wishlist_limit",0.7351670776321375
+e810dcac-6367-43c1-805d-df1991ad302b,"The app was fine in the beginning, I made many valuable purchases thanks to Myntra, but since a mont",neutral,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.760183277566332
+55e8b293-e732-43d8-9940-5f820c91adaa,"The app was too good before update, auto wishlist option was there no need to scroll for long, every",positive,app_user,"wishlist_limit, app_performance",0.7144531158069746
+a09ffbec-9694-45af-9380-85ae80877e6d,"Wishlist section is not very helpful to search the product we wish and the time it takes to get that",neutral,app_user,"wishlist_limit, customer_support",0.7540878777458909
+6a2d87de-00cb-46e6-b882-c4715b2f7728,"Very poor shopping experience these days especially with pricing",negative,price_sensitive,"wishlist_limit, price_increase, app_performance, payment_issue, stock_management, technical_bug",0.7365913841916216
+5b25b802-3251-45fd-b783-d2801c3d313c,"It was great until the last update",negative,new_customer,"wishlist_limit, customer_support, stock_management",0.7653971527852227
+57394fa6-02a1-4652-a275-4e8fed021015,"Fir the past 2 weeks, I'm not able to use my saved card to make online payment",neutral,app_user,"delivery_delay, payment_issue, size_fit",0.7120396739636661
+45ee41f2-e6e2-4db1-811d-69c3f4908e88,"My myntra app crashed a week ago and I had to reinstall it",negative,app_user,"wishlist_limit, app_performance, product_info",0.7772513153176659
+936eddb7-ef65-4437-bf63-ef7651e13dc5,"Myntra is one of the online shopping portals which has nothing called ethics",neutral,new_customer,"price_increase, delivery_delay, app_performance, payment_issue, return_process, stock_management",0.7342183821216466
+8e97ff68-d337-4ae6-ac7e-73ff28752610,"They are trust worthy",positive,price_sensitive,"wishlist_limit, price_increase, app_performance, customer_support, stock_management",0.8051798471765699
+d7e1c50d-9f90-451f-8d1b-eb38c54ac484,"No doubt, it is a trusted online shopping app, especially for buying the original products",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management",0.8823820754053027
+3c703a64-1416-48d6-b110-1352e093e518,"Overall it's a good app",positive,repeat_buyer,"wishlist_limit, app_performance",0.8625531156324263
+aae82d3e-7603-49b8-bb82-eef0abd7b823,"Myntra has always been a very convenient app for shopping",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management",0.9472856009328245
+9f183288-8f5c-4aca-a507-70943d783bbe,"Prices are changing after some hours",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9218398666472825
+3479b1df-91f8-49ae-93bd-4d4899518f45,"High priced products and some products didn't even have any discounts",neutral,price_sensitive,"wishlist_limit, price_increase, payment_issue",0.9006521471077393
+90685937-04da-4082-827e-94919b61117b,"1",neutral,quality_conscious,"app_performance, size_fit",0.8018011651907415
+edf0ab17-bdf0-48d6-9f45-350b79997e61,"The app is really buggy & most of the time my wishlist, cart or the list of orders placed dont load ",positive,repeat_buyer,"wishlist_limit, app_performance, customer_support, technical_bug",0.7688183870157962
+3807c1f4-c62b-4edc-91a4-2c70240c88eb,"The overall ux is good but just the product image swipe feature on product detail page is not so goo",positive,app_user,"wishlist_limit, app_performance, product_info",0.8706673354518661
+959c2e75-5c97-44b7-adbb-607f6461804b,"suggestion - i want the like option in myntra to be back, so we can like amd keep the products which",neutral,quality_conscious,"wishlist_limit, delivery_delay, poor_quality",0.8817670262655292
+21df753f-6555-408d-91e4-fd682e4f64a9,"This is the best shopping app",positive,app_user,"wishlist_limit, delivery_delay, app_performance",0.7070315622511072
+7f19e064-6356-44a4-8f1d-6c749831c6e0,"It would be nice if there was a size specific notify me button and if the wishlist could be separate",positive,new_customer,"wishlist_limit, app_performance, return_process, customer_support, stock_management, size_fit",0.8469287028768604
+92791ddd-01c1-4f90-a1cf-c1ef7c34fab0,"Unable to add address",neutral,app_user,"delivery_delay, app_performance, customer_support, stock_management",0.7996601273410375
+3cf6e467-0f5c-4dec-93ff-50a1d8bbfd95,"The one long pending feature to be brought up in the wishlist part is LISTS option (like that of Ama",negative,app_user,"wishlist_limit, customer_support",0.931479528993858
+4e39a91a-cecc-4045-89db-12c1246df69a,"I really love using the app",positive,app_user,"app_performance",0.9117260196006411
+9e03191c-94d3-4d82-ad2e-1824073ecdcb,"Horrible after the last update",neutral,app_user,"wishlist_limit, app_performance",0.9195058116924284
+12499366-9951-4dcb-b9b4-d04b8ad85192,"Saves UPI Id by default tick and then doesn't give an option to undo or delete the saved UPI Id",neutral,app_user,"app_performance, payment_issue, product_info",0.71774958266673
+183ce6c3-cab3-4f7f-8abc-f38061f6ea8d,"Love the app, live the collection",positive,quality_conscious,"wishlist_limit, app_performance, stock_management",0.7325102158389845
+41f330d8-2dbe-4106-a489-b2da1a7bc94b,"Lot of issues with APP",neutral,repeat_buyer,"app_performance, customer_support, technical_bug",0.8365724123020641
+55452d76-85b2-44be-a7b2-e3e9e64a5ec7,"Off late it's pretty uneasy to use with the new UI",neutral,new_customer,"wishlist_limit, app_performance, stock_management, technical_bug",0.9267478185982434
+09d94bc2-0a8d-4359-88c7-85fe38fa060c,"Touch has not been working",positive,app_user,"wishlist_limit, app_performance, technical_bug",0.7943343643376519
+4c2e3c53-8847-412d-8438-e2883589e6ce,"I'm gradually loosing my interest to shop with Myntra",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, return_process, stock_management, technical_bug",0.8284121586757487
+735d5984-40a4-4f69-bbc3-c13dd398bf37,"Before the last update the whole app and UI was very good but since the last update rolled out whole",positive,repeat_buyer,"wishlist_limit, app_performance, customer_support, stock_management, product_info",0.7354923634635253
+cb171b2c-5eda-428a-bd85-461a4a023322,"Worst customer service ever",negative,app_user,"wishlist_limit, app_performance, payment_issue, customer_support",0.8673142119519448
+a72bf5ff-77a1-4f88-9281-a3bc56a31612,"Earlier I was a regular customer as the app ran smooth and customer service was best of all online s",positive,repeat_buyer,"wishlist_limit, delivery_delay, app_performance, return_process, customer_support, size_fit, technical_bug",0.8852877497077032
+b8cea9ce-7e7f-4aba-90ee-2b1fbd7f394a,"Probably the best online clothing stores in India with all cool, funky, branded, and budget clothes",positive,quality_conscious,"wishlist_limit",0.9164721427555707
+5a4790f3-b1da-411a-9811-fc994a0844f8,"The app was good initially but not it became worse we are not able to use back, search, wishlist and",positive,new_customer,"wishlist_limit, app_performance, stock_management",0.739589324106102
+ac9b95ee-1899-42b4-8601-c8e36f1e22d8,"All my wishlist items and all past orders except the last one are deleted by them, i mean why, when ",neutral,repeat_buyer,"wishlist_limit, size_fit",0.8339686061326961
+8994d85e-c190-4013-8611-83206bc09001,"The app has turned worse overtime",negative,new_customer,"wishlist_limit, poor_quality, app_performance",0.8946281016470484
+b8202927-e2a7-41e9-9a74-0ff85fd137ec,"There is a huge bug in the app where I'm unable to open the items from wishlist",neutral,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.8497215879149902
+3000c15c-bc1d-4b2a-8e10-552cc0461489,"Amazing",positive,price_sensitive,"wishlist_limit, price_increase, poor_quality, payment_issue, return_process, technical_bug",0.8803077131911292
+313d66ae-9a51-4d67-9054-22de68b1e3d5,"This app is mind boggling",neutral,quality_conscious,"delivery_delay, poor_quality, app_performance",0.7452477056130409
+b64d8c74-1323-470a-bc6c-6d0b5712f550,"Found a bug, while adding my wishlisted item to bag which cost 1700/- (round off) and the same item ",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, stock_management, technical_bug",0.8868417609533831
+a081e065-b296-4b2a-bc47-59e46461b13c,"Overall app is very good with the new features but since the last update which I did on 09/12/20",positive,new_customer,"wishlist_limit, app_performance",0.9403171480490906
+8875d1f6-c54a-4cbf-81f0-b15eb2008626,"Love the app although but there was categorized section in the previous update which was very useful",positive,app_user,"wishlist_limit, app_performance",0.8178902147798097
+2d432c12-a30f-4b63-aef8-8927f8571d89,"I ordered for my monthly groceries which took almost 30 minutes to shortlist product using my laptop",negative,repeat_buyer,"app_performance, payment_issue",0.8562168022331031
+4ea98d6c-b8f1-497f-9cc5-7fe394052356,"Some serious bug in the app",neutral,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.7470564020072366
+3ce88dd6-cc1e-47f9-a1b8-b854282486ff,"I totally love and recommend shopping at Myntra but I noticed few flaws",positive,new_customer,"wishlist_limit, stock_management",0.7172070188301082
+d17fd422-8084-493a-9c35-48ac45cc26e4,"The app is not working as expected",neutral,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.7561451046738459
+e0dc8d03-940e-4b0f-9d7b-a9451c3e3690,"Don't know what's happening in the last few days",neutral,repeat_buyer,"wishlist_limit, delivery_delay, app_performance, technical_bug",0.9261768522995997
+4f12d353-de59-41c4-a095-1abf95261be8,"It was going fine, I was checking products and added some of them on my wishlist",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7045532242279678
+2e3738d9-7aed-468a-920c-4c9e610f9e66,"Experiencing glitches, not being able to add items to wishlist properly, it shows the message someth",neutral,repeat_buyer,"wishlist_limit, app_performance, return_process, product_info, technical_bug",0.7074644950908764
+4f2d8a14-c25a-4fbe-9905-f01a8fa4f204,"Customer care service is terrible",negative,app_user,"wishlist_limit, customer_support, product_info",0.8029919807896944
+0e0fe269-5046-4fc2-961c-fc11dc5612f1,"The experience is not seamless, scrolling through all items in the list is too slow and specially th",neutral,app_user,"wishlist_limit, delivery_delay, app_performance",0.8347700623825318
+ee870d2e-dd02-43c0-b0d2-7a6ef9fce6ec,"Installed the app today",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, payment_issue",0.9475447689701062
+4ad03704-c50a-4588-8445-ba54bdad018b,"I absolutely love this app, especially the feature to clearly view all the products without blurring",positive,app_user,"wishlist_limit, app_performance, customer_support, stock_management",0.7741701196594455
+bbbeddd0-b9b4-4054-b7fd-e68e2c0880cf,"It's an amazing app for shopping fashionable clothes but I'm really frustrated with the wishlist, it",negative,app_user,"wishlist_limit, app_performance, stock_management",0.8042591291832704
+bc8e3aaa-81a9-44ac-ac04-936f5687b633,"Application is extremely poor, loading takes forever and in that you lose filters",negative,repeat_buyer,"wishlist_limit, app_performance, stock_management, technical_bug",0.9070763992643993
+a356dd5b-fc4f-4869-a765-105158f14aaf,"Myntra is playing trick or something",neutral,app_user,"wishlist_limit",0.7098501654425795
+afedcd36-8ec2-429a-b7c6-1ab3661c2253,"Worst update ever",negative,app_user,"wishlist_limit, delivery_delay, payment_issue, return_process, customer_support",0.7295241400772283
+12081cc0-84a5-4270-b226-94bcd81da9e1,"Can you please bring those old feauters in wishlist where we can organize collections in categories",positive,app_user,"wishlist_limit, app_performance",0.8156576986264927
+6b240724-1e1a-4e0a-b5e8-323667a1eeeb,"So many Bugs",neutral,app_user,"wishlist_limit, app_performance, product_info, technical_bug",0.758368036938894
+77ad57d1-91d6-4c44-9759-a019911ea29e,"The app is all fine, but everytime i try to opem my wishlist, it shows ""something went wrong""",neutral,app_user,"wishlist_limit, app_performance",0.86181465705118
+c29eb5b0-eda2-4b38-8950-4e238bd68371,"Everything under one room with ample options to choose from",positive,quality_conscious,"wishlist_limit, app_performance, return_process, customer_support",0.8270821723555613
+cc1ac7f4-9609-49c6-a22d-315a8355f1f3,"Myntra should have ""remind me""options when product from my wishlist (with my preferred size) is agai",neutral,repeat_buyer,"wishlist_limit, delivery_delay, stock_management, size_fit",0.8986189760435761
+f45202ac-8b70-4cbd-98da-f6c21f40ea12,"pros - Filters in this app are the best among apparel apps available very poor Over the past few day",negative,new_customer,"price_increase, app_performance, stock_management",0.7457057477389244
+4fbb3075-be8e-464a-8c73-3e8983ed5607,"I used to shop dress n footwear always from myntra",neutral,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance, payment_issue, return_process, customer_support, stock_management",0.8675305457478858
+8c9b5bd7-a971-4588-af62-c0554378bb52,"I used to love this app earlier but now it just have lost its credibility",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8592318758256122
+ad3a5e0e-081a-4567-bd66-48a5832dc272,"Something is wrong with the app",negative,app_user,"wishlist_limit, app_performance",0.7884553587623033
+6013ff16-ced8-4df3-8158-39f4a5c0455d,"Lately, the app has stopped working properly",neutral,app_user,"wishlist_limit, app_performance, customer_support, stock_management",0.7794921714112841
+e4f8eb73-e133-4ce6-87e2-1d51f3c16b5b,"I love Myntra's collection, they're just so beautiful",positive,new_customer,"wishlist_limit, app_performance",0.9444758100490247
+faabb80f-e623-421f-8f1a-c52407be88f0,"Nice place to shop",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7409892949723841
+c3a57ee1-2f18-43a9-a4a3-9f134ad7a84c,"Fraud - please be very careful",neutral,app_user,"price_increase, payment_issue, return_process, stock_management, product_info",0.7831242062486946
+045e5832-bdf7-412d-965c-1371bf3f153f,"""Love this app",negative,new_customer,"wishlist_limit, app_performance",0.8605747594194644
+b18260eb-35a7-4968-9f5e-2423c8bb4bf4,"Amazing one stop shop for all my apparels and footwear needs",positive,app_user,"wishlist_limit, app_performance",0.9050458826728387
+bbf8be2f-c01e-42e9-b58e-fc80c9365644,"App is good and let me keep my wishlist for a period as long as i want",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance",0.8878457579007892
+0123a0ea-8eac-4699-af29-a925e5d02f41,"There used to be a category option in the wishlist but it has disappeared now",neutral,repeat_buyer,"wishlist_limit, app_performance",0.7695271890867939
+9a10eef2-42a7-445a-91f8-d9a5d5bd3e20,"I'm giving 4 stars because I have been using this app from long time and have had a good experience",positive,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.824533592831301
+4a936668-5b91-4e40-a80e-d7c305982f20,"Worst App",negative,app_user,"wishlist_limit, app_performance, payment_issue",0.8043359137113628
+0ef431d1-d02a-4d13-a2d0-f01390241708,"Great discounts and very good interface",positive,price_sensitive,"wishlist_limit, app_performance, return_process",0.861483129490727
+1e064553-d8a0-449d-b4a9-1dd7d74b08bb,"This app needs a huge restart/an update, the app doesnt run smoothly at all, it gets stuck or sudden",neutral,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.8036030544902668
+227fb8d1-a2f0-42a6-8f4e-131bd46e5723,"I would appreciate if we had the option to choose the day/date and time of delivery at the time of p",neutral,repeat_buyer,"wishlist_limit, delivery_delay, app_performance, stock_management",0.8588081845346871
+a4400fff-dce5-4a9c-96a1-b193d25b3e04,"The app has some or the other issue all the time",negative,app_user,"wishlist_limit, delivery_delay, app_performance, stock_management, technical_bug",0.8041294823121332
+88e90a08-d29a-4751-a0cb-616f59b54d66,"Unable to buy sweatshirts",neutral,app_user,"wishlist_limit, customer_support, stock_management, product_info",0.7017217036789922
+cf9c925e-7265-41f5-9c9f-957ee9902b34,"I am using Myntra since 2 years , and we ordered many items",positive,repeat_buyer,"wishlist_limit, app_performance, customer_support",0.7258198810129455
+ff8c3a5a-dd75-48c3-86da-00dadd3a32ad,"I believe that this app has various good features like smooth process flow, feel positive due to the",positive,repeat_buyer,"wishlist_limit, app_performance",0.7487706412401127
+7045bb92-0fb0-449b-8145-862642f60b19,"I love the interface of this app",negative,app_user,"wishlist_limit, app_performance, stock_management",0.8415329495714523
+1df844cd-918f-4862-bb25-7dbbc1aba26e,"Worst experience with myntra this time",negative,price_sensitive,"delivery_delay, stock_management, size_fit",0.7137798989903444
+89fdce3f-f4fd-48ff-9b16-58bf2901f798,"Worst app",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7055353822358703
+3d22352a-35ca-4f01-8bb0-c92625863a7b,"Myntra's wish list surfing experience is the worst",negative,app_user,"app_performance, payment_issue, stock_management",0.9108933287978196
+c5db0d9b-f744-4ccb-81fc-97c107d4fbc5,"Love the app, it looks visually appealing and the features to filter even through wishlist is amazin",positive,price_sensitive,"wishlist_limit, price_increase, app_performance, return_process, customer_support, stock_management, size_fit",0.7282291414582864
+072dd4f4-b758-497a-80a4-8104a4b985d5,"nice",negative,price_sensitive,"wishlist_limit, price_increase, poor_quality, app_performance",0.72977984647557
+98d75fb4-ff6c-45dd-ae79-6cde816a4bce,"Gave it five stars earlier, editing now",neutral,app_user,"wishlist_limit, app_performance",0.8061841377727639
+1a0bdf8e-5eea-499a-b974-ac217bce65da,"Too much price fluctuations; once product added in bag or wishlist price increases or it forces to a",negative,price_sensitive,"wishlist_limit, price_increase",0.8997923774558597
+602e55b2-13ca-4322-bfca-6be2b25d4b6e,"Please restore the wishlist feature of sorting category wise items",positive,app_user,"wishlist_limit, app_performance",0.7902445908016398
+b4653803-10ba-4042-8f12-5b007f795c1f,"Hate it after the update",negative,new_customer,"wishlist_limit",0.8961469156839121
+09191e3d-0139-4da5-8347-0e2a8849354e,"I've always selected Myntra as my first choice but I had my worst experience today",negative,new_customer,"price_increase, payment_issue, return_process, customer_support, size_fit, technical_bug",0.8483718443653159
+1518e475-4bd6-4668-8e9f-283ca2151bd7,"In terms of app experience, it is one of the best across fashion shopping",positive,app_user,"wishlist_limit, app_performance, customer_support, technical_bug",0.8576695401082515
+052eb3d1-7595-489d-9b4e-467e1810a401,"Disgusting app before every sale",negative,price_sensitive,"wishlist_limit, app_performance",0.895534735758224
+39956a96-1a25-49ca-8baa-1643745c9bb1,"App is very very slow",neutral,app_user,"wishlist_limit, delivery_delay, app_performance",0.8739707248539363
+d530fa46-39f4-4c36-9e55-eb24926888ff,"Very trustful app I literally never got wrong peice yah if there is a size issue you can exchange an",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance, return_process, size_fit, technical_bug",0.7177351953708213
+84d02fd7-21dc-466d-80a8-8f5ae684103a,"Pathetic app",neutral,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.7539631125639172
+0846cdf6-8fc3-4dfa-831f-a6a416cd58ff,"I m a huge Myntra buyer",neutral,new_customer,"wishlist_limit, app_performance, technical_bug",0.7270900799471953
+dbdbdaca-9862-4440-b73a-1687dcf2b2f7,"Hi In wishlist there was option to select the item depending on the category and it would be great i",positive,app_user,"wishlist_limit, app_performance",0.7682433369939197
+eebfada4-a67c-49ff-b922-1133b57deec4,"I used to like this app however i totally dislike this app now",neutral,app_user,"wishlist_limit, app_performance",0.8601670079830526
+2f0a91b9-88d9-4c66-8ff1-2c6a423c6e1d,"I was given a pre sale slot to buy stuff before the actual sale and guess what their app doesn't let",positive,price_sensitive,"wishlist_limit, app_performance, stock_management",0.7125976182777487
+1997fc58-ba68-4243-8058-5e96f333e96c,"Wishlist and convenience fees There used to be a category/collections options in wishlist and now, i",neutral,app_user,"wishlist_limit, app_performance",0.7988130809035534
+ec295502-251e-421d-b7f7-7fee00527864,"Exceptional logistical service",neutral,quality_conscious,"wishlist_limit, delivery_delay, app_performance, payment_issue, return_process, customer_support, stock_management, technical_bug",0.7837960313109369
+adadb824-3c64-420d-8702-9b6b0336db80,"Have been facing problems recently",neutral,app_user,"wishlist_limit, app_performance",0.8783442057777131
+43b6e3e1-0acf-472d-a2b7-6aedefced9ad,"Myntra  has  some quality range of products compared to the  other sites , but  the ultimate problem",neutral,quality_conscious,"price_increase, poor_quality, payment_issue",0.7844663592503522
+3a3987f6-fcd9-4742-924a-b4ff6c23ec4e,"Dont ever think to buy from this site",negative,price_sensitive,"wishlist_limit, price_increase, delivery_delay, stock_management",0.8327917397845701
+07ad7eb8-c952-45ac-8b67-9305587fd591,"Amazing shopping app, i must say it is theeeee best app",positive,quality_conscious,"wishlist_limit, poor_quality, app_performance, return_process, stock_management",0.8997921500673944
+15e5f85a-8473-41ac-a6af-d073e0ec4be2,"Never got these much disappointed with another app",negative,app_user,"wishlist_limit, app_performance, customer_support",0.7009974327883879
+e483581e-0deb-418b-bad2-33fbe6f29c08,"Update : Now forget wishlist, even your cart will show bumped up prices within a matter of hours (80",neutral,price_sensitive,"wishlist_limit, price_increase, stock_management",0.9123826170471159
+cb80dbca-4e51-4e68-bb6c-28d0ed555aa8,"Picture quality is good + nice UI experience Instant customer support, no payment hesitation like an",positive,quality_conscious,"wishlist_limit, poor_quality, app_performance, payment_issue, customer_support, stock_management",0.8277310655806012
+a2ca9d28-c234-4862-a6cd-3ba1490e9fe8,"I was a fan of this app but the new updates r so pathetic",negative,new_customer,"wishlist_limit, app_performance",0.8771546582281486
+c4382206-135a-44a7-99ef-c80c6203f775,"Great experience",positive,app_user,"wishlist_limit, stock_management",0.9061230210465996
+a29f6637-d3b7-4315-be81-3e7489e2969b,"Dear myntra, longtime user here",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, size_fit, technical_bug",0.7245177298070051
+f8733a8f-92d4-4e7b-a3eb-bd90acaa0f87,"Myntra you aren't really ready for this big sale",neutral,price_sensitive,"price_increase, app_performance, stock_management, size_fit",0.9097773883457456
+eb275dc1-7b67-4c01-a351-81839b3abea5,"My myntra ID was hacked, someone updated a new password 3 days ago, and changed the email id, when I",neutral,new_customer,"app_performance, product_info",0.827533444820318
+3880f2e0-295e-498b-8c40-3560793df553,"The app doesn't have an option to receive notification when a certain product or size becomes availa",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, size_fit",0.8937315038187064
+ef39a009-9544-4783-a6ce-19a4f5a030e7,"Worst app",negative,new_customer,"wishlist_limit, app_performance, stock_management",0.7284888550912136
+27b348db-a0d4-4ed6-96a3-6b20b040ee8d,"My favourite store",positive,repeat_buyer,"wishlist_limit, stock_management",0.8251507209864479
+5c2c0aea-33b2-4a28-b50f-d83c01107728,"Where is the 'Like the Product' option you guys have a limited number to put items in the cart and w",positive,app_user,"wishlist_limit, app_performance",0.7220616920399651
+0c04de1c-28f9-4357-8732-89abd255a38a,"There is some problem with the app lately",neutral,app_user,"wishlist_limit, app_performance",0.8276061856313731
+a527a5ed-e770-4352-803d-0178f6f64405,"1",neutral,quality_conscious,"wishlist_limit, delivery_delay, stock_management, size_fit",0.8736376329728259
+1ee8cb5b-1a86-4d52-b56f-f3bd789cc2d1,"DID YOU KNOW IF YOUR ONLINE PAYMENT DOES NOT GO THROUGH, MYNTRA CONVERTS IT TO COD WITHOUT YOUR PERM",neutral,app_user,"app_performance, payment_issue, customer_support, stock_management",0.858072786722611
+472a0fa1-2036-4f04-a927-5ec72ad1e065,"I have always loved shipping in myntra",positive,repeat_buyer,"delivery_delay, app_performance, return_process",0.8994827646226314
+85428ab4-17e2-4d07-8692-656f150f01bd,"The app was good till some recent update",positive,new_customer,"wishlist_limit, app_performance, customer_support, stock_management",0.7668706644652988
+4556ac00-f7ff-4862-a6d7-a405de62dca4,"Latest update has removed the option to browse specific category wishlisted item under their respect",negative,app_user,"wishlist_limit",0.8237585831578904
+a3064d18-4923-4d71-9f29-4d1779dd1bd0,"Myntra app Hearder part is not working in my mobile",neutral,app_user,"wishlist_limit, app_performance",0.7697227564698228
+04ff85bd-925d-4c05-9250-8de5789ac88b,"What the ***** is wrong with Myntra app latest update",neutral,app_user,"wishlist_limit, app_performance",0.8783369648338125
+c734d24d-40b0-44b4-8fca-3e63ccfcdb60,"I ordered multiple items from Myntra during a sale , they send 3-4 packets, in each packet multiple ",neutral,price_sensitive,"price_increase, delivery_delay, payment_issue, return_process, customer_support",0.9498667554636908
+803e6a97-2019-4f4c-b188-adaf0a091a64,"such a double standard application",neutral,price_sensitive,"wishlist_limit, price_increase, poor_quality, app_performance",0.9211795350577339
+ed94c70c-0dc5-4065-bee9-a794144f8ec5,"Most unethical application, just try to add any item to your wish you will see a 1",neutral,price_sensitive,"price_increase, app_performance, size_fit",0.7646851472107192
+9e5bcabc-3811-43c5-9921-0110e40ff631,"I genuinely use this application the most, but what I really hate about this application is that in ",negative,quality_conscious,"wishlist_limit, app_performance, stock_management, technical_bug",0.8756029449830478
+f16dd4c9-e875-4afb-ba33-253c555ac385,"App is not working at all",neutral,app_user,"wishlist_limit, app_performance, stock_management, product_info",0.8877636669273494
+44b6a315-873e-4013-9cd1-f2c198b45c21,"Since the first day I started using this app, the search & share functions not working",neutral,new_customer,"wishlist_limit, app_performance",0.8086587343381095
+286e6a1c-6637-4b9c-b6ed-ea4dd94c8286,"I start with positive points - quality of products is good, no issues with size too, ap is easy to u",positive,quality_conscious,"wishlist_limit, price_increase, delivery_delay, poor_quality, payment_issue, size_fit, technical_bug",0.8058222878918262
+3e613ccc-814c-4489-8074-d79bea16fda5,"The only reason I hate the new version of app(just the app,otherwise I love everything about their s",negative,new_customer,"wishlist_limit, app_performance, customer_support, stock_management",0.7388118965378765
+56077fd1-f261-4810-afbd-a21a5eb170bc,"Good app but would like it more if products have customer ratings and reviews, the prices keep on ch",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7708599690611929
+6d42b829-d054-4b67-8758-0e35fe1e0964,"What they called ""Sale"" is actually they maximize the price of the product and call it sale👏 and al",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.775114731194442
+1f780cb6-d665-4d7c-8a7c-1623f2853171,"when i want to buy something online i prefer myntra first, such a nice collection and quality is bes",positive,new_customer,"wishlist_limit, poor_quality, app_performance",0.9396411580271467
+fdd4a4d7-beb3-4251-88fe-a687a0cc2beb,"It's a nice app but sometimes I get upset about the stock limits",positive,app_user,"wishlist_limit, app_performance, stock_management, size_fit",0.75646561090401
+abee325f-5cac-4360-8e6a-68cdb489d35e,"I am not able to use search, notification and wishlist bz it is frozen",negative,app_user,"wishlist_limit, app_performance, technical_bug",0.8094682138275042
+bd847a6e-0a0a-427f-b2fe-3fb523365264,"1",neutral,app_user,"wishlist_limit, product_info, technical_bug",0.7466911315477749
+8d1c726c-034b-442d-b8ee-79f987d34c92,"All products are good i,e,the one that i purchased are of good quality",positive,quality_conscious,"wishlist_limit, poor_quality, customer_support, stock_management",0.9077944738701362
+8b3fde59-0362-44e6-84e0-d982a1c981b2,"When I logged in my myntra account on my new mobile I got to see that all my data has been vanished",neutral,new_customer,"payment_issue, product_info",0.9198790938274981
+0dc45b39-ad73-4dd9-8ba1-dd964956f428,"The app gives you discount coupons first and keeps saying buy something for 300rs more and even afte",neutral,new_customer,"wishlist_limit, price_increase, app_performance",0.7510013105623661
+4b2d6b6f-dda6-4a96-ace4-fc2b5cad8f50,"After update the app is not working properly, I am unable to open the wishlisted products",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.9290330901275878
+0d9b5000-5b66-4073-86cf-398f28de4a15,"Previously there was an option of collections that could be made",negative,app_user,"app_performance",0.8325714394327939
+d8ba9243-efe0-479e-9ed1-d32f47352ef9,"WORST WORST WORST WORST",negative,app_user,"app_performance",0.9217469679121629
+62aafce8-01f7-4d31-ad56-e366018df2c8,"This app is going worse to worst, I just put my items in wishlist section",negative,app_user,"wishlist_limit, app_performance",0.7166315871567822
+acd6e766-bbdd-481f-b6a4-e3e4f9a823bf,"Pathetic user interface What a pathetic user interface",neutral,app_user,"wishlist_limit, stock_management",0.7739383317561417
+72287bd3-f5a2-4ecf-a9dd-13269c5ee4b6,"Everything's amazing, just one concern",positive,app_user,"wishlist_limit",0.9375948030955958
+68be3a3d-a521-4f3e-a294-7002de3040e9,"Editing my rating from 5 star to 2star, as the app is not working properly these days",negative,app_user,"wishlist_limit, app_performance, technical_bug",0.8169350090530727
+5c8018c8-38e4-491c-a47a-0ee0017e1c45,"I buy few things from myntra the products are good but ever time I disappoint by the service and app",negative,app_user,"wishlist_limit, delivery_delay, app_performance, customer_support, stock_management",0.7284994125683859
+8e76f82d-0a31-4473-ab53-0fb6762f2e6a,"Why you have only 1 way of login",neutral,new_customer,"app_performance, payment_issue, product_info, technical_bug",0.924184023101527
+774afa0e-1941-484b-8d39-cef4dae297f8,"Can you please add a option for buying an item directly without putting it in the bag/wish list",neutral,app_user,"stock_management",0.9295089983065714
+ebf2464b-4ab9-4cd8-b478-c189d65febc6,"Price must be increased in wishlist",positive,price_sensitive,"wishlist_limit, price_increase",0.910901762520141
+6aa1943d-1894-431a-9518-a4edff192ffe,"I received a call from Myntra asking why the rating is so poor",negative,price_sensitive,"price_increase, stock_management",0.9099693122728447
+64b6ea25-2cbc-42d6-a1c0-253733264cdf,"M giving 2 stars for their coupons",negative,price_sensitive,"app_performance, stock_management",0.778678376694679
+c90d5344-a0ea-4c19-b1e1-91005bfb1669,"Shopping through this App means totally you waste ur money as soon as I wishlist any item they sudde",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, payment_issue",0.8606987755646291
+6c12820f-b962-40b4-a0f0-54ee29953a4a,"Disgusting app",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7003048167931004
+d8d31321-1f6c-4b02-bfdc-eb717c22d3d5,"FAKE OFFERS AND FAKE DISCOUNTS BEWARE",neutral,new_customer,"wishlist_limit, price_increase, delivery_delay, stock_management",0.9496783541765301
+e1664f93-2b63-4ee7-b905-ed6ab4041e04,"server failures in every sale",neutral,new_customer,"wishlist_limit, app_performance, payment_issue",0.8015765843801683
+7e87a94f-a2a3-4b0e-ae49-86a70f32c61b,"With EORS",neutral,app_user,"app_performance",0.7415843051438413
+a24eec78-3901-4320-a83b-92bdded004d3,"I have been using myntra for past 4 years but now myntra laggs most of the times and now I can not e",neutral,app_user,"wishlist_limit, app_performance, return_process",0.7602422504628774
+678cda3c-883f-4e81-ae7e-785a028607a6,"My favourite family app for shopping online 🤗 but the only loophole is that manufacturing or expiry",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, product_info",0.7148319928071638
+c2b0475c-729e-4c3a-9970-e67ee518e47d,"Shopping is sorted as there is review rating",neutral,app_user,"wishlist_limit",0.7644503668297129
+2fbaf643-b1f4-4913-841a-b0fa08044365,"Mynthra always does something, make my saved collections disappear",negative,repeat_buyer,"app_performance",0.8132162880537774
+0871383f-0e71-41d8-98ca-ef552dde6662,"I think they could improve more on the stocks of items which are on demand at a particular moment",neutral,app_user,"delivery_delay, app_performance, stock_management",0.7578669320461238
+42050d35-3425-4046-a6b8-d20864a85e9f,"I browse lots of items and saved under my wishlist and later on when i wanted to check my saved list",neutral,app_user,"wishlist_limit",0.9010302400983534
+6ee9b36a-7e0e-474d-9b0d-0329feef1ec4,"I absolutely love this app, especially the feature to clearly view all the products without blurring",positive,app_user,"wishlist_limit, app_performance, customer_support, stock_management",0.8872338439724908
+fa9dbdec-9fdb-4ab0-9370-b1eaa3519561,"The amount of tax included in each order is disgusting",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8505275937102995
+142dec04-cb2c-4adc-920f-b6d69323e493,"Great app experience, the sections made in wishlist are damn great",positive,app_user,"wishlist_limit, app_performance",0.7703497656577586
+e4848210-2e3e-4b76-b933-49cba232e6ba,"The app has been very laggy recently",neutral,app_user,"wishlist_limit, delivery_delay, app_performance, customer_support",0.7272541281023202
+7ae16206-9e6f-491a-893f-c524a277bf67,"Good online Shopping app ,many of dresses etc all other things i purchase from here only & surely i ",negative,quality_conscious,"wishlist_limit, price_increase, delivery_delay, poor_quality, app_performance",0.886359701352784
+a85fbeef-160e-4e02-9523-3bc11e84c234,"This rating is to draw attention to recent issue experienced while using the app",neutral,price_sensitive,"wishlist_limit, app_performance, technical_bug",0.838731603882847
+eb1a1d9b-9591-4ecf-9208-8fe7582d7991,"there is a whole lot bugs",neutral,repeat_buyer,"wishlist_limit, price_increase, app_performance, payment_issue, return_process, technical_bug",0.9287357108303113
+c61e8685-2a23-4e07-abbc-a06d3ecba4f5,"Hi, I'm a regular user of Myntra,but when I updated the app on 17th Mar 2022,it stopped working prop",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, technical_bug",0.8774734204581072
+53232fb6-06d0-4a82-bc3a-b6421cb64387,"App Interface(UI) Change Back Request Hey there Myntra team, I hate to break it to you but the lates",negative,app_user,"wishlist_limit, app_performance",0.8299959973692392
+4cb15954-0f54-4338-a42b-64e7c6b03350,"Why isn't my pay on delivery working",neutral,price_sensitive,"wishlist_limit, delivery_delay",0.7319398362275689
+c085190b-b457-4861-bb08-03ef78cf897f,"Till now good shopping experience",negative,app_user,"wishlist_limit, customer_support, stock_management, technical_bug",0.7806397189417549
+681e5f32-c924-4baa-812a-b970399e941b,"Myntra, want to order quite a few things",positive,app_user,"app_performance",0.757265856363412
+188f046b-4ecb-4872-9d7d-23317174edf5,"This app used to be the best shopping experience",positive,app_user,"wishlist_limit, app_performance",0.9488475617578846
+e5176f98-77a5-4ba2-b7b2-a9e3b411e215,"The categorization of the wishlisted products was a prime feature that most of your customers liked",neutral,app_user,"wishlist_limit",0.7121175879734993
+cf6c18c0-8caa-4681-8b3d-68d72cca1010,"It will be better if there is filter and search option in wishlist also",neutral,app_user,"wishlist_limit, app_performance, return_process",0.8573718287541034
+7fa610ec-4d91-47ad-b85e-ca5dbb444b20,"The best shopping app and the best part is that it have all the trendy things(whether it be footwear",positive,app_user,"wishlist_limit, app_performance",0.8328679664585584
+bcf5b0a3-be9b-40fe-aee9-2bb9150636f3,"Something wrong when i search for dress it only show not found its not even showing my wishlist and ",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8294033133502932
+b7236a82-f37a-410a-8f5e-367d87ee71c2,"Highly user-friendly",neutral,app_user,"wishlist_limit, app_performance",0.8970933607508822
+4e70e8e0-8e01-4327-a7c9-fe344d0770fb,"Every time I add lot of items in wish list but when I try to access them it just shows ""something we",neutral,app_user,"app_performance",0.8467243092403585
+cb10cee5-cdac-410c-9920-9132c933febd,"It was a good app but recently I'm not able to order things on my pincode and there is some issue wi",positive,app_user,"wishlist_limit, app_performance, technical_bug",0.8404436473078054
+c072c5de-9c69-4f06-b59e-a3e32172e423,"You people are absolute cheaters",neutral,price_sensitive,"wishlist_limit, price_increase, stock_management",0.880078793495368
+f47fd89c-3ee8-42dd-9c51-abe34ab7551f,"I am facing lot of issue lately with this app, i am unable to click anything on top where there is s",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8701337873825823
+552b5a41-8afc-4379-b003-d93d24d51bf7,"there are few ""select"" items in myntra that i like unlike amazon n flipkart",neutral,price_sensitive,"app_performance",0.8995803073586208
+aee3684d-ffc6-44f5-acbb-d6718977ae50,"This is a really bad app, this although gives discount on each and every product but takes all the d",negative,price_sensitive,"price_increase, app_performance, payment_issue, return_process, size_fit",0.8861195821544936
+e9fd9172-c37f-4f76-966c-4b88efda0245,"So not happy with the app",negative,repeat_buyer,"wishlist_limit, app_performance, customer_support, stock_management",0.809390288917377
+249ae085-f706-4bec-ba1d-fa5baa5473c1,"This is really disappointing",negative,price_sensitive,"wishlist_limit, price_increase, app_performance, stock_management",0.7152405725136712
+3b81272b-a83b-4166-b76c-9c4990a9b0c1,"I used to watch Mantra Products almost every week and I can assure that Myntra is cheating their cus",neutral,price_sensitive,"price_increase",0.8677801856210796
+f56ebf0b-c269-4558-a48e-f38b780cf125,"It feels like with every update you guys are cutting down features of the app The wishlist filter fo",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.8800586316042825
+61cf3919-a550-46b0-8197-c9f98d32e3a2,"The products are not being wishlisted anymore on my myntra app",neutral,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.7889740670917671
+04d95114-8cd2-4c5a-a96e-f4f436f933b5,"Delivery experience is great, but app experience is just decent as your size profile doesn't work co",positive,app_user,"delivery_delay, app_performance, size_fit, technical_bug",0.8145500119535649
+9937cd84-1c88-43e4-b984-c14febaf5219,"I'm not able to recover my account money that was added in your Myntra account they are telling me w",negative,app_user,"wishlist_limit, price_increase, app_performance, payment_issue",0.84109533258841
+2d17d4e7-5ed7-443a-bb53-81e7bfc9e9f0,"Hey devs, I just want to know the reason behind removing the category button from the wish list",neutral,app_user,"customer_support, stock_management",0.7536902793452136
+cc2f7879-a7af-431f-b372-3e7a8aa9967e,"I have been using this app so long But nowadays app is getting worse",negative,app_user,"wishlist_limit, delivery_delay, app_performance, customer_support, technical_bug",0.8865255564339414
+131242c6-b081-4bdc-943c-72ff0c59e352,"Great app",positive,quality_conscious,"wishlist_limit, price_increase, delivery_delay, app_performance, stock_management",0.8112362435222683
+52981bc2-9216-4f71-b1b4-f4a3ee9c8a22,"Most of us are impulsive buyers and when u send us notification on price cut we visit ur platform sp",neutral,price_sensitive,"price_increase, poor_quality, stock_management",0.7218568398298144
+dbd6699a-fc97-4b05-8b77-20259f8aeff3,"Myntra app service is getting worse",positive,app_user,"wishlist_limit, app_performance, customer_support, stock_management",0.8804789564671414
+35f3c854-eb4a-47e1-b3c2-059cfd1cc321,"From last 1 month I'm facing an issue related to the ""Add to wishlist"" feature",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8885389815719549
+f3ea9256-0933-4247-98cf-1de67e467342,"the wishlist button doesn't always work",neutral,price_sensitive,"wishlist_limit, price_increase",0.8011874114932238
+f8e4816f-86c6-45b3-940c-4b3297135453,"Very Bad App",negative,price_sensitive,"price_increase, app_performance",0.7541672280497753
+8be90804-00ef-4991-99e7-c3db7de158a6,"Wat the hell is wrong with the wishlist section",neutral,repeat_buyer,"wishlist_limit",0.7739792617001194
+20541480-4827-4733-9ca4-361b97f819b1,"Worst app dont purchase anything from Myntra ever",negative,app_user,"wishlist_limit, price_increase, app_performance, payment_issue, return_process, technical_bug",0.7520094123164365
+a0bc0b99-63f2-461b-bd52-a47c31c335a1,"I've been using this app for so long but suddenly I can't place the orders with COD mode of payment",neutral,app_user,"wishlist_limit, app_performance, payment_issue, customer_support, technical_bug",0.8551198028424958
+ed2ea195-609b-4b40-94c2-91fed0f729b7,"Rating down to one star because of nonresponsiveness of the search, wishlist and other options",negative,app_user,"wishlist_limit, app_performance",0.7983587148576765
+2d33cc54-5cc1-4192-9a37-9087b77b21a8,"I put my items in the wishlist first they showed the item in a specific category",neutral,new_customer,"wishlist_limit, stock_management",0.851225309901377
+7666cbde-7192-405a-b645-8af8853dec22,"updated app is not user friendly",positive,app_user,"wishlist_limit, app_performance",0.8007949888391293
+f3052d96-1995-4571-b781-a968a743198a,"The application was good before not sure if any changes have happened becoz wishlist section doesn't",positive,app_user,"wishlist_limit, app_performance",0.7658801419896952
+e2744438-887d-4d6c-9bd0-f42dfc3de747,"Every time i add something in bag and open to order it crashes sometimes my wishlist just vanishes a",positive,app_user,"wishlist_limit, app_performance",0.7362907351708026
+ed35f8ea-2dd2-4b3e-8d9e-53954b1f81f1,"Frustrated with the app, I really thought it was a cool app and just got addicted to it but now I am",negative,app_user,"wishlist_limit, app_performance, product_info",0.7050754364843872
+46e085bb-306d-4520-8fd0-d9513edf8887,"Like everyone else here is saying, the app isn't working well after being updated",neutral,app_user,"wishlist_limit, app_performance",0.8887117588369999
+8b56b1b8-77b8-4d2d-9084-e22b597f9554,"I'm so disappointed to this app",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8364682111534023
+f9d951bf-2be6-4a1e-9955-bf24baa0b301,"The search option is unavailable within the wishlist thus making it difficult to find particular wis",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.9287171372113396
+358b6f8f-cbc5-4d32-b417-933d359cf331,"The app takes a saved address on its own and directs the page to the payment gateway, does not confo",neutral,app_user,"app_performance, payment_issue",0.8584880864325917
+885a7280-bab9-43db-baac-4d585bac43ee,"Unethical shopping app",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, size_fit",0.7996790056322127
+dc381da1-f66b-4663-820a-e73b0c37b6bd,"Unhappy with the in app (update) shortlisting of products it just don't work for example, I was look",positive,app_user,"app_performance, technical_bug",0.7675106199310288
+2bf7bd80-757c-4c8e-af2b-5c073c011804,"The app lags a lot",neutral,app_user,"wishlist_limit, app_performance",0.8960885501433713
+94ccc074-eceb-4766-9c86-d3bf372a002a,"Need a filter option in wishlist to quickly open items of certain category",neutral,app_user,"wishlist_limit",0.8799676182726104
+c7106dd9-04ba-470b-afd8-f7626c75be27,"The app experience is good",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9345632464509336
+9deaf9e6-0422-4c06-8fc5-6ef9c0013cfa,"I have already given opinion about this but due to it has not yet been implemented, I'm sharing agai",neutral,repeat_buyer,"wishlist_limit, stock_management",0.8211834610947288
+a8aa580a-756f-4e8f-af21-c4722a825ae1,"MYNTRA team what has happened to your tech support",neutral,app_user,"app_performance, customer_support, technical_bug",0.7453739951263367
+9fa251c0-ada9-4fab-bc64-f48f3237e62d,"Good assortment of products and a great delivery experience",positive,app_user,"wishlist_limit, delivery_delay, app_performance, technical_bug",0.8118868031714376
+639ec5bc-f97b-4c55-b0a4-cf321804b555,"The wish list takes a lot of time to load and only a small part of it loads at a time",neutral,app_user,"wishlist_limit, size_fit",0.925986621756345
+ae721455-c01e-48d2-8960-900ca67f42ff,"Products are wide ranged but the wishlist feature isn't working from few days",neutral,app_user,"wishlist_limit, customer_support, technical_bug",0.8340413127004889
+1e4febe8-ce7a-46ec-a70a-52071176f4d2,"Please work on the app as it gets stuck while scrolling and automatically gets closed all by itself",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8367703343451505
+32ef2876-4c12-4924-a978-f919fe28df4c,"I love Myntra❤ for me this shopping site is the best & always will be",positive,price_sensitive,"wishlist_limit, app_performance, technical_bug",0.9217970758580966
+2b2f229b-e1b3-45aa-a0af-08d054907e09,"Where did the category options at the top of the wishlist page go",neutral,app_user,"wishlist_limit",0.7871294799922278
+4c451c8a-78b7-445e-a3b3-f3cf38fbd9b6,"Worst app i added handbag in my wishlist now I want to buy but app did not showing me I'm done with ",negative,app_user,"wishlist_limit, app_performance",0.8006485779319261
+9e90f090-bc12-4829-a6c5-4e08004dbdb4,"Please keep an option where you can notify a customer about the restocking of a product which the cu",neutral,repeat_buyer,"wishlist_limit, delivery_delay, stock_management, size_fit",0.9367427884913682
+3664b3e3-3498-44cc-aaa7-5f113c8c0efa,"Editing from 5star to 1 Because on customer care they are not connecting to resolve my issue",neutral,new_customer,"stock_management, technical_bug",0.9072995977045091
+17361f05-72ac-4edf-84c2-ff32443966f1,"Love this app",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7800200840286337
+2ee9bfee-f625-4501-99af-2decb9b86596,"Good Selection with different styles",positive,price_sensitive,"wishlist_limit, delivery_delay, size_fit",0.8201414166355536
+68eb2c50-0144-4793-9192-ff8e64dafef5,"Why does the user interface abruptly stops working",neutral,app_user,"wishlist_limit",0.8573215885939258
+a2af9d1c-689e-44d0-bf6d-dfe8fe44a016,"Pathetic experience",neutral,app_user,"delivery_delay, customer_support, stock_management",0.7005658523343905
+e2f8491e-d597-4afa-abb7-f566a9d317e5,"The wishlist is completely scattered",neutral,app_user,"wishlist_limit, customer_support",0.9107252318258874
+52f8826f-e8e1-4ad2-899b-cf550559ac66,"This app now dont allow to access filter and wishlist option",negative,price_sensitive,"wishlist_limit, app_performance",0.7424285228573446
+9f1d2fc6-2c79-4aad-a28e-6d280e6f45a8,"Overal great app",positive,app_user,"wishlist_limit, app_performance, stock_management",0.9488104405867646
+749baa47-8427-44f2-a208-6b54fb7cbdc3,"DO NOT ASK FOR CREDITS, TAKE REFUND Now i cant log into my account",neutral,app_user,"wishlist_limit, payment_issue, return_process",0.707158423183982
+8bc324e7-1268-41f4-bc0f-4b032201fb50,"I am old user of myntra and i have account registered with my gmail account",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.945023996043211
+f37a6a3b-8d49-4d99-9682-722088586837,"In my Wishlist section whenever i remove unavailable/sold tops it clears one or two items only then ",neutral,repeat_buyer,"wishlist_limit, stock_management",0.7175958256840094
+4afd2fb8-2cf8-46db-92de-64e91bbbe9a1,"You guys need to update your app for better and not for worse",neutral,price_sensitive,"wishlist_limit, app_performance",0.8069667494648254
+6d35a593-c59b-4cc4-82a1-bd8c24797c39,"Not so good shopping app although there is variety of products but prices keeps on changing on the b",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9307721846462522
+735fc584-bc25-42f6-9d60-faf9446567ec,"There was new features in the app such as categorized wish list and selected ordering from cart",neutral,new_customer,"app_performance, customer_support",0.8739078224434794
+3b51131a-c073-430a-a0b3-69e2e3c4c371,"I order a saree first time in myntra but really horrible experience",negative,new_customer,"poor_quality, app_performance, return_process, customer_support",0.7688779979085233
+be6eced6-9867-4edd-91e9-5f53f96ba231,"Super fast and great experience",positive,repeat_buyer,"wishlist_limit, stock_management, technical_bug",0.700652282059306
+d187f13d-195c-42ee-b050-a2279cd060cd,"it's quite sickening that I m not able to add things to wishlist and I'm getting pissed off because ",positive,app_user,"wishlist_limit",0.9136302773054977
+57a5a8c7-2966-49a5-b658-d3706bbb5507,"Whenever I tap on a notification that says 'you're wishlisted item xyz has dropped in price or is ab",neutral,price_sensitive,"wishlist_limit, price_increase, stock_management",0.7593572527447181
+e17b7b76-c989-460c-b8d0-71ec142cfe27,"There seems to be a problem with the app",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7931237853739697
+57c28bc3-3963-4bc3-b31f-ab54ebf56d47,"the app has been great for me for a long time now",positive,new_customer,"wishlist_limit, app_performance",0.9108682008102214
+c6a0a838-5592-4a27-bd91-83eefdf6a88e,"Myntra's sale is just to make people fool",neutral,price_sensitive,"wishlist_limit, price_increase, poor_quality",0.7527957005717016
+1e181043-bf0c-4843-8bcb-b632b80b5b4b,"What is wrong with the collections in the wishlist",neutral,new_customer,"wishlist_limit",0.9429887979741224
+bb2cefe3-e6b0-4e2f-8086-1dbf180778f4,"This is so strange that I am unable to save anything on my wishlist",neutral,app_user,"wishlist_limit, technical_bug",0.8954300709606544
+bcbeda1f-461e-458a-96a8-f6323005a08e,"I have given four stars for the products one star missing due to wish list I have to go inside for w",neutral,price_sensitive,"app_performance",0.7480168464016805
+b21d6066-d31e-445d-bb8d-1a58ee4355eb,"Befor just last updated we have a option to chhose from wishlist by category but after update is a w",neutral,app_user,"wishlist_limit, customer_support",0.9105829471943052
+e63e4d28-8c5b-4908-95e1-668a06c3e5aa,"Recently the option to Organize Wishlist into Collections is introduced",negative,app_user,"wishlist_limit, app_performance",0.7330444508428204
+96edd5c6-b3ae-4c4f-8904-7eb9fa29ecfc,"Nice UI",neutral,price_sensitive,"wishlist_limit, price_increase",0.9204460529362939
+e6ff7ecf-7f94-4e27-ab9f-eb9ac89c2a40,"Myntra is doing good as an shopping App",positive,new_customer,"wishlist_limit, price_increase, app_performance, customer_support",0.7962729941820599
+b28764a2-d388-476c-bef6-3053ba01072b,"Horrible experience with logging in When I upgraded the app i could no longer view my account and ha",neutral,new_customer,"wishlist_limit, app_performance",0.7206446226267824
+3656d40a-c666-45a5-b045-63d84aaabfe9,"none of the coupons work",neutral,new_customer,"app_performance",0.7189067242803515
+3dff670e-c827-4aed-88af-ebbfd8f47d8a,"Totally fraud work by this app",neutral,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance, return_process",0.7978509004110323
+b5c31c3a-754a-4498-a447-0250fc1de912,"I like Myntra app but there is a short thing I don't like and which I don't like in all apps I think",neutral,app_user,"wishlist_limit, app_performance",0.7075326097257097
+882fa277-a4ba-451b-bae5-22f58b02183d,"The Myntra app is allmost good,, but sometimes if you move the item in wishlist ,, after a day you s",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9373218406582551
+2788286f-8b25-464f-b145-751e1e1389e1,"My Myntra app just doesn't work",neutral,app_user,"wishlist_limit, app_performance",0.87470834477904
+92d713e5-e899-4d51-9e30-9ff06e3631f6,"I've been a user of Myntra for the past 5 years",negative,new_customer,"wishlist_limit, app_performance",0.9285360298009069
+b7bf2db4-b9cf-4a68-a771-a83ee4788e47,"Not a single item out of dozens I wishlisted went on sale however the notifications keep bothering m",neutral,price_sensitive,"wishlist_limit, stock_management, size_fit",0.8278949931825865
+8aad47c4-2485-4926-be88-3948bf989138,"Please bring back the wishlist seperation feature",neutral,app_user,"wishlist_limit, app_performance",0.7278489129231728
+172761b6-a8d0-43e7-b086-489c15a8a470,"I used to love this app a lot but after the recent update, the app has started hanging",positive,app_user,"wishlist_limit, app_performance",0.7100301974705971
+26daabe2-041c-4c24-95c7-9de63bc95a44,"I have been using myntra for long time, never expect the app update to this much disappointment",neutral,app_user,"wishlist_limit, app_performance",0.7397463811616398
+b1f96221-de16-4f73-ab8d-ae62dca8d21d,"I stooped using Myntra long back",neutral,price_sensitive,"wishlist_limit, price_increase, delivery_delay",0.7405598892241488
+9173e0ce-2885-45c4-b421-3ef588bc4ea3,"At the time of end of season all your wishlist will goes out of size,,not available",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance, stock_management, size_fit",0.7581888922816071
+952b2e63-ecf3-4b83-9235-546230bee0de,"I am unable to add a new address",neutral,new_customer,"app_performance, technical_bug",0.7977131265770898
+2d9bd849-7d0d-46c4-b860-48d13a285b0e,"Each time I wanted to see my wishlist but it seems something wrong",negative,app_user,"wishlist_limit",0.7729339147456638
+1ce6f91a-e7a8-4e23-b027-d6282944c4c0,"When you select some products and take some time to shortlist more products you just increase the pr",negative,price_sensitive,"price_increase",0.7256684782112193
+3279348c-c4ab-41a2-9f82-00690b5f578c,"It's the only app I've seen so far, that asks you to wishlist something before sale and increases th",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.87365327119019
+87186049-8aae-40ec-8f11-35593b3f5f45,"Not able to click on anything like wishlist or cart etc",neutral,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.7754414171506878
+6769bd56-305c-4df1-91c0-ce659e14475b,"Myntra cheat customers, i am a regular in Myntra",neutral,price_sensitive,"price_increase",0.8091837756535117
+20adc4eb-9d36-44d3-a8ae-9fc65f93257f,"Please allow to have unlimited wishlist",neutral,app_user,"wishlist_limit",0.8817006050273244
+241e913d-499e-4acc-bba5-b78b76806656,"Best app for clothing purchase",positive,app_user,"wishlist_limit, app_performance",0.8330986895223895
+a9af7212-be28-450a-9345-3b72d6309f6e,"It's been great experience shopping with myntra",positive,app_user,"wishlist_limit, payment_issue",0.8237252480777402
+e6754969-1252-4b1e-9237-0c0ef3451562,"Earlier this app was so good",positive,app_user,"wishlist_limit, app_performance",0.9305406065317973
+e8ab8364-9061-406a-9aa6-0a795ccb4a1b,"Very bad app to buy online",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9315069585690201
+9ca41710-93e0-4a29-8417-236f18224a5b,"Myntraa i request to u I like one product a lot but it's out of stock now😔💔 I want that product",negative,price_sensitive,"wishlist_limit, price_increase, delivery_delay, stock_management",0.7486296472122483
+e9b7ee6b-0f55-4323-b9a9-3e888ed6ba21,"Great shopping experience",positive,app_user,"wishlist_limit, payment_issue, return_process, stock_management",0.8197456613031805
+92c5c08f-4c57-484c-a5b3-a9f2e747bbbc,"My wishlist is not opening, been trying since yesterday",neutral,app_user,"wishlist_limit",0.7643312943526952
+3837b37b-3cca-4357-b8a2-b85e237eb410,"I used to love this application and did alot shopping there, but it seems now this application has c",negative,repeat_buyer,"wishlist_limit, app_performance",0.704762090698386
+632109c0-10e0-4263-81b5-d5cedd0d3e53,"Very nice app with excellent UI",positive,app_user,"wishlist_limit, app_performance",0.948995832629894
+b45eb518-861b-4766-b416-a0bb53f4a71d,"Observing issue in viewing the items",neutral,app_user,"wishlist_limit, technical_bug",0.7569833144842024
+8a21fb58-4d5b-44d4-96ef-f48b4c587c31,"I guess there is some problem with the app I am not able to access it any further after the landing ",neutral,price_sensitive,"wishlist_limit, app_performance",0.9348031761145157
+a86851d0-fbbf-4b88-ad0d-19ae005e5ddd,"Additional taxes and delivery charges are annoying but best part is it has really good products",positive,price_sensitive,"wishlist_limit, delivery_delay",0.9016706770133622
+4f02cbbf-0253-4ec7-9c93-710a3e8840ed,"Myntra is really a gambler whenever someone adds any products in wishlist or in bag Then after a whi",neutral,price_sensitive,"wishlist_limit, price_increase",0.8991900192854614
+5c7c448e-1132-4092-813a-170f61beb3c2,"Product quality Or service is nice but when it comes to return product they starts doing the scam wi",neutral,new_customer,"price_increase, poor_quality, payment_issue, return_process, customer_support",0.7831498299228559
+d3b50bfd-e878-4ed7-82cb-034522102ffd,"That's a crazy app at times",neutral,app_user,"wishlist_limit, app_performance, payment_issue, stock_management",0.8309812097765394
+a0716d02-621a-4a3a-b501-dc0d2c43e6a0,"There r many ppl who are complaning same issue but myntra seems doesnt care",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7284172536502372
+61d26439-9ce5-4d5d-beab-d68d3861c4e9,"There's no such thing as SALE on myntra",neutral,price_sensitive,"price_increase, stock_management",0.8126252981279662
+af36666b-98a5-4602-a2aa-86de492cf07c,"If you add an item to the wishlist the price will change within an hour or 2",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, customer_support",0.7310511125164963
+f94ecb2a-6f9c-462c-9e0f-021745adea3d,"The earlier update for wishlist segregation was really nice",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7901301262005971
+c88ceb4a-2679-4e11-b767-8485c919ff33,"Something get wrong with it So many times",negative,app_user,"app_performance",0.7473638012776079
+d3920595-3c0b-4830-ac1e-775d2eb66e3a,"Donot increase price for dress when we add it to wishlist",positive,price_sensitive,"wishlist_limit, price_increase",0.8564303577052922
+c2769388-a99b-4e7f-88a2-d18a52643c3c,"Facing this issue since 3 or 4 weeks",positive,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.7015307833957154
+bff1151b-3972-4563-b1d0-a969dca29a4d,"The latest update is a disaster",neutral,app_user,"wishlist_limit",0.7517226929407947
+bd1c9a7d-b196-42cc-a4d3-9b361c8612d9,"Horrible app won't let me add things from my wishlist to my cart",neutral,app_user,"wishlist_limit, app_performance",0.8654152455762512
+773ded59-c78c-43d4-9ccc-ec328e422806,"Myntra is good but fails to impress with the discounts and coupons",positive,price_sensitive,"app_performance",0.7143457524412721
+87180790-71ff-4ef2-a07b-05c75f6605ae,"Fooling people on the name of big billion sale",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8502980364265686
+1bbb6588-b36e-4731-b763-37ba68ab961d,"Very unsecured application",neutral,app_user,"app_performance, payment_issue, product_info",0.8362046036149118
+f099f1cf-6529-4892-a7df-4db1ba519ce4,"all collections are awesom",neutral,app_user,"wishlist_limit",0.8287512054304045
+9627874d-946f-44d3-aa1b-13431d6bcbee,"Already a good shopping app; would be better if there is an option to see the wishlist category wise",positive,app_user,"wishlist_limit, app_performance",0.9181765092281273
+6cd97681-bea1-4a32-ba04-a0702c588855,"Its very good app",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance",0.7989162691351214
+baecbf18-55c7-4ae0-a8da-9e32a6092d83,"Amazing app, love my shopping here",positive,app_user,"wishlist_limit, app_performance",0.8251310475644811
+8168b5fd-71b3-417e-82b6-b4b56ebff150,"The wishlist shows only recent items, doesn't display everything you put in it",neutral,app_user,"wishlist_limit, stock_management",0.8041964758015252
+40dab023-b9b3-4192-bd4f-b663c99b58c5,"There has been some issues with the wishlist",neutral,app_user,"wishlist_limit, technical_bug",0.9418037686780891
+521b7517-0010-4ede-86d1-88a1517f5dc0,"The top bar with options, search, wishlist and bag are inaccessible",neutral,app_user,"wishlist_limit, app_performance",0.8270444727554996
+c45c8365-73f9-469b-a08c-bf3f8d140f80,"I used to love shopping from this app",positive,repeat_buyer,"wishlist_limit, app_performance, stock_management",0.8642816920893135
+49d82957-86de-4436-88bf-635418afbc85,"Your customers have got nothing to do with a wrong Campaign setup",neutral,price_sensitive,"app_performance, technical_bug",0.7802589794629864
+7daed45f-338e-4f48-a64c-32947265d11c,"The prices of products in my wishlist increase",neutral,price_sensitive,"wishlist_limit, price_increase",0.7759657537417255
+2972305b-2455-4b09-a4f1-6c5c1eb9ad05,"Why couldn't I make customised wishlist categories",neutral,repeat_buyer,"wishlist_limit, app_performance",0.730831754260725
+ad7df168-64c5-45f4-875b-790c5472ad20,"Deceiving app",neutral,price_sensitive,"price_increase, app_performance, stock_management",0.8841316799211683
+334dc421-d705-46ce-a2a0-25afa3ce6e46,"The app is not working properly",positive,app_user,"wishlist_limit, app_performance",0.9343205899154321
+5fc4ea88-a93d-49d5-b569-9bb218d6a0b3,"Now Myntra has introduced Beauty too along with lifestyle",neutral,app_user,"wishlist_limit",0.8216969843820632
+7ffa1cb3-938c-42d2-9bb4-1e5279c3c320,"Your products are excellent in quality but your dealer don't have any sense each time increasing rat",positive,quality_conscious,"wishlist_limit, price_increase, poor_quality",0.9249758081815569
+6faddb9e-1b05-49db-959b-0d6a97233aa0,"What happened to the feature of wishlisting thing in different categories of items",neutral,app_user,"wishlist_limit, app_performance",0.8081788824194804
+01384cba-a772-4944-a810-44fe839ff6ee,"worst",negative,app_user,"wishlist_limit, app_performance, stock_management, size_fit",0.8609551660327871
+3638d880-1c00-4dff-acdd-efebbdc61455,"I wishlisted many clothes",neutral,new_customer,"wishlist_limit",0.8571920936555888
+20ae642e-a72f-4703-b92e-1e1352339db8,"This app stopped working",neutral,app_user,"wishlist_limit, app_performance",0.7656869494582292
+409d013e-aa9d-4305-b931-02f9367955d6,"The app experience is going down with every update",neutral,app_user,"wishlist_limit, app_performance",0.7547584849006954
+3e03bccf-f5fa-4934-a731-5e6080b249c4,"I am a long time shopper on Myntra and I absolutely love the app",positive,repeat_buyer,"wishlist_limit, app_performance",0.8071172383244393
+1cb8ca77-a89c-476c-97c6-b9830b121e42,"Though the app is still good but even having no permission given the browsed or wishlisted/similar i",positive,app_user,"wishlist_limit, app_performance",0.9189745220349803
+4e60968a-839a-4dad-8df7-a42085f46025,"The performance of the app is quite improved but still I have problem in adding my my favourite prod",positive,repeat_buyer,"wishlist_limit, delivery_delay, app_performance",0.909302674495932
+a65fbd0e-d6d4-4c47-9b07-c0732e1ed8db,"Since the last update I am not able to view my orders, saved addresses and more",neutral,app_user,"app_performance",0.8111075663573585
+fedbf07e-0762-4efc-bde6-bc7a71a3df96,"Hii Pls add different item tags at top of wishlist as it becomes easy to search n navigate through w",neutral,app_user,"wishlist_limit",0.9073608175575874
+57becb73-34e3-466d-a780-b323db6619d3,"The app stops anonymously",neutral,app_user,"wishlist_limit, app_performance",0.8763039549228414
+ac88da84-5c58-4486-be1e-19cb249ccc0d,"In recent times , my wishlist is not working,items in the wishlist is appearing and disappearing ran",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8188111930928078
+8a66223c-4dbe-4bb0-a76d-91379b29a84e,"I was really happy with the services, I expect this in the future even but the thing is, from past f",positive,app_user,"wishlist_limit, app_performance, customer_support",0.725921816899418
+ccfa96fe-8854-4062-829e-335cb41ce920,"The top taskbar isn't working at all",negative,app_user,"wishlist_limit, app_performance, technical_bug",0.7228348211679347
+3796a605-34e7-48e8-af79-ac37e6ce7b8c,"Really wish I could save items to multiple wishlists",neutral,app_user,"wishlist_limit",0.891349113138241
+24303fbf-0fda-4612-bc0d-daf697ccf33b,"The negative feedback for this app is it doesn't show the whole wishlist in one go",neutral,app_user,"wishlist_limit, app_performance",0.9040075068890505
+7905c0f7-1c91-425c-95a1-84920dccf5e6,"Always showing something went wrong",positive,price_sensitive,"wishlist_limit, price_increase, app_performance, technical_bug",0.8024160231217672
+2d055c95-044a-4388-b002-0ca4a0e6f016,"This app has serious issues",negative,app_user,"app_performance, technical_bug",0.9239129056041915
+50f9fef8-7720-4af7-843b-a9f9b1480669,"New update is not good as there is segregation between different types of items in wishlist also the",positive,new_customer,"wishlist_limit, app_performance, customer_support",0.8829468373621218
+8aa1b89c-1564-4292-b248-8ecb22623f46,"Pathetic experience in this version as it saved my filter suggestions and then says error can't load",neutral,app_user,"technical_bug",0.8398818736352472
+acc066e9-8378-4313-94d5-e04cfee4cd93,"Best part of myntra is wishlist categorization",positive,app_user,"wishlist_limit, app_performance",0.8763342471075313
+b9427415-ab88-43dc-8fff-079807f20392,"Not able to purchase anything in this sale",neutral,price_sensitive,"wishlist_limit, delivery_delay, app_performance",0.8706981236814727
+0cddcae7-6fa2-4c21-872e-b4df45a12d6c,"App has become buggy",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.794996226788627
+1b9a5f1b-129d-484b-9851-a0772dd2b4e5,"Im not able to use my credit points one of rep asked me to uninstall the app i did, lost all my cred",negative,app_user,"wishlist_limit, delivery_delay, app_performance",0.9122495573364577
+1bbad990-a94c-4c73-9bd6-a07b94791aed,"I am unable to bookmark any products since last week the app is up to date and it keeps giving me th",neutral,app_user,"app_performance, technical_bug",0.9217070566358412
+fee2b1f7-fe5b-4239-aff0-12404134862b,"Not able to add more than 1000+ items to the wishlist which is so unfair",positive,quality_conscious,"wishlist_limit, poor_quality, app_performance, stock_management",0.9380310830115643
+c9f5fd08-e73a-4097-aa1a-53c8236683b0,"when ever I wishlist a product or added a product to cart, the price of the product is getting high ",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.8369153443423671
+28f4380e-8bcc-4d4c-9366-e176885fc496,"Very good app as compared to other shopping apps",positive,app_user,"wishlist_limit, app_performance, stock_management",0.9154209803677744
+231551a7-2e79-46df-871a-539b09bf85dc,"While EORS sale, they send you message that your VIP slot is from this time duration but once you tr",negative,price_sensitive,"wishlist_limit, app_performance, payment_issue, stock_management",0.7591167039446651
+78ae521b-3b40-431b-b3bf-8816408638d2,"Please update the wishlist as before",neutral,app_user,"wishlist_limit",0.9322057501703218
+b1ff4b31-e289-4b28-a896-fd937364d1b4,"So recently I had to reset my entire phone,in the result all the apps were deleted",neutral,new_customer,"wishlist_limit, app_performance",0.7446017380901182
+3c606cfc-0909-4b50-bf66-cf41b32d6009,"Earlier wishlist used to have divisions regarding jeans, tshirts, etc",neutral,app_user,"wishlist_limit, app_performance",0.842019340887912
+510f6542-a382-4521-b833-1756d98e81ec,"Hi recently face a ui corruption issue Issue: wishlist and add to bag button shown twice in recent a",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.9459884368753037
+74080ce1-bf3e-45b5-a2c1-a75044472d3b,"Earlier app was pretty cool to use but after update the category option in wishlist doesn't appear a",neutral,app_user,"wishlist_limit, app_performance",0.7509531310112192
+0d956399-f579-4ade-be88-8336f9f654b4,"It was a good app till now but what's wrong with the update , the products in the wishlist are not s",positive,app_user,"wishlist_limit, app_performance",0.8617533688457246
+8c4c70ee-6af1-43a7-830a-b4e73fa28fe5,"I dunno whats wrong with the app after updates",neutral,app_user,"wishlist_limit, app_performance",0.8381936702006476
+58b0bb1b-861a-42fd-89d5-0b1b8e163582,"Well I have been using this app for almost 4 years now and i am really satisfied with the app and ev",positive,app_user,"wishlist_limit, app_performance",0.7397484303192869
+30ce04bd-ca84-4e31-bfd0-746e27df0f41,"Unable to use Myntra Android app since yesterday",neutral,quality_conscious,"wishlist_limit, app_performance",0.8723335410102082
+73708a03-8e4e-4aaa-9355-9e58e0f6c699,"The new update of not having the options of different items present in your wishlist is very time co",neutral,new_customer,"wishlist_limit, app_performance",0.8361366533295727
+f19e999d-4b64-42b7-9f1e-fc87ab5d47fb,"It's hanging a lot now",neutral,new_customer,"wishlist_limit, app_performance",0.7287974819522529
+cbbaa1a4-6457-4e63-a444-b173ed2f90fa,"Over all the application works fine without any issue at all but sometimes when I try to add product",neutral,app_user,"wishlist_limit, app_performance, stock_management, technical_bug",0.8694692442631212
+ea3b6dbb-1b07-499d-be58-ee103960ea4e,"This is fraud app",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7457958763077132
+8ce0ef87-bd70-4f47-9554-cbb5f9169d9b,"Such a bad app with mind games with customers In my app only cart and wish list is opening when I wa",negative,app_user,"app_performance, return_process",0.9149829379379615
+1d5bd152-2e29-4523-b1a4-dc3c604bf2cf,"The top bar(containing menu, search, notifications, wishlist and cart) of the app is not working(tri",neutral,app_user,"wishlist_limit, app_performance",0.8191504160831473
+2fe976d7-877f-4c07-9bcb-ad0b78e43663,"Pure cheating with the name of sale Initially when the product is wishlisted it shows 60℅ discount",neutral,price_sensitive,"wishlist_limit, app_performance",0.8182554624034735
+1fbc82d8-22ef-4ce5-b710-feecabf071e3,"Why Myntra is showing",neutral,app_user,"wishlist_limit, delivery_delay, app_performance, stock_management",0.8984084779682906
+6676d557-8f09-4593-bcbb-8fa69806f26e,"Ritik Thakur ❣️: Myntra has always been a very convenient app for shopping",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management",0.8960446977190243
+b9f61b6c-0f8c-40cd-8621-d74cbcd47128,"One very convenient feature they have disabled is displaying categories in wishlist, not good, ENABL",positive,repeat_buyer,"wishlist_limit",0.7634728450583568
+fdf2f078-b8c1-4309-a7aa-7d240d035461,"It is a gr8 app for shopping according to your convenience",neutral,app_user,"wishlist_limit, app_performance",0.7637175079316915
+9acf39ff-6a8d-406b-b5ed-ee442798565f,"Improve wishlist adding and removing structure both on app and web",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7015355348962911
+ecc93552-c63e-442c-bfed-c15f5c7ada9b,"Whats going on with the app",neutral,app_user,"wishlist_limit, delivery_delay, app_performance",0.8638865144324697
+0e1e7863-19d2-4a01-aad7-8e3dc0cd15ea,"This is really the worst online shopping app among all",negative,app_user,"wishlist_limit, app_performance, return_process, customer_support, product_info",0.7425289736375338
+a36e40af-e9d1-4cee-860c-4b805afe62be,"I really love this app, the offers here is none like any other",positive,price_sensitive,"wishlist_limit, delivery_delay, app_performance, payment_issue, stock_management",0.775095824981317
+8a05bb92-8258-46d2-aefc-c39b6cf3e74e,"Finally after shopping for past 5 years , previous the experience was good but now its time to unins",negative,quality_conscious,"wishlist_limit, price_increase, app_performance, stock_management",0.8827551680968406
+de2dd121-c95d-4aca-b665-c95eb05c804a,"Since 14 Sep 20 there is some issue with this, my previous records are missing even those orders whi",neutral,new_customer,"wishlist_limit, price_increase, app_performance, customer_support, stock_management, technical_bug",0.8743383488230767
+9bd2c287-2e2e-46f0-8dd5-0ee92980d17f,"Worst app forever I am regular user mantra app but here Price of products are highly increase when y",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9059969263287735
+61003c96-fee8-4f6c-8c95-2768d04745d6,"I usually Myntra for their fashion products and customer service",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, customer_support",0.8256731116179014
+39033f8f-cc50-4489-8142-cb0450ef6f30,"They are making fools with reference code log in with code but didn't get you any benifit but accoun",neutral,price_sensitive,"price_increase, size_fit, technical_bug",0.8179294337648555
+42c7614a-7cda-4b14-bf59-0b0fd5967538,"Great Brands, Excellent Deals and Very Easy application to use",positive,quality_conscious,"wishlist_limit, app_performance, return_process, customer_support",0.7907162023462522
+ffcc120a-814c-40b3-8dff-e950e89fe265,"What a waste of time I just downloaded this app in my mom's phone and spent too much of time in addi",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7305393109317353
+d3edceb6-73ac-49c0-9c9b-bf15bbf3c555,"So many technical glitches in this app",positive,app_user,"wishlist_limit, app_performance, product_info, technical_bug",0.9028570934311985
+66a1bb64-9bda-4819-b92c-fb2140f33905,"Very bad app, searching option is not working, wishlist and cart options are also not working",negative,app_user,"wishlist_limit, app_performance, stock_management",0.7597978809126846
+baf2b658-3668-4f2e-ad9f-91f72923de78,"If giving 0 stars would've been possible, I would've done that",neutral,repeat_buyer,"wishlist_limit",0.8117843241616123
+cb6fee23-e1dd-4cd6-b443-10d0756fcfeb,"What kind of app is this",neutral,repeat_buyer,"wishlist_limit, app_performance",0.8671582726301583
+9ed6c630-607c-43de-8378-9758574612d4,"Myntra is the biggest scam you will come across",neutral,app_user,"price_increase, app_performance, payment_issue",0.8990452132372133
+29f58743-7eb4-4dbb-a107-9bf566786797,"Very bad experience I don't like my first order so wanted to return it but Barcode print is too ligh",negative,new_customer,"return_process",0.8293761400166146
+9cf29472-0859-4ee3-9da9-d4ea2ffd50bf,"Very good app, but recent updates show no sorting of items in the wishlist, which is making it diffi",positive,repeat_buyer,"wishlist_limit, app_performance",0.8626121673226737
+d24ee911-c1e6-4067-956c-8795024e4579,"Hi myntra technical team , overall is good searching,add to cart , simplify search and find , but I ",positive,app_user,"app_performance, payment_issue, technical_bug",0.7869885827321357
+d4c3bb80-117a-4fff-af53-c084084f81da,"It has a bug that wishlist is not opened and I have asked for exchange of item and I can exchange an",neutral,new_customer,"wishlist_limit, app_performance, return_process, technical_bug",0.7772420373435587
+c11e2371-5f57-40f7-8b15-07fa57b0dbb9,"Myntra is awesome but I don't like it's wishlist becoz we have put all things in one list",positive,app_user,"wishlist_limit",0.8885259401787975
+3716566f-b139-41da-a805-3ae52dbcf51d,"I don't understand suddenly I'm not being able to open my wishlist while I'm on main page and also s",neutral,app_user,"wishlist_limit, app_performance",0.8525872370893562
+abaa9a4c-0730-4191-96f7-852eb6219b07,"The are frauding with saved credit cards",neutral,app_user,"payment_issue, return_process, customer_support",0.7943371725347348
+62bd2526-b0ce-4f2c-9f37-481d0829a34e,"Great, but I really think there should be a filter or categorization setting in the wishlist,it will",positive,app_user,"wishlist_limit, customer_support",0.9487361731559546
+c6ce4052-082b-479d-b573-1a58727df8c5,"One of the feature I really liked about Myntra was the wishlist was so organised but after the updat",neutral,app_user,"wishlist_limit, stock_management",0.8095085421175392
+578ff5b6-f6b0-4203-8cba-2d6c1caacbc3,"I hv been trying to place an order using my hdfc card which entitles me to get 10 percent discount b",neutral,price_sensitive,"payment_issue",0.7946648696518211
+bad17103-a400-4080-b044-1615f423d34a,"dont know what kind if sale is this",negative,price_sensitive,"wishlist_limit, price_increase, payment_issue",0.7407229728878384
+0158a801-321f-4e3b-ab1f-f879c7c366bd,"the user interface is very good",positive,app_user,"wishlist_limit, app_performance",0.859506348198702
+e0f26080-1dbd-475d-bac8-6e876e313b04,"Why do Myntra increases rate of every product that I keep in Cart of wishlist",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, payment_issue, stock_management",0.7448176161162473
+36798bfd-78d9-42d4-84a1-ae722a890f38,"In the latest update, you removed shortcuts from home long press on app icon",neutral,app_user,"wishlist_limit, app_performance",0.7792558751533051
+ef5fc65d-9e1d-4fa1-87b6-6c1b09713260,"Never thought it from Myntra",positive,price_sensitive,"wishlist_limit, price_increase",0.8304529003507884
+c7167ae7-6204-4a6c-b117-b8bca1722292,"Myntra is my first choice for online shopping",positive,new_customer,"wishlist_limit, app_performance",0.7264869276006927
+fff589f9-53a1-483b-b96d-86cd7bfd885a,"Such a worst service they give I never faced this much frustation till now",negative,repeat_buyer,"app_performance, return_process, customer_support, stock_management",0.8542201940181853
+a6310b9e-cd69-4e6b-a8d8-fe1a23aa75d4,"Okay you need to fix your issues it's getting really annoying",neutral,app_user,"wishlist_limit, technical_bug",0.7839099235712363
+15b863cf-2c88-4853-9a0d-5e8035ae3e4a,"Never expect same color as Myntra has really flashy images",neutral,app_user,"wishlist_limit, app_performance, payment_issue, return_process, product_info",0.7653013748640856
+5d75b4a9-134e-454d-b44f-93c3deac95d0,"Why you have removed your wish list category",neutral,repeat_buyer,"wishlist_limit",0.9496764930661414
+7537271d-4463-493e-98cf-295d85763fd8,"Disappointed as after updating app to latest version wishlist page is keeps on loading , though it d",negative,app_user,"wishlist_limit, app_performance, technical_bug",0.8510285781487503
+5d63c486-414d-4444-93eb-f7e586600b77,"The items in wishlist showing different price rather than actual price have to pay",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, stock_management",0.7400870932274135
+89e70db9-baa1-4ae6-b496-cbcb38b733b9,"I love the app, can we have wishlist category please",positive,app_user,"wishlist_limit, app_performance, customer_support",0.9403554782113069
+10967db2-5a0b-4f4e-b40c-cfa76b094149,"I've been using this app for almost six yrs nw",neutral,quality_conscious,"wishlist_limit, price_increase, delivery_delay, poor_quality, app_performance, return_process",0.7990920879899636
+005bddb9-be8b-473c-9b9e-f4be17366eb4,"Good app for online shopping specifically for clothing",positive,repeat_buyer,"wishlist_limit, app_performance",0.8758410976509088
+b68b668d-2649-45b1-b67d-d764bfbdc6b8,"Have always Loved it",positive,quality_conscious,"wishlist_limit",0.7199561348530823
+c5f29a3f-82e0-4852-9bd6-8addaa3d95b7,"There was an option of viewing products by categories in our wishlist which made easier to find item",neutral,app_user,"wishlist_limit",0.8570489109371634
+6ef0fec7-3c5b-4631-b48b-d18db3958f47,"I kinda enjoy online shopping on Myntra bcoz of complete product details, on time delivery and good ",positive,app_user,"wishlist_limit, delivery_delay, app_performance, product_info",0.8953724171843891
+da18bc92-182a-4154-8e8b-7c16c2cff991,"Good Experience so far 😊 But would like to have one feature about notifying favourite items back in",positive,app_user,"wishlist_limit, stock_management, size_fit",0.8578292782956246
+28e71da8-2c53-4277-a7b8-7fc7974249f2,"Everything about this app is simply awesome",positive,app_user,"wishlist_limit, delivery_delay, app_performance, payment_issue, customer_support, stock_management",0.7264933540836078
+48988ff6-0af6-462c-86ab-0e5581085281,"Do something convenient with the wishlist like the categories which was earlier provided it was very",neutral,app_user,"wishlist_limit",0.7637947018184765
+03e32a30-e725-47d7-b106-99ba45417cfb,"Today I was purchasing a product from Myntra",neutral,app_user,"payment_issue, product_info",0.7578727835315273
+4babd9d7-527b-4641-bd30-0352298cb604,"You have the greatest collection through out your range and I love to buy from you but for some days",positive,app_user,"wishlist_limit, app_performance, stock_management",0.8476172782971116
+a5a43a6c-27bf-4bed-80bc-c8c2ea6b8b11,"I don't understand why the categories in the wishlist is not shown",positive,app_user,"wishlist_limit, app_performance",0.7277530159805301
+1346c339-9bb4-4401-a0d8-4efd823402f5,"Please bring the option to share wishlist, I assumed it was a no brainer to do so",neutral,app_user,"wishlist_limit, delivery_delay, size_fit",0.889141729256181
+1ccdd96f-26c2-4e38-be38-eb3fc85f5dc2,"Not able to add Items to wishlist & also not able to remove them from the bag",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8777952736931921
+a7fc0737-634e-4af3-a7fd-ccc8329dd201,"Can't click in anything",neutral,repeat_buyer,"wishlist_limit, app_performance",0.7246511230505877
+1bf2486b-af13-452e-b114-d94e1be28839,"Great, glitch fres experience",positive,app_user,"customer_support, size_fit, technical_bug",0.9239012208846578
+9c05e025-65e1-46f7-b535-c8cebc4197b2,"The app in not working properly, dats when we touch it's not responding specially the upper side of ",neutral,app_user,"wishlist_limit, app_performance",0.8740863414287169
+c2225896-3925-4848-af05-2ecb0521ad49,"I am not able to wishlist my favourite items",neutral,app_user,"wishlist_limit",0.8805027704469646
+4144465b-e7fa-4a40-8522-80715c5b7a39,"I love this app but recently I couldn't login into my wishlists or order details",negative,app_user,"wishlist_limit, app_performance, customer_support, product_info",0.9311887114968731
+2b9e7987-16cb-4dcc-8788-b51e1e781f22,"Myntra is my favorite online shopping app😘",positive,app_user,"wishlist_limit, app_performance, size_fit, technical_bug",0.8623544676881927
+2a74fd5c-2c4e-4d55-a61e-ab6265163432,"Perfect",positive,app_user,"wishlist_limit",0.9450670208847756
+a512a89f-4085-4ee0-82d3-29ab05dac86d,"Last few weeks the app goes unresponsive on all buttons or icons to click an only thing is scroll up",neutral,app_user,"wishlist_limit, app_performance",0.7569793403747136
+9a5d5edf-ddbc-42a9-8954-880d570fd4af,"Whenever I try to add items to wishlist",positive,app_user,"wishlist_limit, app_performance",0.7658556972365981
+1958feaa-122b-42e9-a9f4-1452fdeb93a6,"This app is great for shopping but everything is more expensive as compared to Amazon or Flipkart an",positive,repeat_buyer,"wishlist_limit, price_increase, app_performance",0.7656209357573395
+b3d28b28-a546-425f-9e39-b2b1bf759ce7,"There used to be categories in the wishlist section and now the new update doesn't have it, which ma",negative,new_customer,"wishlist_limit, app_performance",0.9060089058570342
+f489dec5-b1b8-4cfe-a7a1-34695b69244e,"Before they used to show category wise item in my wishlist now the options are not visible tbh that'",neutral,repeat_buyer,"wishlist_limit, customer_support, stock_management",0.8601081250932867
+61c42e30-5e33-4ccb-924b-a0ba07eaab84,"What was the point to take away category filters in wishlist and place a new feature to create colle",neutral,new_customer,"wishlist_limit",0.7211508987304995
+34e6e1f5-637b-4ced-8b89-4a13dee2ea6f,"Love the app",positive,app_user,"app_performance, stock_management",0.9284168116446871
+a5395b69-1ea5-41a9-aae2-fe61b27862ea,"Once any item gets out of stock, then it will not come back soon or most of the time it never gets b",positive,app_user,"wishlist_limit, app_performance, stock_management",0.8037652369193957
+fd7a32b7-3875-4373-82df-b74f3e7437d6,"Worst shopping app, i would rather give zero star",negative,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7462299190630002
+91432b21-607f-4894-a84e-9d827fa87ef8,"Products are good, but App has some glich",positive,new_customer,"wishlist_limit, app_performance, payment_issue, technical_bug",0.9417021899707086
+92147be1-2457-4514-ab8e-4ce248071846,"App is not working",neutral,app_user,"wishlist_limit, app_performance",0.8439273445539566
+43547d7a-fd32-4464-bde1-38edab77fff2,"u keep the product in your wishlist or cart",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance, payment_issue",0.902281167237542
+254abd08-aca6-4833-b4d0-2ed95107cefe,"Stupid Way of forcing people to buy stuff",neutral,new_customer,"payment_issue, stock_management",0.7852261794529414
+cd056d35-e0a7-4d6e-9ed9-5b257a853b50,"Overall it's good but in wishlist there is no categories option like Tops, Shirt, so on",positive,app_user,"wishlist_limit",0.8991995074340517
+83ddf4a5-7cdc-4395-ac77-e0920e0ec86a,"Every time I am trying to get access to my cart it's being denied",neutral,app_user,"wishlist_limit, app_performance",0.7477599702248019
+270a3803-b77d-4470-80b9-a8e06727ed71,"I've ordered a couple of times on myntra, amazing discounts",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay",0.8436934592461878
+4f7c2692-031d-41d6-b71a-829249e60062,"I love to shop from myntra",positive,app_user,"wishlist_limit, stock_management",0.8576472523945615
+cab2feba-5e57-4f4c-a783-8a91b181a8bf,"Dresses are good quality variety is also good for that this 3 star",positive,quality_conscious,"price_increase, poor_quality",0.7327429496453248
+3f486701-e1a8-46f3-9d03-1b8c463cf048,"Hi,I am using Myntra since many years and never had any bad experience",negative,app_user,"price_increase, delivery_delay, payment_issue, customer_support, product_info",0.7852775824870802
+5eb927e2-b195-4558-9610-e405e9732ec3,"Why cant i buy a product without adding it to the bag",neutral,app_user,"stock_management",0.936303345204714
+752f38e0-2ca7-45f9-bdc4-5012d818623c,"It's great app with awesome and genuine variety of products, it's irresistible to stop shopping from",positive,quality_conscious,"wishlist_limit, app_performance",0.7794425597358385
+66b26785-1c97-446d-b6af-21b64e3d5116,"Whenever I used my phone on dark mode so there notification icon and wishlist icon are properly visi",neutral,app_user,"wishlist_limit, technical_bug",0.8461997391988076
+1fb0ffc9-1fde-4fa7-baa1-fa7437aee610,"I have rated this app as 5 star app but now I am degrading it",neutral,quality_conscious,"app_performance",0.8710638231339647
+4001f0e0-91a4-4afc-91d3-7c0b2a752001,"In this app rate of wishlist items increased after some time",neutral,app_user,"wishlist_limit, app_performance",0.8754381816391315
+5eeb0c6c-8049-4bf9-b906-2bb17679d30e,"Kindly give some attention to it",neutral,app_user,"wishlist_limit, app_performance, customer_support",0.8970830212073408
+f0ae8d31-159a-4041-8d5c-6c652944385d,"I couldn't add more than three items in my cart and every time my wishlist was also getting emptied ",neutral,app_user,"wishlist_limit",0.9266186050222681
+6b10d5e6-bad1-482d-a09d-8597dbfcd1ed,"Facing issues while adding to/removing items from wishlist",negative,app_user,"wishlist_limit, technical_bug",0.8166414123355766
+43271b1a-e90a-4d97-b463-db517d8476f1,"I am using redmi note 7 pro and this app has a big glitch is not working properly upper icons like s",neutral,app_user,"wishlist_limit, app_performance, customer_support, technical_bug",0.7913432765479271
+98973d1a-fa48-4e0f-8125-fc5d25911135,"I am giving two starts bcoz products are good",positive,app_user,"wishlist_limit, price_increase, delivery_delay, app_performance",0.8805534532881469
+8272e001-24ed-42ee-a57b-7ea555bcc5ba,"My whole wishlist went missing",neutral,app_user,"wishlist_limit, app_performance",0.9076526342173117
+b19604b4-5069-4a8e-a3a8-bf84642f047d,"This app is really very good than other shopping apps",positive,quality_conscious,"wishlist_limit, poor_quality, app_performance",0.7789594720822945
+3657607b-859a-4333-95ad-d47d771cb758,"All of a sudden my order history was cleared and wishlist is not loadings but other screens are load",neutral,app_user,"wishlist_limit",0.817074517952474
+b33255b1-1711-4533-b2bd-b73f663c4089,"Myntra app is so classy & cool, I like the interface_ it is friendly",positive,app_user,"wishlist_limit, app_performance",0.8851174415459679
+b7fa95d7-39ef-463b-b7a5-084c6d3c42d2,"Why the hell they are updating it so frequently",neutral,new_customer,"wishlist_limit, app_performance",0.9370660072974852
+8265c9f5-b262-45e3-b18b-ea3d6cadbf1f,"The app isn't working properly",neutral,app_user,"wishlist_limit, app_performance",0.8222444533357296
+d4cd6285-7fa7-44c6-ba08-cb6f20f7b030,"Myntra has amazing customer service, the only thing I would wanna improve in app is related to my re",positive,repeat_buyer,"wishlist_limit, app_performance, customer_support",0.7052242440529235
+0b555435-2b15-4e81-a243-dad00d00d267,"Three stars only because of new update, the removal of two features : the category wise wishlist and",neutral,new_customer,"wishlist_limit",0.8834410060709763
+cb556236-a8a6-443e-99c3-cb4242cb2db7,"The Search Bar isn't Working From 2-3 months",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8098663152728824
+3fc84028-370a-4a21-8046-bfdab0bb0e16,"Myntra announces sale and the time of sale your shopping bag is not opening",neutral,price_sensitive,"wishlist_limit, app_performance, technical_bug",0.8046863683030723
+8a30eb9e-8b68-47ad-bc20-dafbebc04950,"It will be good, if there is an option of sharing wishlist to friends instead of each n everytime st",positive,app_user,"wishlist_limit",0.7669418386234064
+f8201dcf-455c-40c1-837f-f5d93abe7793,"Nice products at reasonable price Edited : after updating the app is not working properly",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.9202040793798609
+a7b0cb0f-902a-44af-9583-8be9e45f3ab7,"There are a lot of bugs",positive,app_user,"wishlist_limit, app_performance, technical_bug",0.9330416528654407
+74d578f7-26e3-485d-8f66-d407548b65c4,"Please bring back the wishlist filter section",positive,app_user,"wishlist_limit, stock_management",0.845055956795937
+8414c6c5-8eed-4581-9ab6-2f78d7679209,"This app is good and you can get good stuff though not all",negative,app_user,"wishlist_limit, app_performance",0.7404488175744857
+5b7ba862-07d5-4f8d-8c2b-5f58dee73004,"After the latest update, my wishlist is not opening, and I am facing a serious buffering issue also",neutral,repeat_buyer,"wishlist_limit, technical_bug",0.8444329374955992
+de6d0354-19a2-4a49-98f5-519a805f31ab,"It too good app",positive,app_user,"app_performance, stock_management",0.8292279435844417
+a421c0a3-e165-4f0b-b2a1-a30340f452c6,"Very hassle free way of shopping",neutral,price_sensitive,"price_increase",0.76276516150315
+1db4ad72-a40a-4188-a4b5-8c040edda82f,"I gave 4 stars for its Very very genuine products and services and no fake products such as brand's ",neutral,new_customer,"wishlist_limit, customer_support, stock_management",0.9138406074267268
+836974d2-f441-4851-86b0-2efa4912615f,"The wishlist feature has few bugs but nevertheless it's the only clothing app i trust for buying clo",positive,quality_conscious,"wishlist_limit, app_performance, return_process, technical_bug",0.8180840100095186
+14ee3038-4df7-4af4-af4c-3946eb6a97a0,"The best app for shopping",positive,app_user,"wishlist_limit, app_performance",0.7632370974432829
+20241812-9e01-4728-b1f7-d11800f1d9e3,"Wishlist and bag option is kind of confusing while placing order",neutral,app_user,"wishlist_limit",0.8659113040434496
+4a9509da-a0c8-4f81-b02c-86c3be31d509,"Worst site where you don't know what di they mean by combo offer",negative,price_sensitive,"wishlist_limit, price_increase",0.7981590018664655
+d01cdad1-087d-4041-a213-ddf184a97932,"The App isn't working after an Update i can't open my cart my wishlist option it's just showing the ",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.7725735285340036
+710178c1-aafa-450d-8c64-bf8ffbc57ce7,"Worst App ever",negative,price_sensitive,"wishlist_limit, app_performance",0.7679349130095121
+c4cc6abe-c60e-41ac-a01e-b14941af05ef,"App was good but recently they removed the feature named 'Collections' where you could create Folder",positive,app_user,"wishlist_limit, app_performance",0.8456288577608992
+dbeb1232-df29-4a6a-abb5-478ff972016d,"After last update I got wishlist filter feature, which is most needed feature but after few days thi",neutral,app_user,"wishlist_limit, app_performance",0.895394012215828
+aa5a6bee-fb95-4369-84ab-705d15ac7866,"When you put any items in wishlist or bag",neutral,price_sensitive,"wishlist_limit, price_increase, poor_quality, app_performance, payment_issue",0.7751668533713455
+39150200-4ee6-4181-8248-654ca1757872,"Hi, please add back the filter option in wishlist",positive,app_user,"wishlist_limit",0.9280575760425922
+3ebe5ce1-e5d9-4029-ba76-686657f124ab,"always have amazing experience",positive,repeat_buyer,"wishlist_limit",0.779341618839794
+b9c3bc84-e1e8-4dc1-9a05-8c98130fcfa7,"Best app to shop clothing online",positive,price_sensitive,"wishlist_limit, price_increase, delivery_delay, app_performance, size_fit",0.7170859892130581
+2603dfca-d0ac-4139-b98a-2e210c027844,"Good deals and variety of products",positive,app_user,"app_performance",0.9314670287621569
+e022f905-c804-4082-89b0-845846c9152c,"The worst shopping app ever",negative,app_user,"wishlist_limit, app_performance",0.9224279381039554
+ee8edc1b-f1b5-4552-ac66-3ea2dbef76ae,"The App has amazing collection, but it would be great if the categories option in the wish list woul",positive,app_user,"app_performance",0.7477554572459522
+7dcaf8a1-0854-425b-ac17-4437065366e3,"the wishlist never shows all the items saved",neutral,repeat_buyer,"wishlist_limit",0.7414272240929636
+38358be7-78b5-4891-826d-20d37232de8e,"There should be filter options for wishlist too",neutral,app_user,"wishlist_limit, app_performance",0.7711653328411159
+c9a3d68e-940a-4a2f-8ec2-834ff6d9bd0b,"I'm not able to do shopping because my wishlist tab is not opening even after reinstalling the app",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8317868796501923
+cff9a14b-ab3d-47c7-ad7c-d4d19ed92f23,"Clearly fraud application",neutral,app_user,"wishlist_limit, price_increase, app_performance, stock_management",0.8177843723783723
+c07870c7-2569-4a57-83f2-8bf3378b604b,"i found a mistack or may be bug when i add in my bag some item then show the badge number of item 3 ",negative,app_user,"app_performance, technical_bug",0.8769009022148841
+08e8c688-eaae-4cdb-8da2-81eaf8371265,"Why has Removed the specific catagory for each item from their wishlist section",neutral,app_user,"wishlist_limit",0.7560252057508579
+40c18b89-16c8-48e4-813c-c849ceb6869d,"Most of the times I dont see the categorising panel to see what I saved in my wishlist Also after a ",neutral,app_user,"wishlist_limit, app_performance",0.9494152918360861
+f0e1c98b-b242-43ca-9e0b-f8dcae4a9bdb,"Just Bring back the Sort Feature in wishlist & make it permanent",neutral,app_user,"wishlist_limit",0.817431692601008
+66c40d9e-fe31-4a21-89a2-1c29ecf7e8e4,"Hey, Myntra your customer care service sucks",neutral,app_user,"wishlist_limit, customer_support, technical_bug",0.7496829959769824
+2f89f8fc-9af7-406f-aed2-7b5c91bb0bd5,"It's and amazing app",positive,app_user,"wishlist_limit, app_performance",0.7202731600012454
+b5f46e3b-3713-4564-a848-5089e9ff2139,"Before the UI was good but now after updating it always shows some technical error when I try to wis",positive,repeat_buyer,"wishlist_limit, technical_bug",0.8577240684564986
+fea3ff46-e99f-4c2b-85a9-bb5a481bd67d,"It's a very good app",positive,new_customer,"wishlist_limit, app_performance",0.9476046170106045
+f273741c-1746-4d0f-93ba-7aadaaecc9ad,"This is the only app still charging for delivery these days",neutral,price_sensitive,"delivery_delay, app_performance, stock_management",0.800929237359956
+826b665d-c00d-4ebc-8501-36d38b97a8d2,"Awesome shopping experience",positive,app_user,"wishlist_limit, payment_issue, return_process",0.7123226519553667
+d8f7015d-044f-49a5-a98a-2df956bc36bd,"I like the stuff sold on this app and hoping for all good quality stuff",positive,quality_conscious,"wishlist_limit, price_increase, poor_quality, app_performance, stock_management",0.7424981788106042
+02b6f174-7661-4acd-8768-873540d9a55b,"I am unable to open anything by clicking at the top of my screen",neutral,app_user,"wishlist_limit, app_performance",0.7725027747852545
+9266d038-35a6-42ba-a880-c8ea3eefa62c,"The previous version was better where it had separate categories in the wishlist, it was easier to f",neutral,app_user,"wishlist_limit",0.7632101931844651
+f1f6cc3a-264f-4215-843d-22690bba7c8c,"a discounted product added to the wishlist means that you are comfortable with product and the price",positive,price_sensitive,"wishlist_limit, price_increase",0.8133106498181021
+70efd752-6896-4481-9c56-1386be6758db,"App is really well designed for shopping",neutral,quality_conscious,"wishlist_limit, poor_quality, app_performance, product_info",0.8073415085372393
+f7faa464-3487-42e7-8713-4ddfcc03d766,"Overall good",positive,app_user,"wishlist_limit",0.7785693015901326
+ffbc7886-98b4-4c06-8914-7070f30256e8,"Worst application",negative,app_user,"app_performance, product_info",0.8707867853675464
+02690563-ae52-4bfd-aae1-6746afe5b223,"In this updated version, categorize section is removed from the wishlist",neutral,app_user,"wishlist_limit",0.8145449145542438
+624cd98c-d056-43fa-b8c3-a12e449d68af,"I am prim user of myntra from past 3 years",negative,app_user,"wishlist_limit, app_performance",0.7025484516761946
+272fd156-3887-4d1a-9503-592df362e44b,"All good, definitely the best in India, one thing that is needed to make the experience more fun is ",positive,app_user,"wishlist_limit",0.752771575966616
+ad595d62-9779-4c2d-b1f5-4f5bbcf0cc81,"Very nicely crafted interface ,, and all the deals and their sub menu have wide selection options to",neutral,app_user,"app_performance",0.8443008975285384
+54c360f7-39cc-4fbf-88f4-647decbf85cc,"App is working fine now",neutral,app_user,"wishlist_limit, app_performance",0.8417913498570715
+d0d1d9b8-0f14-4299-a93b-0bb48b5a08c0,"Cheaters and liars, they show coupon on the product at first and if you keep them on wishlist and ch",neutral,new_customer,"wishlist_limit, price_increase, stock_management",0.9039508468197401
+c08ef2de-f76e-4526-b6c2-ee8d4bbc8b71,"It is helpful except serious drawback of NOT having 'go to Cart' and 'buy now' simultaneously",neutral,app_user,"wishlist_limit, customer_support, stock_management",0.9303161521260264
+ce1cc60d-df18-49e4-8d41-6d273f287e08,"Most organised shopping app , filters , searches and interface is very user friendly , still I would",neutral,app_user,"wishlist_limit, app_performance",0.7090320168747821
+3ebc756c-2aba-47ad-9a34-b3a3f728d751,"Very poor consumer satisfaction , mynta just make us fool When I was wishlisting it's show that it w",negative,price_sensitive,"wishlist_limit",0.8778872707801235
+59f5de58-9fdb-4a6d-9b5c-b12a3bf4c6fa,"From yesterday, in myntra app, wishlist not loading, everytime trying to open it, it is showing 'som",neutral,repeat_buyer,"wishlist_limit, app_performance",0.9050024102190336
+901a6046-409d-4952-b8cb-443b28b0a442,"worst expirince",negative,quality_conscious,"wishlist_limit, delivery_delay, poor_quality, stock_management",0.7530304109604937
+ead9aa49-491a-4857-83fd-2816d06df589,"I am regular customer and app is too annoying whenever I wishlist something and it's never shown no ",neutral,repeat_buyer,"wishlist_limit, delivery_delay, app_performance",0.877612582484409
+9c6f25ba-1b2c-4a72-a6a2-ae6c8c476b8e,"1 star removed for poor maintenance of history",negative,app_user,"wishlist_limit, payment_issue, stock_management, product_info",0.9084176939418883
+bbe91aa4-8373-4d64-84e4-1e89ec00da85,"Myntra app is become worst not opening my cart giving error try again not even wishlist nad many mor",negative,repeat_buyer,"wishlist_limit, app_performance, technical_bug",0.7960741940553306
+7f40d75c-4b31-4ab7-ac2f-fb3062566ac0,"when u wishlist any product, the prices automatically gets increased within a few hours",neutral,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7992847628224505
+765f68ba-f5b4-4c3f-9bac-70f94537417c,"Other shopping apps: Actual cost: 1499 Offer discount: 99 Delivery charges: 50 Grand total: 1459 U k",neutral,price_sensitive,"price_increase, delivery_delay, app_performance, payment_issue",0.8563204424282195
+39ff5a0e-99fd-4eca-b471-5b1f8edcf346,"Not able to move items from wishlist to cart",neutral,app_user,"wishlist_limit, app_performance",0.8703649586765236
+48816078-a94a-4b88-aa7f-b801c811e469,"App force closing when taking the shopping cart and wishlist",neutral,app_user,"wishlist_limit, app_performance",0.9164209433809196
+768daeaa-94c9-4189-b065-3542ce19d11a,"Good shopping app BUT i have a serious special suggestion :::: Please give filters for wish list als",positive,price_sensitive,"price_increase, app_performance",0.841280647746817
+590c8411-ad1e-46f8-9915-7298129f66aa,"Not able to select wishlist and buy option even though it is avalable",neutral,app_user,"wishlist_limit, app_performance",0.7516922615753865
+775352b8-8ada-41dc-8acf-1dc57a9d1a47,"There is some issue with the app after update please look into it wishlist is showing as empty and t",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.9172571562978011
+6bb95b88-4f5e-4e24-b43e-714080eb8902,"I'm loving this app",neutral,repeat_buyer,"wishlist_limit, app_performance, stock_management, size_fit",0.7817676998180516
+9483d7cb-4e18-48d3-9815-5429bae204bf,"Myntra's wishlist is not working at all everytime I open it it's showing ""unknown error"" it's really",neutral,app_user,"wishlist_limit, technical_bug",0.8395022794727676
+2a0f2795-59fb-453d-95c1-ac62bbc69b98,"Search list gets inline visual filters for convenient filtering",neutral,app_user,"wishlist_limit",0.7983783586409368
+154162a9-ffea-4928-a360-62e8b733fcdd,"This app shows various of trends but from past fews days my wishlist is unable to open it only shows",neutral,app_user,"wishlist_limit, app_performance",0.7159664147349452
+93ed81a8-52b9-4d65-8a94-16478f75246d,"The hell is wrong with this app",neutral,app_user,"wishlist_limit, app_performance, stock_management",0.8432710260058585
+64bf2721-fad1-494f-9e21-934101007a6a,"The recent categories to segregate the wishlist items was cool & helpful but has vanished after late",neutral,app_user,"wishlist_limit, app_performance, customer_support",0.8920230470483053
+da172520-f742-45a0-a1f7-c6d3117493fa,"Best app for Buying clothes online",positive,price_sensitive,"wishlist_limit, price_increase, app_performance",0.7383112562336276
+3cccbf67-674d-4e5f-bea0-ee96c4410a74,"I am not able to wishlist the products neither the products in my cart are moving back to wishlist, ",negative,app_user,"wishlist_limit, app_performance",0.8984419274006334
+972f7fc3-239e-4a67-a52b-dbae72b641c1,"I like the app and the pricing",neutral,quality_conscious,"price_increase, app_performance, size_fit",0.7169933733311884
+31cfff37-b347-4075-9d13-8cba6433428e,"Faced problems while searching for products each time it's says something went wrong please try agai",neutral,repeat_buyer,"wishlist_limit",0.7857837364916165
+37aaa442-322b-4f01-82a4-332743c3d408,"From past few months I'm facing this problem",neutral,app_user,"wishlist_limit",0.7998230018345365
+47a06b94-62d8-417a-a2cf-6b5f87a9d0b3,"The app is not working at all",neutral,app_user,"app_performance",0.7933583805413025
+7d293d72-5cb3-4816-84f0-b11cbd2626b4,"Myntra is very good",negative,repeat_buyer,"wishlist_limit, app_performance",0.8056287090216957
+f1a51dd8-8125-4062-a790-a2899123d767,"Loved the earlier version of the app",positive,new_customer,"wishlist_limit, app_performance",0.7889326753829411
+7f688f68-91f5-41d1-baac-6bec95aa582b,"I have observed now a days, it's click don't work",neutral,app_user,"wishlist_limit",0.8789928824224328
+61a9ebae-a8d4-46b3-aa77-2edcc9883059,"Wishlist limit is only 250 n u have removed the option of adding to collections n there is no like b",neutral,app_user,"wishlist_limit, app_performance, return_process, customer_support, stock_management",0.7893554901525504
+396895bf-d854-4a07-8934-74617d5137c6,"Why this app stopped working and not showing any single thing for such category",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8218733061131254
+564376ac-e1dd-43f1-bd9e-3ac2d20644ad,"While checking the catalogue again n again error of Some error occur",neutral,repeat_buyer,"wishlist_limit, technical_bug",0.8199190427434033
+032dbe37-2fef-4174-b06f-76c19a3a0fbd,"What a app awesome 👌👏",positive,price_sensitive,"price_increase, delivery_delay, app_performance, size_fit",0.7366075676266226
+03cc9ed4-f9aa-43c6-bab7-3a8972ad1250,"You should add product categories filter options in wishlist also",neutral,app_user,"wishlist_limit",0.9141807830059294
+99b4b80a-fddf-4e77-9a4b-607504b03c70,"the app is very slow in loading everytime I use it and many times loads to the things i don't want t",neutral,app_user,"wishlist_limit, delivery_delay, app_performance",0.7510230299630052
+7fb93b2d-62fc-4196-8a45-5dae66849869,"My favorite shopping app",neutral,app_user,"app_performance, technical_bug",0.7682209928884746
+9f912fe1-4025-4ec7-a2ec-e09774fb4558,"It is not always possible to browse the entire list of items (from 1 to",neutral,repeat_buyer,"app_performance",0.8175245355974435
+94cbc82a-5851-47f7-8da5-5bcd9e13a9dd,"Quality of the products are just amazing",positive,quality_conscious,"wishlist_limit, poor_quality, app_performance, stock_management",0.7769498482441362
+d11051af-e8a9-4c38-b289-3f9700325c9e,"I have not been able to wishlist things since 6 months",negative,app_user,"wishlist_limit, app_performance, stock_management",0.8801674830414347
+e565ebb4-206e-4567-9ac0-91ed6e5be603,"I love this app but i saw a problem at one place",positive,app_user,"app_performance",0.8652238182169693
+a61b0124-3f6f-40f8-a393-fcf1e1da67cc,"I am recently having a trouble in opening my wish list",neutral,app_user,"wishlist_limit",0.9234379040898253
+0ff82d0c-6ad4-42c6-8f9c-c5fe7ca6e544,"Myntra is the best in India",positive,price_sensitive,"price_increase, poor_quality, app_performance, customer_support",0.9320755012740903
+256a5da6-518a-4588-a34c-78f5824351f6,"Hi team, I am not able to click on the top icons like search, cart, wishlist and etc",neutral,app_user,"wishlist_limit, technical_bug",0.8583717068742228
+ab60f7c1-7ff8-4490-81b0-5ffd9f29825f,"It is annoying to use this app",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.750176158187364
+bc54773a-bc69-4844-9064-24e2e986bf0f,"I have been trying to add items in my wishlist but I keep getting error message",neutral,app_user,"wishlist_limit, app_performance, technical_bug",0.8298859143052075
+4ab9d79e-7171-47fe-b3fc-1a590aa6becb,"Hey myntra",neutral,repeat_buyer,"wishlist_limit, delivery_delay, app_performance",0.7903179322038562
+9610df0a-8f91-4d19-a476-49d1274d98e2,"I just love Myntra but there's this problem",positive,repeat_buyer,"app_performance, payment_issue, product_info",0.8353483595758929
+946ea3be-3288-42e1-84f5-0d6db2d5a7d1,"Yesterday morning I put some products in my bucket list for shopping, when I saw this morning, the p",neutral,price_sensitive,"price_increase",0.8196894846411948
+40a98b6f-5521-4870-8db4-7b337a1bbd51,"Initially the app was working great",positive,new_customer,"wishlist_limit, delivery_delay, app_performance",0.7218550533129191
+4938bfd3-be74-4321-93b4-52f8a9572dfd,"I am vert disappointed with this App",negative,price_sensitive,"app_performance, payment_issue, stock_management",0.9093003609607705

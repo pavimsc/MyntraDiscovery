@@ -435,12 +435,12 @@ async function main() {
 
         let csvReviews = [];
         // Try to load CSV if it exists
-        const csvPath = process.env.CSV_PATH || '/root/.claude/uploads/67b92f82-9a6f-5f91-9a45-c4568918eb03/0d1a3627-wishlist_reviews.csv';
+        const csvPath = process.env.CSV_PATH || 'data/wishlist_reviews.csv';
         try {
             if (fs.existsSync(csvPath)) {
                 const csvData = fs.readFileSync(csvPath, 'utf-8');
                 csvReviews = csv.parse(csvData, { columns: true });
-                log(`✅ Loaded ${csvReviews.length} new reviews (from CSV)`, 'green');
+                log(`✅ Loaded ${csvReviews.length} reviews from CSV (wishlist_reviews.csv)`, 'green');
             } else {
                 log(`⚠️  CSV file not found at ${csvPath}, continuing with raw reviews only`, 'yellow');
             }
