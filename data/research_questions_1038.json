@@ -1,82 +1,82 @@
 {
   "metadata": {
-    "total_reviews_analyzed": 363,
-    "analysis_date": "2026-08-26T03:10:32.504Z"
+    "total_reviews_analyzed": 1038,
+    "analysis_date": "2026-08-26T09:00:27.945Z"
   },
   "questions": {
     "q1": {
       "question": "Why do users add fashion products to their wishlist?",
-      "answer": "262 reviews (72.2%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
-      "count": 262
+      "answer": "417 reviews (40.2%) indicate positive sentiment, suggesting price tracking, comparison shopping, and saving for later as primary reasons.",
+      "count": 417
     },
     "q2": {
       "question": "What prevents wishlisted products from being purchased?",
-      "answer": "Top friction points: delivery_fear (11.6%), product_info (9.9%), return_worry (9.9%), price_concern (4.1%), wishlist_removal (2.5%)",
+      "answer": "Top friction points: wishlist_limit (18.4%), delivery_fear (5.6%), product_info (5.3%), price_concern (4.1%), return_worry (4.0%)",
       "friction_distribution": {
-        "delivery_fear": 42,
-        "product_info": 36,
-        "return_worry": 36,
-        "price_concern": 15,
-        "wishlist_removal": 9
+        "wishlist_limit": 191,
+        "delivery_fear": 58,
+        "product_info": 55,
+        "price_concern": 43,
+        "return_worry": 42
       },
-      "total_friction_mentions": 152
+      "total_friction_mentions": 479
     },
     "q3": {
       "question": "What uncertainties remain after identifying a product?",
-      "answer": "54 reviews (15.0%) mention uncertainties.",
-      "count": 54
+      "answer": "156 reviews (15.0%) mention uncertainties.",
+      "count": 156
     },
     "q4": {
       "question": "What causes users to postpone a purchase?",
-      "answer": "73 reviews show postponement due to price and delivery concerns.",
-      "count": 73
+      "answer": "208 reviews show postponement due to price and delivery concerns.",
+      "count": 208
     },
     "q5": {
       "question": "How do users compare multiple shortlisted products?",
-      "answer": "80 reviews from comparison-focused customers.",
-      "count": 80
+      "answer": "228 reviews from comparison-focused customers.",
+      "count": 228
     },
     "q6": {
       "question": "What information do users seek outside Myntra?",
-      "answer": "47 reviews indicate external research.",
-      "count": 47
+      "answer": "135 reviews indicate external research.",
+      "count": 135
     },
     "q7": {
       "question": "What role do fit, price, reviews, delivery, and quality play?",
       "answer": "Critical factors identified from review patterns.",
       "factor_distribution": {
-        "fit": 42,
-        "price": 15,
-        "delivery": 42,
-        "quality": 29
+        "fit": 60,
+        "price": 43,
+        "delivery": 58,
+        "quality": 83
       }
     },
     "q8": {
       "question": "When do users use wishlist as genuine purchase intent vs bookmarking?",
-      "answer": "Genuine intent: 26.4%. Bookmarking: 72.2%.",
-      "purchase_intent": 96,
-      "bookmarking": 262
+      "answer": "Genuine intent: 15.5%. Bookmarking: 40.2%.",
+      "purchase_intent": 161,
+      "bookmarking": 417
     },
     "q9": {
       "question": "How do these behaviors differ across user segments?",
-      "answer": "Segment distribution: app_user (82.1%), quality_conscious (11.6%), repeat_buyer (2.8%), price_sensitive (2.8%), new_customer (0.8%)",
+      "answer": "Segment distribution: app_user (82.7%), quality_conscious (5.8%), repeat_buyer (3.3%), price_sensitive (5.6%), new_customer (2.7%)",
       "segment_distribution": {
-        "app_user": 298,
-        "quality_conscious": 42,
-        "repeat_buyer": 10,
-        "price_sensitive": 10,
-        "new_customer": 3
+        "app_user": 858,
+        "quality_conscious": 60,
+        "repeat_buyer": 34,
+        "price_sensitive": 58,
+        "new_customer": 28
       }
     },
     "q10": {
       "question": "What unmet needs emerge consistently?",
-      "answer": "Top unmet needs: delivery_fear, product_info, return_worry, price_concern, wishlist_removal",
+      "answer": "Top unmet needs: wishlist_limit, delivery_fear, product_info, price_concern, return_worry",
       "unmet_needs": {
-        "delivery_fear": 42,
-        "product_info": 36,
-        "return_worry": 36,
-        "price_concern": 15,
-        "wishlist_removal": 9
+        "wishlist_limit": 191,
+        "delivery_fear": 58,
+        "product_info": 55,
+        "price_concern": 43,
+        "return_worry": 42
       }
     }
   }
