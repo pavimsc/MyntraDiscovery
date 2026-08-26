@@ -13,7 +13,7 @@ const crypto = require('crypto');
 
 const DATA_FILES = [
     'data/raw_reviews.json',
-    '/root/.claude/uploads/67b92f82-9a6f-5f91-9a45-c4568918eb03/0d1a3627-wishlist_reviews.csv'
+    'data/wishlist_reviews.csv'
 ];
 
 const HASH_FILE = 'data/.data-hash';
