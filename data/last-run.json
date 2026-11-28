@@ -1,10 +1,10 @@
 {
-  "last_run": "2026-11-27T10:41:25.254Z",
-  "last_run_melbourne": "27 Nov 2026, 09:41:25 pm",
-  "next_run": "2026-11-28T10:41:25.254Z",
-  "next_run_melbourne": "28 Nov 2026, 09:41:25 pm",
-  "run_count": 99,
+  "last_run": "2026-11-28T10:00:12.697Z",
+  "last_run_melbourne": "28 Nov 2026, 09:00:12 pm",
+  "next_run": "2026-11-29T10:00:12.697Z",
+  "next_run_melbourne": "29 Nov 2026, 09:00:12 pm",
+  "run_count": 100,
   "status": "success",
-  "last_check": "2026-11-27T10:41:25.254Z",
+  "last_check": "2026-11-28T10:00:12.697Z",
   "timezone": "Australia/Melbourne (UTC+10 AEST / UTC+11 AEDT)"
 }
